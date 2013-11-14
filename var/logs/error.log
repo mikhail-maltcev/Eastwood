@@ -1,0 +1,692 @@
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:06:52]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:11:15]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:16:41]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:18:17]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:18:17]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:18:17]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:18:18]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:18:18]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:21:15]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:21:16]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:21:16]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:21:16]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:21:17]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:21:17]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:22:00]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:22:01]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:22:01]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:22:01]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:22:01]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:22:01]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:22:07]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /test] [Nov 14 2013 13:22:15]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /test2] [Nov 14 2013 13:22:20]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /test2] [Nov 14 2013 13:24:38]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:24:39]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:34:58]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:34:59]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:35:00]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:35:00]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:35:00]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:35:01]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:35:01]=========================
+Error: lmbFileNotFoundException: db.conf.php: file alias not resolved
+Additional attributes: Array
+(
+    [file_path] => db.conf.php
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "db.conf.php: file alias not resolved", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/exception/lmbFileNotFoundException.class.php" line 25
+* lmbFileNotFoundException::__construct(STRING(11) "db.conf.php", STRING(23) "file alias not resolved") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 70
+* lmbFileLocator::_handleNotResolvedAlias(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFileLocator.class.php" line 46
+* lmbFileLocator::locate(STRING(11) "db.conf.php", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbCachingFileLocator.class.php" line 83
+* lmbCachingFileLocator::locate(STRING(11) "db.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFsTools.class.php" line 31
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:35:42]=========================
+Error: lmbARException: Could not find class 'News'
+Back trace:
+* lmbException::__construct(STRING(27) "Could not find class 'News'") in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1770
+* lmbActiveRecord::find(STRING(4) "News", ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 32
+* MacroTemplateExecutor82089886a6aa859c161a2818a1f31e2e::__slotHandler90f94638e83b7727220fdd699b694388(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 18
+* MacroTemplateExecutor82089886a6aa859c161a2818a1f31e2e::__staticInclude1(STRING(10) "page.phtml", STRING(16) "page_placeholder", STRING(10) "page.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 9
+* MacroTemplateExecutor82089886a6aa859c161a2818a1f31e2e::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:35:43]=========================
+Error: lmbARException: Could not find class 'News'
+Back trace:
+* lmbException::__construct(STRING(27) "Could not find class 'News'") in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1770
+* lmbActiveRecord::find(STRING(4) "News", ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 32
+* MacroTemplateExecutor8e35a255b878c250db8cebe3b64f2e8a::__slotHandlerd065c471dfd7fc1f9f4dd9eb121a0d5a(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 18
+* MacroTemplateExecutor8e35a255b878c250db8cebe3b64f2e8a::__staticInclude1(STRING(10) "page.phtml", STRING(16) "page_placeholder", STRING(10) "page.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 9
+* MacroTemplateExecutor8e35a255b878c250db8cebe3b64f2e8a::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:49:04]=========================
+Error: lmbARException: Could not find class 'News'
+Back trace:
+* lmbException::__construct(STRING(27) "Could not find class 'News'") in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1770
+* lmbActiveRecord::find(STRING(4) "News", ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 32
+* MacroTemplateExecutor4c2ef9915e79317daf8ba0df4e9262ee::__slotHandler652e23640f0fb23b0715714802a4aa2d(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 18
+* MacroTemplateExecutor4c2ef9915e79317daf8ba0df4e9262ee::__staticInclude1(STRING(10) "page.phtml", STRING(16) "page_placeholder", STRING(10) "page.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 9
+* MacroTemplateExecutor4c2ef9915e79317daf8ba0df4e9262ee::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:49:12]=========================
+Error: lmbARException: Could not find class 'News'
+Back trace:
+* lmbException::__construct(STRING(27) "Could not find class 'News'") in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1770
+* lmbActiveRecord::find(STRING(4) "News", ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 32
+* MacroTemplateExecutord5d80b78c9649850e64c558f1c2f82c5::__slotHandler69303cb963e0fa2c75a7d129f358736f(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 18
+* MacroTemplateExecutord5d80b78c9649850e64c558f1c2f82c5::__staticInclude1(STRING(10) "page.phtml", STRING(16) "page_placeholder", STRING(10) "page.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 9
+* MacroTemplateExecutord5d80b78c9649850e64c558f1c2f82c5::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:50:56]=========================
+Error: lmbARException: Could not find class 'News'
+Back trace:
+* lmbException::__construct(STRING(27) "Could not find class 'News'") in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1770
+* lmbActiveRecord::find(STRING(4) "News", ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 32
+* MacroTemplateExecutor99ac89d14ea68b1bbb0419af83d53c18::__slotHandler0d8e34fced26a3d621faa9f70eadfd7b(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 18
+* MacroTemplateExecutor99ac89d14ea68b1bbb0419af83d53c18::__staticInclude1(STRING(10) "page.phtml", STRING(16) "page_placeholder", STRING(10) "page.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/main_page-display.phtml.3986241902.php" line 9
+* MacroTemplateExecutor99ac89d14ea68b1bbb0419af83d53c18::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:55:15]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:56:31]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:56:32]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:56:32]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:56:32]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:56:32]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:56:32]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:56:33]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:57:07]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:57:07]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:57:07]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /] [Nov 14 2013 13:57:08]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => flash_box.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(15) "flash_box.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:21:13]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:21:29]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:21:30]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:21:30]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:21:30]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:22:57]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:22:58]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /admin] [Nov 14 2013 14:23:00]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsTree' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsTree' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsTree", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbToolkit::getCmsTree(STRING(16) "lmb_cms_document", OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 24
+* lmbActiveRecordTreeNode::getTree() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/model/lmbActiveRecordTreeNode.class.php" line 14
+* lmbActiveRecordTreeNode::__construct(NULL, OBJECT(lmbAutoTransactionConnection)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1772
+========================= [127.0.0.1][GET - /] [Nov 14 2013 14:23:20]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsUser' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsUser' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsUser", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/filter/lmbCmsAccessPolicyFilter.class.php" line 24
+* lmbToolkit::getCmsUser() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/filter/lmbCmsAccessPolicyFilter.class.php" line 24
+* lmbCmsAccessPolicyFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [127.0.0.1][GET - /] [Nov 14 2013 14:23:21]=========================
+Error: lmbNoSuchMethodException: No such method 'getCmsUser' exists in toolkit
+Back trace:
+* lmbException::__construct(STRING(45) "No such method 'getCmsUser' exists in toolkit") in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 245
+* lmbToolkit::__call(STRING(10) "getCmsUser", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/filter/lmbCmsAccessPolicyFilter.class.php" line 24
+* lmbToolkit::getCmsUser() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/filter/lmbCmsAccessPolicyFilter.class.php" line 24
+* lmbCmsAccessPolicyFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
