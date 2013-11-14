@@ -690,3 +690,203 @@ Back trace:
 * lmbToolkit::getCmsUser() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/filter/lmbCmsAccessPolicyFilter.class.php" line 24
 * lmbCmsAccessPolicyFilter::run(OBJECT(LimbApplication))
 * call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:13:50]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:13:51]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:13:52]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:14:42]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:14:42]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:14:54]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:14:55]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:15:17]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:15:21]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:15:22]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /] [Nov 14 2013 16:15:22]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/main_page/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /user/logout] [Nov 14 2013 16:15:36]=========================
+Error: lmbNoSuchMethodException: No such method 'removeAll' in User
+Back trace:
+* lmbException::__construct(STRING(34) "No such method 'removeAll' in User") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(9) "removeAll", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(9) "removeAll", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/model/User.class.php" line 66
+* User::removeAll() in "/usr/share/nginx/www/eastwood/src/model/User.class.php" line 66
+* User::logout() in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 45
+========================= [127.0.0.1][GET - /user/edit] [Nov 14 2013 16:15:48]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content_zone
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/user/edit.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50

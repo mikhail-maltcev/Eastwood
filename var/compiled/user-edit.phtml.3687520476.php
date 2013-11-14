@@ -1,10 +1,10 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/user/edit.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor290689047ac5c0c295e0d92837d46818', false)){
+if(!class_exists('MacroTemplateExecutorb5348a6a501460f83037427a855628fa', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroFormWidget.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroInputWidget.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroTextAreaWidget.class.php');
-class MacroTemplateExecutor290689047ac5c0c295e0d92837d46818 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutorb5348a6a501460f83037427a855628fa extends lmbMacroTemplateExecutor {
 
 function _init() {
 $this->form_profile_form = new lmbMacroFormWidget('profile_form');
@@ -97,47 +97,61 @@ function __staticInclude1($file,$in,$into,$file) {
 </head>
 <body>
 
-<div id="header">
-  <div class="center">
-    <img src="http://bits.limb-project.com/shop/images/logo.limb.gif"  width='384' height='46' alt='logo.limb' id='logo'/>
-    <div id="limb_links"><a href="http://limb-project.com">limb-project.com</a>&nbsp;|&nbsp;<a href="http://bits.limb-project.com">bits.limb-project.com</a></div>
-  </div>
-</div>
-
- <div id="center">
-
-  <div id="wrapper" >
-
-    <div id="container">
-      <div id="content">
-        <h1><?php echo htmlspecialchars($this->title,3); ?></h1>
-
-        <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler5084e6f64d8dc538d0d091766dc8dbe9(array()); ?>
 
-      </div>
+
+  <div id="header">
+    <div class="center">
+      <img src="http://bits.limb-project.com/shop/images/logo.limb.gif"  width='384' height='46' alt='logo.limb' id='logo'/>
+      <div id="limb_links"><a href="http://limb-project.com">limb-project.com</a>&nbsp;|&nbsp;<a href="http://bits.limb-project.com">bits.limb-project.com</a></div>
     </div>
+  </div>
+
+  <div id="center">
+
+    <div id="wrapper" >
+
+      <div id="container">
+        <div id="content">
+          <h1><?php echo htmlspecialchars($this->title,3); ?></h1>
+
+          <?php $this->__staticInclude2('flash_box.phtml'); ?>
+
+
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler439cbd7fbac9ea0d3874492c4a8ea370(array()); ?>
+
+        </div>
+      </div>
 
     <div id="sidebar">
       <div id="navigation">
         <ul>
-          <li><a href="/product/">Products</a></li>
-          <li><a href="/cart/">Your Cart</a></li>
-          <li><a href="/user/login">Login</a></li>
+          <li><a href="product">Products</a></li>
+          <li><a href="cart">Your Cart</a></li>
+          <?php  if($this->toolkit->getUser()->is_logged_in) { ?>
+            <li><a href="/user/orders/">Your Orders</a></li>
+          <?php  } ?>
         </ul>
       </div>
 
       <dl id="profile">
         <dt>Profile</dt>
-        <dd>
-          Not yet implemented.
-        </dd>
+        <?php $BO='';
+$BP = $this->toolkit;
+if((is_array($BP) || ($BP instanceof ArrayAccess)) && isset($BP['user'])) { $BO = $BP['user'];
+}else{ $BO = '';}
+$this->__staticInclude6('user/include/profile_box.phtml', $BO); ?>
+
       </dl>
+
+    </div>
+
+
+        
+      </div>
     </div>
   </div>
-</div>
 </body>
 </html><?php 
 }
@@ -168,7 +182,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler5084e6f64d8dc538d0d091766dc8dbe9($O= array()) {
+function __slotHandler439cbd7fbac9ea0d3874492c4a8ea370($O= array()) {
 if($O) extract($O); ?>
 
 
@@ -299,6 +313,47 @@ echo htmlspecialchars($BM,3); ?></font></li>
 <?php }
 }
 
+function __staticInclude6($file,$user) {
+ ?><?php  if($user->is_logged_in) { ?>
+<dd>
+  User: <?php $BQ='';
+$BR = $user;
+if((is_array($BR) || ($BR instanceof ArrayAccess)) && isset($BR['name'])) { $BQ = $BR['name'];
+}else{ $BQ = '';}
+echo htmlspecialchars($BQ,3); ?><br/>
+  Login: <?php $BS='';
+$BT = $user;
+if((is_array($BT) || ($BT instanceof ArrayAccess)) && isset($BT['login'])) { $BS = $BT['login'];
+}else{ $BS = '';}
+echo htmlspecialchars($BS,3); ?><br/>
+  Email: <?php $BU='';
+$BV = $user;
+if((is_array($BV) || ($BV instanceof ArrayAccess)) && isset($BV['email'])) { $BU = $BV['email'];
+}else{ $BU = '';}
+echo htmlspecialchars($BU,3); ?><br/>
+  <a href="/user/edit/">edit</a>
+  <a href="/user/logout/">logout</a>
+</dd>
+<?php  } else {?>
+<dd>
+  <form method="POST" id='login_form' action='/user/login/'>
+
+    <label for='login'>Login:</label><br/>
+    <input type="text" name="login" id="login" title="Login" class='input'/><br/>
+
+    <label for='passwd'>Password:</label><br/>
+    <input type="text" name="password" id="password" type="password" title="Password" class='input'/><br/>
+
+    <p>Use <b>admin</b>/<b>secret</b> to enter in <a href="/admin/">administration panel</a>.</p>
+
+    <input type='submit' name='submitted' value="Submit"/><br/>
+  </form>
+  <a href="/user/register/">Register</a>
+</dd>
+<?php  } ?>
+included<?php 
+}
+
 }
 }
-$macro_executor_class='MacroTemplateExecutor290689047ac5c0c295e0d92837d46818';
+$macro_executor_class='MacroTemplateExecutorb5348a6a501460f83037427a855628fa';
