@@ -1,7 +1,7 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/lib//limb/web_app/template/not_found.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor1de6f843e5f0fadf38ad9139f9a46bba', false)){
+if(!class_exists('MacroTemplateExecutord2abc88b50546484de50e212b37c4d64', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
-class MacroTemplateExecutor1de6f843e5f0fadf38ad9139f9a46bba extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutord2abc88b50546484de50e212b37c4d64 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -19,4 +19,4 @@ $this->_init();
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor1de6f843e5f0fadf38ad9139f9a46bba';
+$macro_executor_class='MacroTemplateExecutord2abc88b50546484de50e212b37c4d64';

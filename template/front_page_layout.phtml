@@ -14,10 +14,15 @@
 </div>
 
  <div id="center">
+
   <div id="wrapper" >
+
     <div id="container">
       <div id="content">
         <h1>{$#title}</h1>
+
+        {{include file='flash_box.phtml'/}}
+
         {{slot id='content_zone'/}}
       </div>
     </div>

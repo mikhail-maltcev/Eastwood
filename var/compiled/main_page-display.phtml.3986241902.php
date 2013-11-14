@@ -1,7 +1,7 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/main_page/display.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor8eb4b43337ce9b54b302e5a00e3fb680', false)){
+if(!class_exists('MacroTemplateExecutor57cf768729c9e45e68b5bb893655a997', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
-class MacroTemplateExecutor8eb4b43337ce9b54b302e5a00e3fb680 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor57cf768729c9e45e68b5bb893655a997 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -30,7 +30,7 @@ function __staticInclude1($file,$into,$file) {
     <div id="container">
       <div id="content">
         <h1><?php echo htmlspecialchars($this->title,3); ?></h1>
-        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlerce713346d48a70718b15cb4e22c97826(array()); ?>
+        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler4d2a5c5d3bfc0e8a5cc90ad8a2ada80e(array()); ?>
 
       </div>
     </div>
@@ -57,7 +57,7 @@ function __staticInclude1($file,$into,$file) {
 </html><?php 
 }
 
-function __slotHandlerce713346d48a70718b15cb4e22c97826($E= array()) {
+function __slotHandler4d2a5c5d3bfc0e8a5cc90ad8a2ada80e($E= array()) {
 if($E) extract($E); ?>
 
 Welcome to our bookstore!
@@ -66,4 +66,4 @@ Welcome to our bookstore!
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor8eb4b43337ce9b54b302e5a00e3fb680';
+$macro_executor_class='MacroTemplateExecutor57cf768729c9e45e68b5bb893655a997';
