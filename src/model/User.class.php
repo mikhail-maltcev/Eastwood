@@ -12,6 +12,10 @@ class User extends lmbActiveRecord
     $validator->addRequiredRule('email');
     $validator->addRequiredRule('name');
 
+    lmb_require('src/validation/UserUniqueFieldRule.class.php');
+    $validator->addRule(new UserUniqueFieldRule('login', $this));
+    $validator->addRule(new UserUniqueFieldRule('email', $this));    
+
     lmb_require('limb/validation/src/rule/lmbEmailRule.class.php');
     $validator->addRule(new lmbEmailRule('email'));
     return $validator;

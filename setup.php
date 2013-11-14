@@ -22,4 +22,6 @@ lmb_require('limb/web_app/src/controller/lmbController.class.php');
 lmb_require('limb/active_record/src/lmbActiveRecord.class.php');
 lmb_require('src/model/*.class.php');
 
+lmb_require('src/toolkit/ShopTools.class.php');
+lmbToolkit :: merge(new ShopTools());
 ?>
