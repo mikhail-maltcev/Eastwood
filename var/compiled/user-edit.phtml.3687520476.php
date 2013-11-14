@@ -1,10 +1,10 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/user/edit.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor6a508514cff11d5ff3b349f2d23286fc', false)){
+if(!class_exists('MacroTemplateExecutor290689047ac5c0c295e0d92837d46818', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroFormWidget.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroInputWidget.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroTextAreaWidget.class.php');
-class MacroTemplateExecutor6a508514cff11d5ff3b349f2d23286fc extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor290689047ac5c0c295e0d92837d46818 extends lmbMacroTemplateExecutor {
 
 function _init() {
 $this->form_profile_form = new lmbMacroFormWidget('profile_form');
@@ -115,7 +115,7 @@ function __staticInclude1($file,$in,$into,$file) {
         <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler884b6940e4a0ef61a4354c67f9f9924c(array()); ?>
+        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler5084e6f64d8dc538d0d091766dc8dbe9(array()); ?>
 
       </div>
     </div>
@@ -168,7 +168,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler884b6940e4a0ef61a4354c67f9f9924c($O= array()) {
+function __slotHandler5084e6f64d8dc538d0d091766dc8dbe9($O= array()) {
 if($O) extract($O); ?>
 
 
@@ -301,4 +301,4 @@ echo htmlspecialchars($BM,3); ?></font></li>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor6a508514cff11d5ff3b349f2d23286fc';
+$macro_executor_class='MacroTemplateExecutor290689047ac5c0c295e0d92837d46818';

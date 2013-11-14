@@ -1,9 +1,9 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/user/login.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutorbcd7b8ff6c633d0380e1c3d4a513153d', false)){
+if(!class_exists('MacroTemplateExecutor74b7f7c68b72ffc2b7059ab10d572106', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroFormWidget.class.php');
 require_once('limb/macro/src/tags/form/lmbMacroInputWidget.class.php');
-class MacroTemplateExecutorbcd7b8ff6c633d0380e1c3d4a513153d extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor74b7f7c68b72ffc2b7059ab10d572106 extends lmbMacroTemplateExecutor {
 
 function _init() {
 $this->form_login_form = new lmbMacroFormWidget('login_form');
@@ -65,7 +65,7 @@ function __staticInclude1($file,$into,$file) {
         <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler9ecd94ae75603a0e805aedac817cf658(array()); ?>
+        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlerebd9029dc8b02754429f17594dc19c1c(array()); ?>
 
       </div>
     </div>
@@ -118,7 +118,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler9ecd94ae75603a0e805aedac817cf658($O= array()) {
+function __slotHandlerebd9029dc8b02754429f17594dc19c1c($O= array()) {
 if($O) extract($O); ?>
 
 <?php if(isset($this->form_login_form_datasource))$this->form_login_form->setDatasource($this->form_login_form_datasource);
@@ -173,4 +173,4 @@ echo htmlspecialchars($Z,3); ?></font></li>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutorbcd7b8ff6c633d0380e1c3d4a513153d';
+$macro_executor_class='MacroTemplateExecutor74b7f7c68b72ffc2b7059ab10d572106';
