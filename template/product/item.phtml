@@ -1,0 +1,17 @@
+{{wrap with="front_page_layout.phtml" in="content_zone"}}
+  <h1>Product #{$this->item.id}</h1>
+  <p><a href="/product/">к списку</a></p>
+  <ul>
+    <li>id: {$this->item.id}</li>
+  
+    <li>title: {$this->item.title}</li>
+  
+    <li>description: {$this->item.description|raw}</li>
+  
+    <li>is_available: {$this->item.is_available}</li>
+  
+    <li>price: {$this->item.price}</li>
+  
+    <li>image_name: {$this->item.image_name}</li>
+  </ul>
+{{/wrap}}
