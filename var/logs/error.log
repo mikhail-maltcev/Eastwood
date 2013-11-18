@@ -904,3 +904,75 @@ Back trace:
 * AdminProductController::_uploadImage(OBJECT(Product), OBJECT(lmbUploadedFile)) in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 11
 * AdminProductController::_onBeforeSave() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbAdminObjectController.class.php" line 190
 * lmbAdminObjectController::_validateAndSave(TRUE) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbAdminObjectController.class.php" line 65
+========================= [37.113.45.114][GET - /user] [Nov 18 2013 13:08:55]=========================
+Error: Exception: Facebook needs the CURL PHP extension.
+Back trace:
+* require_once() in "/usr/share/nginx/www/eastwood/src/facebook.php" line 18
+* include_once(STRING(46) "/usr/share/nginx/www/eastwood/src/facebook.php") in "/usr/share/nginx/www/eastwood/lib/limb/core/common.inc.php" line 118
+* lmb_require(STRING(16) "src/facebook.php") in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 2
+* include_once(STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php") in "/usr/share/nginx/www/eastwood/lib/limb/core/common.inc.php" line 168
+* lmb_autoload(STRING(14) "UserController")
+========================= [37.113.45.114][GET - /user] [Nov 18 2013 13:11:08]=========================
+Error: lmbException: No method defined in controller "user" for action "display" and no appropriate template found
+Back trace:
+* lmbException::__construct(STRING(93) "No method defined in controller &quot;user&quot; for action &quot;display&quot; and no appropriate template found") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 206
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+* lmbProxy::__call(STRING(3) "run", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/filter_chain/src/lmbFilterChain.class.php" line 100
+========================= [37.113.45.114][GET - /user/login] [Nov 18 2013 13:18:54]=========================
+Error: lmbException: Undefined variable: user
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 20
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(24) "Undefined variable: user", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(20), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 20
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [37.113.45.114][GET - /user/login] [Nov 18 2013 13:19:45]=========================
+Error: lmbException: Undefined variable: logoutUrl
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 40
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(29) "Undefined variable: logoutUrl", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(40), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 40
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [37.113.45.114][GET - /user/login?error=not_authorized&code=AQA0xtAFCdHVRYiksuOG2jGYoHmrKtuTaqXBwOe-9e1Dwu8fWTygjG9m5XBn2kvTCryRlwdlmMZkyTYmgxQDJeFGmZj8hLIaQygvOMQkRQIG9yd4xTcyXy24uqLHOyG7zvjeSB8mxUuZYYWwBXXkGaw4cm2mK_2QOIFOR52eURkz-7m0YwCUFBvcEzDE2W-ZLSf7QH7_mhDMENS6SO1VCW6s3_OPvFyjSbZ_rezQKl9KRnh311c4fFHtGgAMmXayyPO_o17pksvNAqCDseByagtn6o5rAZOCGJXw-kcmYU3Up-9GAQ7dLHNnpe7liKXBBA0&state=fff1a39566dde51eaa1bc5d8f3147e01] [Nov 18 2013 13:32:33]=========================
+Error: lmbException: Undefined variable: statusUrl
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 40
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(29) "Undefined variable: statusUrl", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(40), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 40
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [37.113.45.114][GET - /user/login] [Nov 18 2013 13:39:25]=========================
+Error: lmbException: Undefined variable: user
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 18
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(24) "Undefined variable: user", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(18), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 18
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57

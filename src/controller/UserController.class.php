@@ -1,11 +1,87 @@
 <?php
+lmb_require('src/facebook.php');
 
 class UserController extends lmbController
 {
 
    function doLogin()
   {
+
+
+
+        // Create our Application instance (replace this with your appId and secret).
+$facebook = new Facebook(array(
+  'appId'  => '443083905803662',
+  'secret' => '097973e88404931eb5a360bcd15e8947',
+));
+
+
+$user = $facebook->getUser();
+
+print_r($user);
+
+if ($user) {
+  try {
+    // Proceed knowing you have a logged in user who's authenticated.
+    $user_profile = $facebook->api('/me');
+  } catch (FacebookApiException $e) {
+    error_log($e);
+    $user = null;
+  }
+}
+
+
+// Login or logout url will be needed depending on current user state.
+if ($user) {
+  $logoutUrl = $facebook->getLogoutUrl();
+} else {
+  $statusUrl = $facebook->getLoginStatusUrl();
+  $loginUrl = $facebook->getLoginUrl();
+}
+
+
+
+
+
+
+
+?>
+<!doctype html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <title>php-sdk</title>
+  </head>
+  <body>
+    <h1>php-sdk</h1>
+
+    <?php if ($user): ?>
+      <a href="<?php echo $logoutUrl; ?>">Logout</a>
+    <?php else: ?>
+      <div>
+        Check the login status using OAuth 2.0 handled by the PHP SDK:
+        <a href="<?php echo $statusUrl; ?>">Check the login status</a>
+      </div>
+      <div>
+        Login using OAuth 2.0 handled by the PHP SDK:
+        <a href="<?php echo $loginUrl; ?>">Login with Facebook</a>
+      </div>
+    <?php endif ?>
+
+
+  </body>
+</html>
+
+
+<?
+
+die();
+
+
+
+
+
     if(!$this->request->hasPost())
+
       return;
 
     $user = $this->toolkit->getUser();
@@ -20,6 +96,19 @@ class UserController extends lmbController
 
     $login = $this->request->get('login');
     $password = $this->request->get('password');
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     if(!$user->login($login, $password))
     {
