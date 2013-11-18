@@ -1,38 +1,31 @@
-<div class='tabs'>
+{{include file='_admin/form_errors.phtml'/}}
 
-  <ul>
-    <li id='properties'><a>Свойства</a></li>
-  </ul>
+<dl class="required field">
+  <dt><label for="title">Название:</label></dt>
+  <dd>{{input name='title' type='text' title='Название'/}}</dd>
+</dl>
 
-  <div id="tab_properties">
-    
-      
-        <dl class="field">
-          <dt>{{label for="title"}}title:{{/label}}</dt>
-          <dd>{{input id="title" name="title" type="text" title="title"/}}</dd>
-        </dl>
-      
-        <dl class="field">
-          <dt>{{label for="description"}}description:{{/label}}</dt>
-          <dd>{{wysiwyg id="description" name="description" width="100%" height="300px" title="description"/}}</dd>
-        </dl>
-      
-        <dl class="field">
-          <dt>{{label for="is_available"}}is_available:{{/label}}</dt>
-          <dd>{{js_checkbox id="is_available" name="is_available"/}}</dd>
-        </dl>
-      
-        <dl class="field">
-          <dt>{{label for="price"}}price:{{/label}}</dt>
-          <dd>{{input id="price" name="price" type="text" title="price"/}}</dd>
-        </dl>
-      
-        <dl class="field">
-          <dt>{{label for="image_name"}}image_name:{{/label}}</dt>
-          <dd>{{input id="image_name" name="image_name" type="text" title="image_name"/}}</dd>
-        </dl>
-      
-    
-  </div>
+<dl class="required field">
+  <dt><label for="price">Цена:</label></dt>
+  <dd>{{input name='price' type='text' title='Цена'/}}</dd>
+</dl>
 
-</div>
+<dl class="field">
+  <dt><label for="is_available">Наличие:</label>
+  <dd>{{js_checkbox name='is_available'/}}</dd>
+</dl>
+
+<dl class="required field">
+  <dt><label for="description">Описание:</label>
+  <dd>{{textarea name='description' title='Описание'/}}</dd>
+</dl>
+
+<dl class="field">
+  <dt><label for="image">Изображение:</label>
+  <dd>
+  {{input name="image" type="file"/}}
+  <img src='{$#item.image_path}' class='img' />
+  </dd>
+</dl>
+
+{{include file='_admin/form_buttons.phtml'/}}

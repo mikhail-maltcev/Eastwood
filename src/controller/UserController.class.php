@@ -47,7 +47,7 @@ class UserController extends lmbController
     $this->response->redirect('/');
   }
 
-  
+
   function doRegister()
   {
     $this->useForm('register_form');
@@ -88,5 +88,68 @@ class UserController extends lmbController
     $this->validator->addRule(new lmbMatchRule('password', 'repeat_password'));
     $this->validator->validate($this->request);
   }
+
+
+  function doEdit()
+  {
+    $this->setFormDatasource($this->toolkit->getUser(), 'profile_form');
+
+    if($this->request->has('change_password'))
+      $this->_changeUserPassword();
+    if($this->request->has('edit'))
+      $this->_updateUserProfile();
+  }
+
+  protected function _changeUserPassword()
+  {
+    $this->useForm('change_password_form');
+
+    $this->_validateChangePasswordForm();
+
+    if($this->error_list->isValid())
+    {
+      $user = $this->toolkit->getUser();
+      $user->setPassword($this->request->get('password'));
+      $user->save();
+
+      $this->flashMessage('Your password was changed');
+      $this->toolkit->redirect();
+    }
+  }
+
+  protected function _updateUserProfile()
+  {
+    $this->useForm('profile_form');
+    $this->setFormDatasource($this->toolkit->getUser());
+
+    $user_properties = $this->request->getPost(
+      array('login', 'name', 'email', 'password', 'address')
+    );
+    $user = $this->toolkit->getUser();
+    $user->import($user_properties);
+
+    if($user->trySave($this->error_list))
+    {
+      $this->flashMessage('Your profile was changed');
+      $this->toolkit->redirect();
+    }
+  }
+
+  protected function _validateChangePasswordForm()
+  {
+    $this->validator->addRequiredRule('old_password');
+    $this->_validatePasswordField();
+
+    $user = $this->toolkit->getUser();
+    if($old_password = $this->request->get('old_password'))
+    {
+      $hashed_password = User :: cryptPassword($old_password);
+      if($user->getHashedPassword() != $hashed_password)
+        $this->error_list->addError('Wrong old password', array('old_password'));
+    }
+  }
+
+
+  
 }
 ?>

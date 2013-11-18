@@ -1,7 +1,7 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/lib//limb/cms/template/cms_user/login.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutore0cab800f62765430030b0497464e62f', false)){
+if(!class_exists('MacroTemplateExecutorbd5deb12b6e07470c99f98baca7cc5af', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
-class MacroTemplateExecutore0cab800f62765430030b0497464e62f extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutorbd5deb12b6e07470c99f98baca7cc5af extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -89,12 +89,12 @@ function __staticInclude1($file) {
         <?php $C='';
 $D = $flashbox;
 $C = $D->getErrors();
-$this->_template35dcb574233627944aa7cb74a104b817(array('template' => 'flashbox','messages' => $C,'box_class' => 'error',)); ?>
+$this->_template5bcf93af892030bfcc26c4d16b557aec(array('template' => 'flashbox','messages' => $C,'box_class' => 'error',)); ?>
 
         <?php $N='';
 $O = $flashbox;
 $N = $O->getMessages();
-$this->_template8c5ca2724c825df800f2397ed61dc81a(array('template' => 'flashbox','messages' => $N,'box_class' => 'message',)); ?>
+$this->_template29a12a646e48b5bc3cd025d94cae8a15(array('template' => 'flashbox','messages' => $N,'box_class' => 'message',)); ?>
 
       </ul>
       <a href="javascipt:void(0)" href="javascript:void(0)" class='close' onclick="this.parentNode.style.display = 'none'; return false;">
@@ -110,7 +110,7 @@ $this->_template8c5ca2724c825df800f2397ed61dc81a(array('template' => 'flashbox',
 ?><?php 
 }
 
-function _template35dcb574233627944aa7cb74a104b817($E= array()) {
+function _template5bcf93af892030bfcc26c4d16b557aec($E= array()) {
 if($E) extract($E); ?>
 
   <?php $H = 0;$J = $messages;
@@ -130,7 +130,7 @@ foreach($I as $item) {if($H == 0) { ?>
 <?php 
 }
 
-function _template8c5ca2724c825df800f2397ed61dc81a($P= array()) {
+function _template29a12a646e48b5bc3cd025d94cae8a15($P= array()) {
 if($P) extract($P); ?>
 
   <?php $S = 0;$U = $messages;
@@ -152,4 +152,4 @@ foreach($T as $item) {if($S == 0) { ?>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutore0cab800f62765430030b0497464e62f';
+$macro_executor_class='MacroTemplateExecutorbd5deb12b6e07470c99f98baca7cc5af';

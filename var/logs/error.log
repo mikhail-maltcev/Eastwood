@@ -890,3 +890,17 @@ Back trace:
 * lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
 * lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
 * lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(12) "content_zone") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][POST - /admin_product/create/] [Nov 14 2013 20:00:30]=========================
+Error: lmbFsException: failed to copy file
+Additional attributes: Array
+(
+    [src] => /tmp/php8VEbSa
+    [dest] => /usr/share/nginx/www/eastwood/www/product_images/C2T1DOSl1Xw.jpg
+)
+
+Back trace:
+* lmbException::__construct(STRING(19) "failed to copy file", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/fs/src/lmbFs.class.php" line 280
+* lmbFs::cp(STRING(14) "/tmp/php8VEbSa", STRING(64) "/usr/share/nginx/www/eastwood/www/product_images/C2T1DOSl1Xw.jpg") in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 26
+* AdminProductController::_uploadImage(OBJECT(Product), OBJECT(lmbUploadedFile)) in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 11
+* AdminProductController::_onBeforeSave() in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbAdminObjectController.class.php" line 190
+* lmbAdminObjectController::_validateAndSave(TRUE) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbAdminObjectController.class.php" line 65
