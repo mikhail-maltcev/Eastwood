@@ -5,59 +5,34 @@
 
   <div id="header">
     <h1>Product</h1>
-    <div class="header_actions">
-      {{apply template="object_action" action="create" is_link="true" title="Создать Product"/}}
-    </div>
 
-    {{include file='_admin/pager.phtml' items='{$this->items}'/}}
   </div>
 
   <div id="body">
+      <h1>Select category</h1>
 
-    {{list using="{$this->items}" as="$item" counter="$counter" parity='$parity'}}
+      {{tree using="$this->Tree" as="$item" kids_prop="childs" counter="$counter" prefix="1"}}
+      <ul>
+          {{tree:node}}
+          <li>
+              {$prefix}.{$counter}){$item.identifier}
+              {{tree:nextlevel prefix="$new_prefix"}}<?php $new_prefix = $prefix . "." . $counter; ?>{{/tree:nextlevel}}
 
-      <div class="list">
-        <div class='list_actions'>
-          {{apply template="selectors_button" action="set_available" title="Set available" /}}
-          {{apply template="selectors_button" action="set_unavailable" title="Set unavailable" /}}
-        </div>
-        <table>
-          <tr>
-            <th>{{apply template="selectors_toggler"/}}</th>
-            <th>#ID</th>
-            <th width='20%'>Title</th>
-            <th width='10%'>Price</th>
-            <th width='10%'>Image</th>
-            <th width="10%">Availability</th>
-            <th width='40%'>Decsription</th>
-            <th>Actions</th>
-          </tr>
-          {{list:item}}
-            <tr class='{$parity}'>
-              <td>{{apply template="selector" value="{$item.id}"/}}</td>
-              <td>#{$item.id}</td>
-              <td>{$item.title}</td>
-              <td>{$item.price}</td>
-              <td><img src="/{$item.image_path}"/></td>
-              <td><img src="/shared/cms/images/icons/<?= ($item->getIsAvailable()) ? 'lightbulb.png' : 'lightbulb_off.png'; ?>"/></td>
-              <td>{$item.description|raw|nl2br}</td>
-              <td class='actions'>
-                {{apply template="object_action_edit"  item="{$item}" icon="page_white_edit" /}}
-                {{apply template="object_action_delete" item="{$item}" icon="page_white_delete" /}}
-              </td>
-            </tr>
-          {{/list:item}}
-          {{list:empty}}
-            <div class="empty_list">Empty</div>
-          {{/list:empty}}
-        </table>
-        <div class='list_actions'>
-          {{apply template="selectors_button" action="set_available" title="Set available" /}}
-          {{apply template="selectors_button" action="set_unavailable" title="Set unavailable" /}}
-        </div>
-      </div>
+              <a href='{{route_url params="action:create_to,id:{$item.id}"/}}'> Select</a>&nbsp;&nbsp;
 
-    {{/list}}
+
+          </li>
+          {{/tree:node}}
+
+
+
+
+          {{tree:empty}}
+          Комментарии отсуствуют
+          {{/tree:empty}}
+      </ul>
+      {{/tree}}
+
 
   </div>
 

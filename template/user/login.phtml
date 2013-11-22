@@ -1,20 +1,33 @@
 <? $this->title='Login'; ?>
 {{wrap with="front_page_layout.phtml" into="content_zone"}}
-{{form method="POST" id='login_form'}}
+  <?php
+    if($this->user) {
+      // We have a user ID, so probably a logged in user.
+      // If not, we'll get an exception, which we handle below.
+      try {
+        echo '<br /><a href="' . $this->user->getLogoutUrl() . '">logout</a>';
+      } catch(FacebookApiException $e) {
+        // If the user is logged out, you can have a 
+        // user ID even though the access token is invalid.
+        // In this case, we'll get an exception, so we'll
+        // just ask the user to login again here.
+        $login_url = $this->user->getLoginUrl( array(
+                       'scope' => 'publish_stream'
+                       )); 
+        echo 'Please <a href="' . $login_url . '">login.(try)</a>';
+        error_log($e->getType());
+        error_log($e->getMessage());
+      }   
+    } else {
 
-  {{include file='_admin/form_errors.phtml'/}}
+      // No user, so print a link for the user to login
+      // To post to a user's wall, we need publish_stream permission
+      // We'll use the current URL as the redirect_uri, so we don't
+      // need to specify it here.
+      $login_url = $this->user->getLoginUrl( array( 'scope' => 'publish_stream' ) );
+      echo 'Please <a href="' . $login_url . '">login.(else)</a>';
 
-  <div class="field">
-  <label for='login'>Login:</label>
-  {{input type="text" name="login" id="login" title="Login"/}}
-  </div>
+    } 
 
-  <div class="field">
-  <label for='passwd'>Password:</label>
-  {{input type="text" name="password" id="password" type="password" title="Password"/}}
-  </div>
-
-  <input type='submit' class='button' name='submitted' value="Submit" class='button'/>
-
-{{/form}}
+  ?>   
 {{/wrap}}

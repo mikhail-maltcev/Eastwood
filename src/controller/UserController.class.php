@@ -8,237 +8,76 @@ class UserController extends lmbController
   {
 
 
+  $config = array(
+    'appId' => '443083905803662',
+    'secret' => '097973e88404931eb5a360bcd15e8947',
+  );
 
-        // Create our Application instance (replace this with your appId and secret).
-$facebook = new Facebook(array(
-  'appId'  => '443083905803662',
-  'secret' => '097973e88404931eb5a360bcd15e8947',
-));
+  $facebook = new Facebook($config);
+  $user_id = $facebook->getUser();
 
-
-$user = $facebook->getUser();
-
-print_r($user);
-
-if ($user) {
-  try {
-    // Proceed knowing you have a logged in user who's authenticated.
-    $user_profile = $facebook->api('/me');
-  } catch (FacebookApiException $e) {
-    error_log($e);
-    $user = null;
-  }
-}
-
-
-// Login or logout url will be needed depending on current user state.
-if ($user) {
-  $logoutUrl = $facebook->getLogoutUrl();
-} else {
-  $statusUrl = $facebook->getLoginStatusUrl();
-  $loginUrl = $facebook->getLoginUrl();
-}
-
-
-
-
-
-
-
-?>
-<!doctype html>
-<html xmlns:fb="http://www.facebook.com/2008/fbml">
-  <head>
-    <title>php-sdk</title>
-  </head>
-  <body>
-    <h1>php-sdk</h1>
-
-    <?php if ($user): ?>
-      <a href="<?php echo $logoutUrl; ?>">Logout</a>
-    <?php else: ?>
-      <div>
-        Check the login status using OAuth 2.0 handled by the PHP SDK:
-        <a href="<?php echo $statusUrl; ?>">Check the login status</a>
-      </div>
-      <div>
-        Login using OAuth 2.0 handled by the PHP SDK:
-        <a href="<?php echo $loginUrl; ?>">Login with Facebook</a>
-      </div>
-    <?php endif ?>
-
-
-  </body>
-</html>
-
-
-<?
+   $user_profile = $facebook->api('/me');
+                print_r($user_profile);
+                echo ($user_profile['name']);
 
 die();
+  $this->toolkit->getSession()->set('user_name', $user_profile['name']);
+  $this->flashAndRedirect('You were logged in!', '/');
 
 
 
+   if($user_id) {
+      // We have a user ID, so probably a logged in user.
+      // If not, we'll get an exception, which we handle below.
+      try {
+        echo '<br /><a href="' . $facebook->getLogoutUrl() . '">logout</a>';
+      } catch(FacebookApiException $e) {
+        // If the user is logged out, you can have a 
+        // user ID even though the access token is invalid.
+        // In this case, we'll get an exception, so we'll
+        // just ask the user to login again here.
+        $login_url = $facebook->getLoginUrl( array(
+                       'scope' => 'publish_stream'
+                       )); 
+        echo 'Please <a href="' . $login_url . '">login.(try)</a>';
+        error_log($e->getType());
+        error_log($e->getMessage());
+      }   
+    } else {
 
+      // No user, so print a link for the user to login
+      // To post to a user's wall, we need publish_stream permission
+      // We'll use the current URL as the redirect_uri, so we don't
+      // need to specify it here.
+      $login_url = $facebook->getLoginUrl( array( 'scope' => 'publish_stream' ) );
+      echo 'Please <a href="' . $login_url . '">login.(else)</a>';
 
-    if(!$this->request->hasPost())
-
-      return;
-
-    $user = $this->toolkit->getUser();
-
-    $this->useForm('login_form');
-    $this->setFormDatasource($this->request);
-
-    $this->_validateLoginForm();
-
-    if(!$this->error_list->isValid())
-      return;
-
-    $login = $this->request->get('login');
-    $password = $this->request->get('password');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if(!$user->login($login, $password))
-    {
-      $this->addError('Login or password incorrect!');
-    }
-    else
-    {
-      $this->toolkit->getSession()->set('user_id', $user->getId());
-      $this->flashAndRedirect('You were logged in!', '/');
-    }
-  }
-
-  protected function _validateLoginForm()
-  {
-    $this->validator->addRequiredRule('login');
-    $this->validator->addRequiredRule('password');
-    $this->validator->validate($this->request);
-  }
-
-  function doLogout()
-  {
-    $user = $this->toolkit->getUser();
-    $user->logout();
-    $this->toolkit->getSession()->remove('user_id');
-    $this->response->redirect('/');
-  }
-
-
-  function doRegister()
-  {
-    $this->useForm('register_form');
-    $this->setFormDatasource($this->request);
-
-    if($this->request->hasPost())
-    {
-
-      $user_properties = $this->request->getPost(
-          array('login', 'name', 'email', 'password', 'address')
-        );
-
-        $user = new User($user_properties);
-        $user->trySave($this->error_list);
-
-      $this->_validatePasswordField();
-
-      if($this->error_list->isValid())
-      {
-        /*
-          Авторизация нового пользователя. 
-          О работе с объектом Toolkit будет более подробно рассказано дальше.
-        */
-        // $this->toolkit->getUser()->login($login, $password);
-        // $this->toolkit->getSession()->set('user_id', $user->getId());
-
-        $this->flashMessage('Thank you for your registration!');
-        $this->toolkit->redirect('/');
-      }
-    }
-  }
-
-  function _validatePasswordField()
-  {
-    $this->validator->addRequiredRule('password');
-    $this->validator->addRequiredRule('repeat_password');
-    lmb_require('limb/validation/src/rule/lmbMatchRule.class.php');
-    $this->validator->addRule(new lmbMatchRule('password', 'repeat_password'));
-    $this->validator->validate($this->request);
-  }
-
-
-  function doEdit()
-  {
-    $this->setFormDatasource($this->toolkit->getUser(), 'profile_form');
-
-    if($this->request->has('change_password'))
-      $this->_changeUserPassword();
-    if($this->request->has('edit'))
-      $this->_updateUserProfile();
-  }
-
-  protected function _changeUserPassword()
-  {
-    $this->useForm('change_password_form');
-
-    $this->_validateChangePasswordForm();
-
-    if($this->error_list->isValid())
-    {
-      $user = $this->toolkit->getUser();
-      $user->setPassword($this->request->get('password'));
-      $user->save();
-
-      $this->flashMessage('Your password was changed');
-      $this->toolkit->redirect();
-    }
-  }
-
-  protected function _updateUserProfile()
-  {
-    $this->useForm('profile_form');
-    $this->setFormDatasource($this->toolkit->getUser());
-
-    $user_properties = $this->request->getPost(
-      array('login', 'name', 'email', 'password', 'address')
-    );
-    $user = $this->toolkit->getUser();
-    $user->import($user_properties);
-
-    if($user->trySave($this->error_list))
-    {
-      $this->flashMessage('Your profile was changed');
-      $this->toolkit->redirect();
-    }
-  }
-
-  protected function _validateChangePasswordForm()
-  {
-    $this->validator->addRequiredRule('old_password');
-    $this->_validatePasswordField();
-
-    $user = $this->toolkit->getUser();
-    if($old_password = $this->request->get('old_password'))
-    {
-      $hashed_password = User :: cryptPassword($old_password);
-      if($user->getHashedPassword() != $hashed_password)
-        $this->error_list->addError('Wrong old password', array('old_password'));
-    }
-  }
+    } 
 
 
   
+
+    // $user = $this->toolkit->getUser();
+
+
+    // $login = $this->request->get('login');
+    // $password = $this->request->get('password');
+
+
+
+    // if(!$user->login($login, $password))
+    // {
+    //   $this->addError('Login or password incorrect!');
+    // }
+    // else
+    // {
+    //   $this->toolkit->getSession()->set('user_id', $user->getId());/////тулкит
+    //   $this->flashAndRedirect('You were logged in!', '/');
+    // }
+
+
+
+
+  }
 }
 ?>

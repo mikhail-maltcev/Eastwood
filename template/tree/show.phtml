@@ -1,0 +1,19 @@
+<h1>Main page t</h1>
+
+
+{{tree using="$this->Tree" as="$comment" kids_prop="childs" counter="$counter" prefix="1"}}
+<ul>
+    {{tree:node}}
+    <li>
+        {$prefix}.{$counter}){$comment.identifier}
+        {{tree:nextlevel prefix="$new_prefix"}}<?php $new_prefix = $prefix . "." . $counter; ?>{{/tree:nextlevel}}
+    </li>
+
+
+    {{/tree:node}}
+    {{tree:empty}}
+    Комментарии отсуствуют
+    {{/tree:empty}}
+</ul>
+{{/tree}}
+

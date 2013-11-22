@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85139d29-39f2-43ee-a292-9ecdaf4c38bf" name="Default" comment="phpstorm commit...">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/1x1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/accept.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/admin_panel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_cascade.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_double.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_form.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_form_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_form_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_form_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_form_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_get.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_osx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_osx_terminal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_side_boxes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_side_contract.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_side_expand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_side_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_side_tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_split.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_tile_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_tile_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_view_columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_view_detail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_view_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_view_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_view_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_view_tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_xp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/application_xp_terminal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_branch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_divide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/button/arrow_first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_inout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_join.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/button/arrow_last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_merge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/button/arrow_next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/button/arrow_prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_refresh_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_rotate_anticlockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_rotate_clockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_switch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_turn_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_turn_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/asterisk_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/asterisk_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_bronze_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_bronze_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_bronze_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_gold_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_gold_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_gold_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_silver_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_silver_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/award_star_silver_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/basket_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bell_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bell_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bell_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bell_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bell_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/menu/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bin_closed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bin_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bomb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_addresses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/book_previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/brick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/brick_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/brick_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/brick_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/brick_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/brick_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/brick_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bricks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/briefcase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bug_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bug_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bug_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bug_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bug_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bug_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/building_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_arrow_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_arrow_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_toggle_minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_toggle_plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/bullet_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/button_nice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calculator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calculator_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calculator_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calculator_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calculator_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calculator_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar_view_day.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar_view_month.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/calendar_view_week.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/camera_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/car_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/car_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cart_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cd_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cd_burn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cd_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cd_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cd_eject.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cd_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_bar_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_bar_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_bar_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_bar_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_bar_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_curve.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_curve_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_curve_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_curve_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_curve_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_curve_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_curve_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_line_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_line_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_line_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_line_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_line_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_organisation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_organisation_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_organisation_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_pie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_pie_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_pie_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_pie_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_pie_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/chart_pie_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/clock_stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cog_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cog_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cog_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cog_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cog_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/coins.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/coins_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/coins_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/color_swatch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/color_wheel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/comment_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/comment_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/comment_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/comments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/comments_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/comments_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/compress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/computer_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/connect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/contrast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/contrast_decrease.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/contrast_high.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/contrast_increase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/contrast_low.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_eject.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_eject_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_end_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_equalizer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_equalizer_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_fastforward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_fastforward_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_pause_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_play_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_repeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_repeat_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_rewind.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_rewind_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_start.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_start_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/control_stop_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/controller.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/controller_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/controller_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/controller_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/creditcards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/css.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/css_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/css_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/css_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/css_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cup_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cursor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/cut_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_connect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/database_table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/date_previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/disconnect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/disk_multiple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/door.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/door_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/door_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/door_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drink_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_burn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_cd_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_network.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/drive_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/dvd_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/email_open_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_evilgrin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_grin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_happy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_surprised.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_tongue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_unhappy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_waii.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/emoticon_wink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/error_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/error_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/error_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/exclamation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/eye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/feed_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/film_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/flag_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/flag_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/flag_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/flag_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/flag_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/flag_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/flag_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_brick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_bug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_explore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_page_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_palette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/folder_wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/font_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/font_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/font_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/group_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/heart_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/heart_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/hourglass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/hourglass_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/hourglass_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/hourglass_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/hourglass_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/house.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/house_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/house_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/html_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/html_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/html_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/html_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/image_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/image_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/image_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/image_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/information.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ipod.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ipod_cast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ipod_cast_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ipod_cast_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ipod_sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/joystick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/joystick_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/joystick_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/joystick_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/key_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/key_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/key_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/keyboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/keyboard_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/keyboard_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/keyboard_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/layout_sidebar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightbulb_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightbulb_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightbulb_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightning_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightning_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lightning_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/link_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/link_break.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/link_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/link_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/link_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/link_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lock_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lock_break.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lock_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lock_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lock_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lock_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/shadow/login_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/shadow/login_bl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/shadow/login_br.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/shadow/login_l.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/shadow/login_lt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/login_page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/shadow/login_r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/shadow/login_rt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/logo.limb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lorry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lorry_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lorry_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lorry_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lorry_flatbed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lorry_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/lorry_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/magifier_zoom_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/magnifier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/magnifier_zoom_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/male.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/map_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/map_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/map_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/map_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/map_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_bronze_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_bronze_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_bronze_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_bronze_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_bronze_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_gold_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_gold_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_gold_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_gold_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_gold_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_silver_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_silver_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_silver_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_silver_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/medal_silver_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/menu_banners.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/menu_communication.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/menu_content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/menu_programms.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/menu_service.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/menu_users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/money_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/money_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/money_dollar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/money_euro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/money_pound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/money_yen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/monitor_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/mouse_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/mouse_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/mouse_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/newspaper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/newspaper_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/newspaper_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/newspaper_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/newspaper_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/note_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/note_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/note_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/note_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/note_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/overlays.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/package.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/package_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/package_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/package_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/package_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/package_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_acrobat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_actionscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_code_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_coldfusion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_compressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_cplusplus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_csharp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_dvd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_freehand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_get.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_medal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_office.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_paint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_powerpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_stack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_swoosh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_text_width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_tux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_vector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_visualstudio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_white_zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/page_world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/paintcan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/palette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/paste_plain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/paste_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pencil_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pencil_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pencil_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/phone_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/phone_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/phone_sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/photo_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/photo_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/photo_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/photos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/picture_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pictures.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pilcrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pill_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pill_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/pill_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/plugin_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/printer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/printer_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/printer_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/printer_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/printer_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/publish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/rainbow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/report_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/resultset_first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/resultset_last.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/resultset_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/resultset_previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/rosette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/rss_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/rss_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/rss_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/rss_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_get.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/ruby_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_code_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_palette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/script_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_compressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_connect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/server_uncompressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_align_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_align_center.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_align_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_align_middle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_align_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_align_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_flip_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_flip_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_handles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_move_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_move_backwards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_move_forwards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_move_front.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_rotate_anticlockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_rotate_clockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_square_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shape_ungroup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shield_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shield_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/shield_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sitemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sitemap_color.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sound_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sound_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sound_low.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sound_mute.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sound_none.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/spellcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_8ball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_basketball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_football.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_golf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_raquet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_shuttlecock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_soccer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sport_tennis.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/status_away.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/status_busy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/status_offline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/status_online.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/style.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/style_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/style_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/style_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/style_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tab_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/tab_current.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tab_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tab_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tab_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_multiple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_relationship.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_row_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_row_insert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/table_sort.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_blue_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_blue_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_blue_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tag_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/telephone_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/television.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/television_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/television_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/text-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_align_center.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_align_justify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_align_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_align_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_allcaps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_dropcaps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_heading_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_heading_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_heading_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_heading_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_heading_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_heading_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_horizontalrule.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_indent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_indent_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_kerning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_letter_omega.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_letterspacing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_linespacing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_list_bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_list_numbers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_lowercase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_padding_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_padding_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_padding_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_padding_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_replace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_signature.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_smallcaps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_strikethrough.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_subscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_superscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/text_uppercase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/textfield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/textfield_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/textfield_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/textfield_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/textfield_rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/thumb_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/thumb_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/time.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/time_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/time_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/time_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/timeline_marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/toggler.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/transmit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/transmit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/transmit_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/transmit_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/transmit_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/transmit_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/transmit_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/tux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/unpublish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/bgr/user_data_item.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/user_suit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/vcard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/vcard_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/vcard_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/vcard_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/vector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/vector_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/vector_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/wand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/weather_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/weather_cloudy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/weather_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/weather_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/weather_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/weather_sun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/webcam.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/webcam_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/webcam_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/webcam_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/world_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/world_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/world_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/world_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/world_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/wrench_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/xhtml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/xhtml_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/xhtml_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/xhtml_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/xhtml_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/zoom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/zoom_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/zoom_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/AdminCategoryController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/Property.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/Tree.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/TreeController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_category-create.phtml.825780364.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_category-create_property.phtml.2520255291.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_category-display.phtml.4294464414.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_document-display.phtml.2739006613.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_product-delete.phtml.1812023970.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_product-edit.phtml.1960858920.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_product-edit_property.phtml.4127279242.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_seo-display.phtml.371613553.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_text_block-display.phtml.3397598320.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/admin_user-create.phtml.268129767.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/auto_tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/styles/cp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/cp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/cp_forms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/styles/cp_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/styles/cp_ie6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/admin_category/create.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/admin_category/create_property.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/admin_category/display.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/eastwood.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/admin_product/edit_property.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/fckconfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/img_resizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/images/icons/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/tree/show.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/tree/test.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/styles/thickbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/cms/js/thickbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/tree-show.phtml.3166451600.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/var/compiled/tree-test.phtml.3050566983.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/shared/js/js/jquery/v1.2.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/controller/BaseShopController.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/controller/TestController.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_controller-controller.phtml.2504679015.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-create.phtml.1420757684.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-delete.phtml.100878517.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-display.phtml.3617553506.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-edit.phtml.3943591057.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-form_fields.phtml.661266704.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/cms_user-forgot_password.phtml.2486806823.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/front_for_model-controller.phtml.1840199572.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/front_for_model-display.phtml.162145746.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/front_for_model-item.phtml.3199679285.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/model-model.phtml.896181212.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/user-edit.phtml.3687520476.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/user-register.phtml.3363070576.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/template/admin_product/display.phtml" afterPath="$PROJECT_DIR$/template/admin_product/create_to.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/var/compiled/admin_product-display.phtml.1411840935.php" afterPath="$PROJECT_DIR$/var/compiled/admin_product-create_to.phtml.2673647434.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminProductController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminProductController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/UserController.class.php" afterPath="$PROJECT_DIR$/src/controller/UserController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/admin-display.phtml.1186936111.php" afterPath="$PROJECT_DIR$/var/compiled/admin-display.phtml.1186936111.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/admin_product-create.phtml.1051527331.php" afterPath="$PROJECT_DIR$/var/compiled/admin_product-create.phtml.1051527331.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/admin_product-display.phtml.1411840935.php" afterPath="$PROJECT_DIR$/var/compiled/admin_product-display.phtml.1411840935.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/admin_user-display.phtml.631646323.php" afterPath="$PROJECT_DIR$/var/compiled/admin_user-display.phtml.631646323.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/cms_user-login.phtml.1915906592.php" afterPath="$PROJECT_DIR$/var/compiled/cms_user-login.phtml.1915906592.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/config_locator.cache" afterPath="$PROJECT_DIR$/var/locators/config_locator.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" afterPath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_locator.cache" afterPath="$PROJECT_DIR$/var/locators/controller_locator.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/db_info.1668442849.cache" afterPath="$PROJECT_DIR$/var/db_info.1668442849.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/display.phtml" afterPath="$PROJECT_DIR$/template/admin_product/display.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/edit.phtml" afterPath="$PROJECT_DIR$/template/admin_product/edit.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/error.log" afterPath="$PROJECT_DIR$/var/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/front_page_layout.phtml" afterPath="$PROJECT_DIR$/template/front_page_layout.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/login.phtml" afterPath="$PROJECT_DIR$/template/user/login.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/macro_locator.cache" afterPath="$PROJECT_DIR$/var/locators/macro_locator.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" afterPath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings/navigation.conf.php" afterPath="$PROJECT_DIR$/settings/navigation.conf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.php" afterPath="$PROJECT_DIR$/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" afterPath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/user-login.phtml.2270506023.php" afterPath="$PROJECT_DIR$/var/compiled/user-login.phtml.2270506023.php" />
+    </list>
+    <ignored path="eastwood.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="eastwood" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AdminProductController.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/AdminProductController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="39" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-21.0" vertical-offset="636" max-vertical-offset="1335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tree.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/Tree.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.3589165" vertical-offset="516" max-vertical-offset="1215">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin_category/display.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="13" selection-start="91" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeController.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/TreeController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="37" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin_product/display.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="0" selection-end="862" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lmbMPTree.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/limb/tree/src/lmbMPTree.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="0" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0" vertical-offset="6112" max-vertical-offset="7860">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_to.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin_product/create_to.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="62" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/model/User.class.php" />
+        <option value="$PROJECT_DIR$/src/model/Property.class.php" />
+        <option value="$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php" />
+        <option value="$PROJECT_DIR$/template/admin_category/create_property.phtml" />
+        <option value="$PROJECT_DIR$/settings/navigation.conf.php" />
+        <option value="$PROJECT_DIR$/src/controller/AdminCategoryController.class.php" />
+        <option value="$PROJECT_DIR$/lib/limb/cms/src/controller/lmbAdminObjectController.class.php" />
+        <option value="$PROJECT_DIR$/template/admin_category/display.phtml" />
+        <option value="$PROJECT_DIR$/template/admin_product/include/form_fields.phtml" />
+        <option value="$PROJECT_DIR$/template/admin_product/edit.phtml" />
+        <option value="$PROJECT_DIR$/template/admin_product/edit_property.phtml" />
+        <option value="$PROJECT_DIR$/template/admin_product/create_to.phtml" />
+        <option value="$PROJECT_DIR$/src/controller/TreeController.class.php" />
+        <option value="$PROJECT_DIR$/src/controller/AdminProductController.class.php" />
+        <option value="$PROJECT_DIR$/template/admin_product/display.phtml" />
+        <option value="$PROJECT_DIR$/src/model/Tree.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="52" />
+    <option name="y" value="24" />
+    <option name="width" value="1548" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_category" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="limb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="limb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="limb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template/admin_product" />
+      <recent name="$PROJECT_DIR$/src/model" />
+      <recent name="$PROJECT_DIR$/template/admin_category" />
+      <recent name="$PROJECT_DIR$/template/admin_user" />
+      <recent name="$PROJECT_DIR$/src/controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85139d29-39f2-43ee-a292-9ecdaf4c38bf" name="Default" comment="" />
+      <created>1384880089625</created>
+      <updated>1384880089625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="52" y="24" width="1548" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19961241" sideWeight="0.6709511" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="phpstorm commit..." />
+    <option name="LAST_COMMIT_MESSAGE" value="phpstorm commit..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/limb/cms/template/admin_modal_page_layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.40384614" vertical-offset="156" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/limb/cms/common.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="562" selection-end="562" vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_product/include/form_fields.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="45" selection-start="772" selection-end="818" vertical-scroll-proportion="0.8076923" vertical-offset="72" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Product.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="1" selection-start="677" selection-end="677" vertical-scroll-proportion="0.77878106" vertical-offset="0" max-vertical-offset="443" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_product/edit_property.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="199" selection-end="199" vertical-scroll-proportion="0.20316027" vertical-offset="0" max-vertical-offset="443" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_category/create_property.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="541" selection-end="541" vertical-scroll-proportion="0.4582393" vertical-offset="112" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminCategoryController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="8" selection-start="1045" selection-end="1093" vertical-scroll-proportion="0.35665914" vertical-offset="502" max-vertical-offset="1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_product/create_to.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="62" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_product/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.1502146" vertical-offset="0" max-vertical-offset="699">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/TreeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminProductController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="39" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-21.0" vertical-offset="636" max-vertical-offset="1335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_product/display.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="0" selection-end="862" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/limb/tree/src/lmbMPTree.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.0" vertical-offset="6112" max-vertical-offset="7860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_category/display.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="91" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Tree.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.3589165" vertical-offset="516" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

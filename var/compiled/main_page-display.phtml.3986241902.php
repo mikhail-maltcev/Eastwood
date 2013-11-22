@@ -1,7 +1,7 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/main_page/display.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor50ce5c062f58592e049032cab0931b86', false)){
+if(!class_exists('MacroTemplateExecutor264d86e852f97333ab12c3b6853bc357', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
-class MacroTemplateExecutor50ce5c062f58592e049032cab0931b86 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor264d86e852f97333ab12c3b6853bc357 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -40,7 +40,7 @@ function __staticInclude1($file,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler4c37aacbfc6de976ae4d251e44d8cc4b(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler0c359a1d314983e06b31d0c4a19470a4(array()); ?>
 
         </div>
       </div>
@@ -52,7 +52,10 @@ function __staticInclude1($file,$into,$file) {
           <li><a href="cart">Your Cart</a></li>
           <?php  if($this->toolkit->getUser()->is_logged_in) { ?>
             <li><a href="/user/orders/">Your Orders</a></li>
-          <?php  } ?>
+          <?php  }else {?>
+          <li><a href="/user/login/">Login please</a></li>
+
+          <?php } ?>
         </ul>
       </div>
 
@@ -103,7 +106,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler4c37aacbfc6de976ae4d251e44d8cc4b($O= array()) {
+function __slotHandler0c359a1d314983e06b31d0c4a19470a4($O= array()) {
 if($O) extract($O); ?>
 
 Welcome to our bookstore!
@@ -152,4 +155,4 @@ echo htmlspecialchars($V,3); ?><br/>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor50ce5c062f58592e049032cab0931b86';
+$macro_executor_class='MacroTemplateExecutor264d86e852f97333ab12c3b6853bc357';

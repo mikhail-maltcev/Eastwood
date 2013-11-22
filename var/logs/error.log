@@ -976,3 +976,1830 @@ Back trace:
 * lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
 * lmbActionPerformingFilter::run(OBJECT(LimbApplication))
 * call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [37.113.45.114][GET - /user/login] [Nov 18 2013 14:12:15]=========================
+Error: lmbException: Undefined variable: user_id
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 34
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(27) "Undefined variable: user_id", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(34), ARRAY(2)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 34
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [94.181.142.136][GET - /user/login] [Nov 19 2013 19:21:26]=========================
+Error: lmbException: Undefined variable: user
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/user-login.phtml.2270506023.php
+    [line] => 113
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(24) "Undefined variable: user", STRING(74) "/usr/share/nginx/www/eastwood/var/compiled/user-login.phtml.2270506023.php", INT(113), ARRAY(1)) in "/usr/share/nginx/www/eastwood/var/compiled/user-login.phtml.2270506023.php" line 113
+* MacroTemplateExecutor71348424c0f8cf12db288b19a475d1bb::__slotHandler2511a5185b2fac0dbe5f2ac9e52e8029(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/user-login.phtml.2270506023.php" line 43
+* MacroTemplateExecutor71348424c0f8cf12db288b19a475d1bb::__staticInclude1(STRING(23) "front_page_layout.phtml", STRING(12) "content_zone", STRING(23) "front_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/user-login.phtml.2270506023.php" line 9
+* MacroTemplateExecutor71348424c0f8cf12db288b19a475d1bb::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+========================= [94.181.142.136][GET - /user/login] [Nov 19 2013 20:01:54]=========================
+Error: lmbException: Trying to get property of non-object
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 21
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(36) "Trying to get property of non-object", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(21), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 21
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [94.181.142.136][GET - /user/login?code=AQBK1PtXoHNUMx8doGVROU5T3OEnCkyC7XVQzA07pOLRHPvCleEY75crktJ8val6o2tVjkZva7p1gDZaDXkJzn_yAuUsdNkq792aaKvsyV59qbT0cOfq9sBq7KHniwFxcyfyfkEKAhefMZcNVq5ZhMUXMMorjKmCra9watEBmojMl4y1GgZjjARVpGTBAqpK2lHWGJC20keKssTcJIxxSth1Qdu0cdVJGFOp10M-0OI-SoDujEn253WobAhKVsTwb6RpyECloPqotb9tU-XiTynGC6Wxl3Z91GvRqWAzhkpnrIf1pNlgovS0edfTss5JUc0&state=564fae1273ed286f0b73e49ad56e10ec] [Nov 19 2013 20:02:00]=========================
+Error: lmbException: Trying to get property of non-object
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 21
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(36) "Trying to get property of non-object", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(21), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 21
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [94.181.142.136][GET - /user/login?code=AQBK1PtXoHNUMx8doGVROU5T3OEnCkyC7XVQzA07pOLRHPvCleEY75crktJ8val6o2tVjkZva7p1gDZaDXkJzn_yAuUsdNkq792aaKvsyV59qbT0cOfq9sBq7KHniwFxcyfyfkEKAhefMZcNVq5ZhMUXMMorjKmCra9watEBmojMl4y1GgZjjARVpGTBAqpK2lHWGJC20keKssTcJIxxSth1Qdu0cdVJGFOp10M-0OI-SoDujEn253WobAhKVsTwb6RpyECloPqotb9tU-XiTynGC6Wxl3Z91GvRqWAzhkpnrIf1pNlgovS0edfTss5JUc0&state=564fae1273ed286f0b73e49ad56e10ec] [Nov 19 2013 20:03:00]=========================
+Error: lmbException: Use of undefined constant name - assumed 'name'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 21
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(47) "Use of undefined constant name - assumed 'name'", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(21), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 21
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [94.181.142.136][GET - /user/login?code=AQBK1PtXoHNUMx8doGVROU5T3OEnCkyC7XVQzA07pOLRHPvCleEY75crktJ8val6o2tVjkZva7p1gDZaDXkJzn_yAuUsdNkq792aaKvsyV59qbT0cOfq9sBq7KHniwFxcyfyfkEKAhefMZcNVq5ZhMUXMMorjKmCra9watEBmojMl4y1GgZjjARVpGTBAqpK2lHWGJC20keKssTcJIxxSth1Qdu0cdVJGFOp10M-0OI-SoDujEn253WobAhKVsTwb6RpyECloPqotb9tU-XiTynGC6Wxl3Z91GvRqWAzhkpnrIf1pNlgovS0edfTss5JUc0&state=564fae1273ed286f0b73e49ad56e10ec] [Nov 19 2013 20:03:28]=========================
+Error: lmbException: Use of undefined constant name - assumed 'name'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 21
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(47) "Use of undefined constant name - assumed 'name'", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(21), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 21
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [94.181.142.136][GET - /user/login?code=AQBK1PtXoHNUMx8doGVROU5T3OEnCkyC7XVQzA07pOLRHPvCleEY75crktJ8val6o2tVjkZva7p1gDZaDXkJzn_yAuUsdNkq792aaKvsyV59qbT0cOfq9sBq7KHniwFxcyfyfkEKAhefMZcNVq5ZhMUXMMorjKmCra9watEBmojMl4y1GgZjjARVpGTBAqpK2lHWGJC20keKssTcJIxxSth1Qdu0cdVJGFOp10M-0OI-SoDujEn253WobAhKVsTwb6RpyECloPqotb9tU-XiTynGC6Wxl3Z91GvRqWAzhkpnrIf1pNlgovS0edfTss5JUc0&state=564fae1273ed286f0b73e49ad56e10ec] [Nov 19 2013 20:03:30]=========================
+Error: lmbException: Use of undefined constant name - assumed 'name'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/UserController.class.php
+    [line] => 21
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(47) "Use of undefined constant name - assumed 'name'", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php", INT(21), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/controller/UserController.class.php" line 21
+* UserController::doLogin() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:30:12]=========================
+Error: lmbException: Undefined property: Tree::$node_table
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 17
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(37) "Undefined property: Tree::$node_table", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(17), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 17
+* Tree::__construct() in "/usr/share/nginx/www/eastwood/src/controller/TreeController.class.php" line 9
+* TreeController::doInitTree() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:32:14]=========================
+Error: lmbException: Use of undefined constant node_table - assumed 'node_table'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 17
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(59) "Use of undefined constant node_table - assumed 'node_table'", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(17), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 17
+* Tree::__construct() in "/usr/share/nginx/www/eastwood/src/controller/TreeController.class.php" line 9
+* TreeController::doInitTree() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:32:15]=========================
+Error: lmbException: Use of undefined constant node_table - assumed 'node_table'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 17
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(59) "Use of undefined constant node_table - assumed 'node_table'", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(17), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 17
+* Tree::__construct() in "/usr/share/nginx/www/eastwood/src/controller/TreeController.class.php" line 9
+* TreeController::doInitTree() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:42:34]=========================
+Error: lmbDbException: Table 'shop.Tree' doesn't exist SQL: DELETE FROM Tree
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1146
+    [error] => Table 'shop.Tree' doesn't exist
+    [sql] => DELETE FROM Tree
+)
+
+Back trace:
+* lmbException::__construct(STRING(53) "Table 'shop.Tree' doesn't exist SQL: DELETE FROM Tree", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(16) "DELETE FROM Tree") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(16) "DELETE FROM Tree") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliManipulationStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 75
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:43:23]=========================
+Error: lmbException: All fields filtered! Insert statement must contain atleast one field!
+Additional attributes: Array
+(
+    [table] => Tree
+    [raw] => Array
+        (
+            [p_level] => 0
+            [p_parent_id] => 0
+            [p_identifier] => 
+        )
+
+)
+
+Back trace:
+* lmbException::__construct(STRING(69) "All fields filtered! Insert statement must contain atleast one field!", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 160
+* lmbTableGateway::insert(ARRAY(3)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 407
+* lmbMPTree::_createRootNode() in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 76
+* lmbMPTree::initTree() in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 25
+* Tree::addData() in "/usr/share/nginx/www/eastwood/src/controller/TreeController.class.php" line 10
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:43:47]=========================
+Error: lmbException: All fields filtered! Insert statement must contain atleast one field!
+Additional attributes: Array
+(
+    [table] => Tree
+    [raw] => Array
+        (
+            [p_level] => 0
+            [p_parent_id] => 0
+            [p_identifier] => 
+        )
+
+)
+
+Back trace:
+* lmbException::__construct(STRING(69) "All fields filtered! Insert statement must contain atleast one field!", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 160
+* lmbTableGateway::insert(ARRAY(3)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 407
+* lmbMPTree::_createRootNode() in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 76
+* lmbMPTree::initTree() in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 25
+* Tree::addData() in "/usr/share/nginx/www/eastwood/src/controller/TreeController.class.php" line 10
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:47:21]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1 SQL: UPDATE `Tree` SET  WHERE `id`=0
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1
+    [sql] => UPDATE `Tree` SET  WHERE `id`=0
+)
+
+Back trace:
+* lmbException::__construct(STRING(195) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliManipulationStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 223
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:48:37]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1 SQL: UPDATE `Tree` SET  WHERE `id`=0
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1
+    [sql] => UPDATE `Tree` SET  WHERE `id`=0
+)
+
+Back trace:
+* lmbException::__construct(STRING(195) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliManipulationStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 223
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:49:39]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1 SQL: UPDATE `Tree` SET  WHERE `id`=0
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1
+    [sql] => UPDATE `Tree` SET  WHERE `id`=0
+)
+
+Back trace:
+* lmbException::__construct(STRING(195) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliManipulationStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 223
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:50:36]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1 SQL: UPDATE `Tree` SET  WHERE `id`=0
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1
+    [sql] => UPDATE `Tree` SET  WHERE `id`=0
+)
+
+Back trace:
+* lmbException::__construct(STRING(195) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliManipulationStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 223
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:52:16]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1 SQL: UPDATE `Tree` SET  WHERE `id`=0
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1
+    [sql] => UPDATE `Tree` SET  WHERE `id`=0
+)
+
+Back trace:
+* lmbException::__construct(STRING(195) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliManipulationStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 223
+========================= [94.181.142.136][GET - /tree/inittree] [Nov 19 2013 21:52:17]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1 SQL: UPDATE `Tree` SET  WHERE `id`=0
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`=0' at line 1
+    [sql] => UPDATE `Tree` SET  WHERE `id`=0
+)
+
+Back trace:
+* lmbException::__construct(STRING(195) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(31) "UPDATE `Tree` SET  WHERE `id`=0") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliManipulationStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 223
+========================= [94.181.142.136][GET - /tree/showtree] [Nov 19 2013 22:16:26]=========================
+Error: Call to a member function getArray() on a non-object
+Back trace:
+* lmbLog::log(STRING(52) "Call to a member function getArray() on a non-object", INT(3), ARRAY(0), NULL, STRING(38) "[94.181.142.136][GET - /tree/showtree]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(52) "Call to a member function getArray() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(52) "Call to a member function getArray() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [94.181.142.136][GET - /tree/show] [Nov 19 2013 22:49:28]=========================
+Error: lmbException: Trying to get property of non-object
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/tree-show.phtml.3166451600.php
+    [line] => 43
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(36) "Trying to get property of non-object", STRING(73) "/usr/share/nginx/www/eastwood/var/compiled/tree-show.phtml.3166451600.php", INT(43), ARRAY(9)) in "/usr/share/nginx/www/eastwood/var/compiled/tree-show.phtml.3166451600.php" line 43
+* MacroTemplateExecutor27e2e5568e90e3716508ce4c8cece79b::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+* lmbMacroView::render() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbViewRenderingFilter.class.php" line 30
+* lmbViewRenderingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 10:50:30]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(14) "admin_category")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 11:10:27]=========================
+Error: lmbException: Undefined variable: item
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php
+    [line] => 50
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(24) "Undefined variable: item", STRING(86) "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php", INT(50), ARRAY(12)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 50
+* MacroTemplateExecutorda22cf6ea24ecbb64f3686942ca0561c::_render_tree070c6684d7659988fb3f3391aa3352a8(ARRAY(4), INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 19
+* MacroTemplateExecutorda22cf6ea24ecbb64f3686942ca0561c::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+* lmbMacroView::render() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbViewRenderingFilter.class.php" line 30
+========================= [127.0.0.1][GET - /admin_category/delete/4] [Nov 20 2013 11:12:59]=========================
+Error: lmbARException: Could not find class 'Category'
+Back trace:
+* lmbException::__construct(STRING(31) "Could not find class 'Category'") in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1616
+* lmbActiveRecord::findByIds(STRING(8) "Category", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbAdminObjectController.class.php" line 102
+* lmbAdminObjectController::doDelete() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][POST - /admin_category/create/2] [Nov 20 2013 12:03:40]=========================
+Error: lmbTreeInvalidNodeException: Node '2' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '2' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(2)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(2)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 436
+* lmbMPTree::createNode(INT(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 33
+* Tree::addNodeTo(INT(2), STRING(5) "new 1") in "/usr/share/nginx/www/eastwood/src/controller/AdminCategoryController.class.php" line 26
+========================= [127.0.0.1][POST - /admin_category/create/2] [Nov 20 2013 12:05:22]=========================
+Error: lmbTreeInvalidNodeException: Node '' is invalid
+Back trace:
+* lmbException::__construct(STRING(18) "Node '' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(NULL) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(NULL) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 436
+* lmbMPTree::createNode(NULL, ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 34
+* Tree::addNodeTo(INT(2), STRING(5) "new 1") in "/usr/share/nginx/www/eastwood/src/controller/AdminCategoryController.class.php" line 26
+========================= [127.0.0.1][POST - /admin_category/create/2] [Nov 20 2013 12:10:41]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", INT(2)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", INT(2)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", INT(2)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(INT(2)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 33
+========================= [127.0.0.1][POST - /admin_category/create/2] [Nov 20 2013 12:14:32]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", INT(1)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", INT(1)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", INT(1)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(INT(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 33
+========================= [127.0.0.1][POST - /admin_category/create/2] [Nov 20 2013 12:19:52]=========================
+Error: lmbTreeInvalidNodeException: Node '/1/2/4/' is invalid
+Back trace:
+* lmbException::__construct(STRING(25) "Node '/1/2/4/' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(STRING(7) "/1/2/4/") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(STRING(7) "/1/2/4/") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 330
+* lmbMPTree::getPathToNode(STRING(7) "/1/2/4/") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 34
+* Tree::addNodeTo(INT(2), STRING(5) "new 1") in "/usr/share/nginx/www/eastwood/src/controller/AdminCategoryController.class.php" line 26
+========================= [127.0.0.1][POST - /admin_category/create/2] [Nov 20 2013 12:20:16]=========================
+Error: lmbTreeInvalidNodeException: Node '' is invalid
+Back trace:
+* lmbException::__construct(STRING(18) "Node '' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(NULL) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(NULL) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 436
+* lmbMPTree::createNode(NULL, ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 36
+* Tree::addNodeTo(INT(2), STRING(5) "new 1") in "/usr/share/nginx/www/eastwood/src/controller/AdminCategoryController.class.php" line 26
+========================= [127.0.0.1][POST - /admin_category/create/2] [Nov 20 2013 12:21:49]=========================
+Error: lmbTreeInvalidNodeException: Node '' is invalid
+Back trace:
+* lmbException::__construct(STRING(18) "Node '' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(NULL) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(NULL) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 436
+* lmbMPTree::createNode(NULL, ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 36
+* Tree::addNodeTo(INT(2), STRING(5) "new 1") in "/usr/share/nginx/www/eastwood/src/controller/AdminCategoryController.class.php" line 26
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:30:01]=========================
+Error: lmbException: Undefined variable: commnt
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(26) "Undefined variable: commnt", STRING(86) "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php", INT(54), ARRAY(14)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 54
+* MacroTemplateExecutora3dffa4d32b831ebba99c530130ea08f::_render_treef10b0b654b469588925cff86184b771f(ARRAY(3), INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 19
+* MacroTemplateExecutora3dffa4d32b831ebba99c530130ea08f::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+* lmbMacroView::render() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbViewRenderingFilter.class.php" line 30
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:30:07]=========================
+Error: lmbException: Undefined variable: commnt
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(26) "Undefined variable: commnt", STRING(86) "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php", INT(54), ARRAY(14)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 54
+* MacroTemplateExecutor655114360a9069fc6dab70f2d70e0156::_render_treee020454a507bb203a5a96ffd550f398c(ARRAY(3), INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 19
+* MacroTemplateExecutor655114360a9069fc6dab70f2d70e0156::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+* lmbMacroView::render() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbViewRenderingFilter.class.php" line 30
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:35:10]=========================
+Error: lmbException: Undefined variable: commnt
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php
+    [line] => 50
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(26) "Undefined variable: commnt", STRING(86) "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php", INT(50), ARRAY(12)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 50
+* MacroTemplateExecutorad3c93fc777f5b94ea21f262b613f1d3::_render_tree2c9d9df7724bfa06dbeaa5f0302cd3d2(ARRAY(3), INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 19
+* MacroTemplateExecutorad3c93fc777f5b94ea21f262b613f1d3::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+* lmbMacroView::render() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbViewRenderingFilter.class.php" line 30
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:35:11]=========================
+Error: lmbException: Undefined variable: commnt
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php
+    [line] => 50
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(26) "Undefined variable: commnt", STRING(86) "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php", INT(50), ARRAY(12)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 50
+* MacroTemplateExecutor94757fa52246450df375c954b6fd3c9f::_render_treeee0a9d9ff29080fd717d894b79a8f542(ARRAY(3), INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 19
+* MacroTemplateExecutor94757fa52246450df375c954b6fd3c9f::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+* lmbMacroView::render() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbViewRenderingFilter.class.php" line 30
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:35:18]=========================
+Error: lmbException: Undefined variable: commnt
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php
+    [line] => 50
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(26) "Undefined variable: commnt", STRING(86) "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php", INT(50), ARRAY(12)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 50
+* MacroTemplateExecutor5a5e316b22de57724a760a7a491eace0::_render_treea7412523c33542c2c2e82f79698e0988(ARRAY(3), INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 19
+* MacroTemplateExecutor5a5e316b22de57724a760a7a491eace0::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+* lmbMacroView::render() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbViewRenderingFilter.class.php" line 30
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:35:38]=========================
+Error: lmbException: Route '' not found for params 'ARRAY(4) [
+  [action] => STRING(6) "create"
+  [id] => STRING(2) "14"
+  [path] => STRING(7) "/13/14/"
+  [controller] => STRING(14) "admin_category"
+]'
+Back trace:
+* lmbException::__construct(STRING(180) "Route '' not found for params 'ARRAY(4) [
+  [action] =&gt; STRING(6) &quot;create&quot;
+  [id] =&gt; STRING(2) &quot;14&quot;
+...") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/request/lmbRoutes.class.php" line 65
+* lmbRoutes::toUrl(ARRAY(4), STRING(0) "") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 76
+* lmbWebAppTools::getRoutesUrl(ARRAY(3), STRING(0) "", FALSE)
+* call_user_func_array(ARRAY(2), ARRAY(3)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(12) "getRoutesUrl", ARRAY(3)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 61
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:36:22]=========================
+Error: lmbException: Undefined offset: 1
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/core/src/lmbArrayHelper.class.php
+    [line] => 50
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(19) "Undefined offset: 1", STRING(72) "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbArrayHelper.class.php", INT(50), ARRAY(7)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbArrayHelper.class.php" line 50
+* lmbArrayHelper::explode(STRING(1) ",", STRING(1) ":", STRING(27) "action:create,,path:/13/14/") in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 54
+* MacroTemplateExecutor2114961cd808ce1c6da5204c3af9e0c4::_render_treefe7cef6d35afe31968c915719c01ac0e(ARRAY(3), INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 19
+* MacroTemplateExecutor2114961cd808ce1c6da5204c3af9e0c4::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+========================= [127.0.0.1][GET - /admin_category] [Nov 20 2013 12:36:29]=========================
+Error: lmbException: Route '' not found for params 'ARRAY(3) [
+  [action] => STRING(6) "create"
+  [path] => STRING(7) "/13/14/"
+  [controller] => STRING(14) "admin_category"
+]'
+Back trace:
+* lmbException::__construct(STRING(155) "Route '' not found for params 'ARRAY(3) [
+  [action] =&gt; STRING(6) &quot;create&quot;
+  [path] =&gt; STRING(7) &quot;/1...") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/request/lmbRoutes.class.php" line 65
+* lmbRoutes::toUrl(ARRAY(3), STRING(0) "") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 76
+* lmbWebAppTools::getRoutesUrl(ARRAY(2), STRING(0) "", FALSE)
+* call_user_func_array(ARRAY(2), ARRAY(3)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(12) "getRoutesUrl", ARRAY(3)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 57
+========================= [127.0.0.1][POST - /admin_category/create/14] [Nov 20 2013 12:39:23]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(1) "1") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(1) "1") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(1) "1") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(1) "1") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 33
+========================= [127.0.0.1][POST - /admin_category/create/14] [Nov 20 2013 12:39:36]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(1) "1") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(1) "1") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(1) "1") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(1) "1") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 33
+========================= [127.0.0.1][POST - /admin_category/create/14] [Nov 20 2013 12:39:58]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(3) "1,2") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(3) "1,2") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(3) "1,2") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(3) "1,2") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 33
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:25:31]=========================
+Error: lmbDbException: Table does not exist 'lmb_active_record'
+Back trace:
+* lmbException::__construct(STRING(40) "Table does not exist 'lmb_active_record'") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliDbInfo.class.php" line 57
+* lmbMysqliDbInfo::getTable(STRING(17) "lmb_active_record")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+* lmbProxy::__call(STRING(8) "getTable", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 65
+* lmbDbCachedInfo::getTable(STRING(17) "lmb_active_record") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 65
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:28:54]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `property`.`id` ASC' at line 1 SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `property`.`id` ASC' at line 1
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(360) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(180) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(180) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:28:55]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `property`.`id` ASC' at line 1 SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `property`.`id` ASC' at line 1
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(360) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(180) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(180) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:34:32]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 14 ORDER BY `user`.`id` ASC' at line 1 SQL: SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE node_id == 14 ORDER BY `user`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 14 ORDER BY `user`.`id` ASC' at line 1
+    [sql] => SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE node_id == 14 ORDER BY `user`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(450) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(268) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(268) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:34:33]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 14 ORDER BY `user`.`id` ASC' at line 1 SQL: SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE node_id == 14 ORDER BY `user`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 14 ORDER BY `user`.`id` ASC' at line 1
+    [sql] => SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE node_id == 14 ORDER BY `user`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(450) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(268) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(268) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:40:18]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `user`.`id` ASC' at line 1 SQL: SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE ORDER BY `user`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `user`.`id` ASC' at line 1
+    [sql] => SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE ORDER BY `user`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(430) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(254) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(254) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:40:19]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `user`.`id` ASC' at line 1 SQL: SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE ORDER BY `user`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY `user`.`id` ASC' at line 1
+    [sql] => SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password` as `hashed_password`,`user`.`email` as `email`,`user`.`is_admin` as `is_admin`,`user`.`address` as `address` FROM `user`  WHERE ORDER BY `user`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(430) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(254) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(254) "SELECT `user`.`id` as `id`,`user`.`name` as `name`,`user`.`login` as `login`,`user`.`hashed_password...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:42:17]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:42:18]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:43:33]=========================
+Error: lmbDbException: Table does not exist 'lmb_active_record'
+Back trace:
+* lmbException::__construct(STRING(40) "Table does not exist 'lmb_active_record'") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliDbInfo.class.php" line 57
+* lmbMysqliDbInfo::getTable(STRING(17) "lmb_active_record")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+* lmbProxy::__call(STRING(8) "getTable", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 65
+* lmbDbCachedInfo::getTable(STRING(17) "lmb_active_record") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 65
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:43:34]=========================
+Error: lmbDbException: Table does not exist 'lmb_active_record'
+Back trace:
+* lmbException::__construct(STRING(40) "Table does not exist 'lmb_active_record'") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliDbInfo.class.php" line 57
+* lmbMysqliDbInfo::getTable(STRING(17) "lmb_active_record")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+* lmbProxy::__call(STRING(8) "getTable", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 65
+* lmbDbCachedInfo::getTable(STRING(17) "lmb_active_record") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 65
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:44:46]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:44:47]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:45:22]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:45:39]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:46:04]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:48:06]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:48:18]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:48:19]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:48:35]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:49:02]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:49:17]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 26
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:49:46]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:49:47]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_category/create_property/14] [Nov 20 2013 16:49:48]=========================
+Error: lmbDbException: Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1054
+    [error] => Unknown column 'property.id' in 'order clause'
+    [sql] => SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE 1 = 1 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(238) "Unknown column 'property.id' in 'order clause' SQL: SELECT `property`.`property_id` as `property_id`...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(186) "SELECT `property`.`property_id` as `property_id`,`property`.`property_name` as `property_name`,`prop...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][POST - /admin_category/create_property/14] [Nov 20 2013 16:52:48]=========================
+Error: lmbDbException: Duplicate entry '14' for key 'PRIMARY' SQL: INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('test',14,14)
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1062
+    [error] => Duplicate entry '14' for key 'PRIMARY'
+    [sql] => INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('test',14,14)
+)
+
+Back trace:
+* lmbException::__construct(STRING(121) "Duplicate entry '14' for key 'PRIMARY' SQL: INSERT INTO `property` (`property_name`,`node_id`,`id`) ...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(77) "INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('test',14,14)") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(77) "INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('test',14,14)") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliInsertStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliInsertStatement.class.php" line 22
+========================= [127.0.0.1][POST - /admin_category/create_property/14] [Nov 20 2013 16:54:36]=========================
+Error: lmbDbException: Duplicate entry '14' for key 'PRIMARY' SQL: INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('testt',14,14)
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1062
+    [error] => Duplicate entry '14' for key 'PRIMARY'
+    [sql] => INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('testt',14,14)
+)
+
+Back trace:
+* lmbException::__construct(STRING(122) "Duplicate entry '14' for key 'PRIMARY' SQL: INSERT INTO `property` (`property_name`,`node_id`,`id`) ...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(78) "INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('testt',14,14)") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(78) "INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('testt',14,14)") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliInsertStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliInsertStatement.class.php" line 22
+========================= [127.0.0.1][POST - /admin_category/create_property/14] [Nov 20 2013 16:59:27]=========================
+Error: lmbDbException: Duplicate entry '14' for key 'PRIMARY' SQL: INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('fak',14,14)
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1062
+    [error] => Duplicate entry '14' for key 'PRIMARY'
+    [sql] => INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('fak',14,14)
+)
+
+Back trace:
+* lmbException::__construct(STRING(120) "Duplicate entry '14' for key 'PRIMARY' SQL: INSERT INTO `property` (`property_name`,`node_id`,`id`) ...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(76) "INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('fak',14,14)") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(76) "INSERT INTO `property` (`property_name`,`node_id`,`id`) VALUES ('fak',14,14)") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 118
+* lmbMysqliConnection::executeStatement(OBJECT(lmbMysqliInsertStatement)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlStatement.class.php" line 172
+* lmbMysqlStatement::execute() in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliInsertStatement.class.php" line 22
+========================= [127.0.0.1][GET - /admin_category/] [Nov 20 2013 17:07:38]=========================
+Error: lmbException: Route '' not found for params 'ARRAY(3) [
+  [action] => STRING(15) "create_property"
+  [node_id] => STRING(2) "14"
+  [controller] => STRING(14) "admin_category"
+]'
+Back trace:
+* lmbException::__construct(STRING(163) "Route '' not found for params 'ARRAY(3) [
+  [action] =&gt; STRING(15) &quot;create_property&quot;
+  [node_id] =&gt; ...") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/request/lmbRoutes.class.php" line 65
+* lmbRoutes::toUrl(ARRAY(3), STRING(0) "") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 76
+* lmbWebAppTools::getRoutesUrl(ARRAY(2), STRING(0) "", FALSE)
+* call_user_func_array(ARRAY(2), ARRAY(3)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(12) "getRoutesUrl", ARRAY(3)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 77
+========================= [127.0.0.1][GET - /admin_category/] [Nov 20 2013 17:07:40]=========================
+Error: lmbException: Route '' not found for params 'ARRAY(3) [
+  [action] => STRING(15) "create_property"
+  [node_id] => STRING(2) "14"
+  [controller] => STRING(14) "admin_category"
+]'
+Back trace:
+* lmbException::__construct(STRING(163) "Route '' not found for params 'ARRAY(3) [
+  [action] =&gt; STRING(15) &quot;create_property&quot;
+  [node_id] =&gt; ...") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/request/lmbRoutes.class.php" line 65
+* lmbRoutes::toUrl(ARRAY(3), STRING(0) "") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 76
+* lmbWebAppTools::getRoutesUrl(ARRAY(2), STRING(0) "", FALSE)
+* call_user_func_array(ARRAY(2), ARRAY(3)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(12) "getRoutesUrl", ARRAY(3)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 77
+========================= [127.0.0.1][GET - /admin_category/create_property/17] [Nov 20 2013 17:09:51]=========================
+Error: lmbException: All fields filtered! Insert statement must contain atleast one field!
+Additional attributes: Array
+(
+    [table] => property
+    [raw] => Array
+        (
+            [controller] => admin_category
+            [action] => create_property
+        )
+
+)
+
+Back trace:
+* lmbException::__construct(STRING(69) "All fields filtered! Insert statement must contain atleast one field!", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/lmbTableGateway.class.php" line 160
+* lmbTableGateway::insert(ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1089
+* lmbActiveRecord::_insertDbRecord(ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1053
+* lmbActiveRecord::_doSave(TRUE) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 1284
+* lmbActiveRecord::save() in "/usr/share/nginx/www/eastwood/src/controller/AdminCategoryController.class.php" line 50
+========================= [127.0.0.1][GET - /admin_category/create_property/15] [Nov 20 2013 17:17:24]=========================
+Error: lmbDbException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 14 ORDER BY `property`.`id` ASC' at line 1 SQL: SELECT `property`.`id` as `id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE node_id == 14 ORDER BY `property`.`id` ASC
+Additional attributes: Array
+(
+    [driver] => lmbMysql
+    [errorno] => 1064
+    [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 14 ORDER BY `property`.`id` ASC' at line 1
+    [sql] => SELECT `property`.`id` as `id`,`property`.`property_name` as `property_name`,`property`.`node_id` as `node_id` FROM `property`  WHERE node_id == 14 ORDER BY `property`.`id` ASC
+)
+
+Back trace:
+* lmbException::__construct(STRING(362) "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version...", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 103
+* lmbMysqliConnection::_raiseError(STRING(176) "SELECT `property`.`id` as `id`,`property`.`property_name` as `property_name`,`property`.`node_id` as...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliConnection.class.php" line 111
+* lmbMysqliConnection::execute(STRING(176) "SELECT `property`.`id` as `id`,`property`.`property_name` as `property_name`,`property`.`node_id` as...") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysqli/lmbMysqliRecordSet.class.php" line 80
+* lmbMysqliRecordSet::rewind() in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbCollectionDecorator.class.php" line 43
+* lmbCollectionDecorator::rewind() in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-create_property.phtml.2520255291.php" line 85
+========================= [127.0.0.1][GET - /admin_user] [Nov 21 2013 10:46:30]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 26
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(26), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 26
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [127.0.0.1][GET - /admin_user] [Nov 21 2013 10:46:45]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 26
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(26), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 26
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [127.0.0.1][GET - /admin_user] [Nov 21 2013 10:48:04]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 32
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(32), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 32
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [127.0.0.1][GET - /admin_user] [Nov 21 2013 10:48:05]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 32
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(32), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 32
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [127.0.0.1][GET - /admin_user] [Nov 21 2013 10:49:05]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 32
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(32), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 32
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [127.0.0.1][GET - /admin_user] [Nov 21 2013 10:49:06]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 32
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(32), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 32
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [127.0.0.1][GET - /admin_category/] [Nov 21 2013 11:17:38]=========================
+Error: lmbMacroException: MACRO exception: Template tag not found
+Additional attributes: Array
+(
+    [template] => object_action_edit
+    [tag] => apply
+    [file] => /usr/share/nginx/www/eastwood/template/admin_category/display.phtml
+    [line] => 14
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(22) "Template tag not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(22) "Template tag not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/apply.tag.php" line 52
+* lmbMacroApplyTag::_generateContent(OBJECT(lmbMacroCodeWriter)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 172
+========================= [127.0.0.1][GET - /admin_category/] [Nov 21 2013 11:17:57]=========================
+Error: lmbMacroException: MACRO exception: Template tag not found
+Additional attributes: Array
+(
+    [template] => object_action_edit
+    [tag] => apply
+    [file] => /usr/share/nginx/www/eastwood/template/admin_category/display.phtml
+    [line] => 14
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(22) "Template tag not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(22) "Template tag not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/apply.tag.php" line 52
+* lmbMacroApplyTag::_generateContent(OBJECT(lmbMacroCodeWriter)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 172
+========================= [127.0.0.1][GET - /admin_category/] [Nov 21 2013 11:17:58]=========================
+Error: lmbMacroException: MACRO exception: Template tag not found
+Additional attributes: Array
+(
+    [template] => object_action_edit
+    [tag] => apply
+    [file] => /usr/share/nginx/www/eastwood/template/admin_category/display.phtml
+    [line] => 14
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(22) "Template tag not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(22) "Template tag not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/apply.tag.php" line 52
+* lmbMacroApplyTag::_generateContent(OBJECT(lmbMacroCodeWriter)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 172
+========================= [127.0.0.1][GET - /admin_product/] [Nov 21 2013 16:21:01]=========================
+Error: lmbMacroException: MACRO exception: Template tag not found
+Additional attributes: Array
+(
+    [template] => object_action_properties
+    [tag] => apply
+    [file] => /usr/share/nginx/www/eastwood/template/admin_product/display.phtml
+    [line] => 47
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Template tag not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(22) "Template tag not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(22) "Template tag not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/apply.tag.php" line 52
+* lmbMacroApplyTag::_generateContent(OBJECT(lmbMacroCodeWriter)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 172
+========================= [127.0.0.1][GET - /admin_product/edit_property/20] [Nov 21 2013 16:27:45]=========================
+Error: Call to a member function count() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function count() on a non-object", INT(3), ARRAY(0), NULL, STRING(50) "[127.0.0.1][GET - /admin_product/edit_property/20]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function count() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function count() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [127.0.0.1][GET - /admin_product/create_to/14] [Nov 21 2013 16:56:51]=========================
+Error: Call to a member function count() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function count() on a non-object", INT(3), ARRAY(0), NULL, STRING(46) "[127.0.0.1][GET - /admin_product/create_to/14]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function count() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function count() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [127.0.0.1][GET - /admin_product/create_to/14] [Nov 21 2013 16:57:41]=========================
+Error: Call to a member function count() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function count() on a non-object", INT(3), ARRAY(0), NULL, STRING(46) "[127.0.0.1][GET - /admin_product/create_to/14]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function count() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function count() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [127.0.0.1][GET - /admin_product/create_to/14] [Nov 21 2013 16:57:42]=========================
+Error: Call to a member function count() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function count() on a non-object", INT(3), ARRAY(0), NULL, STRING(46) "[127.0.0.1][GET - /admin_product/create_to/14]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function count() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function count() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [127.0.0.1][GET - /admin_product/create_to/18] [Nov 21 2013 17:29:41]=========================
+Error: lmbMacroException: MACRO exception: Unexpected closing tag
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/template/admin_product/create_to.phtml
+    [tag] => wrap
+    [line] => 65
+    [expected_tag] => apply
+    [expected_file] => /usr/share/nginx/www/eastwood/template/admin_product/create_to.phtml
+    [expected_line] => 9
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 154
+* lmbMacroTreeBuilder::popExpectedTag(STRING(4) "wrap", OBJECT(lmbMacroSourceLocation)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 73
+* lmbMacroTagParsingState::endElement(STRING(4) "wrap") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 114
+* lmbMacroParser::endElement(STRING(4) "wrap") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTokenizer.class.php" line 164
+========================= [127.0.0.1][GET - /admin_product/create_to/18] [Nov 21 2013 17:30:04]=========================
+Error: lmbException: Undefined variable: category_id
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php
+    [line] => 289
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(31) "Undefined variable: category_id", STRING(87) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php", INT(289), ARRAY(1)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 289
+* MacroTemplateExecutord03335ec428e92a8a8c6794fa392bb92::__slotHandler03c5a0016042d44b968a2615145bac8c(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 67
+* MacroTemplateExecutord03335ec428e92a8a8c6794fa392bb92::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 10
+* MacroTemplateExecutord03335ec428e92a8a8c6794fa392bb92::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+========================= [127.0.0.1][GET - /admin_product/create_to/18] [Nov 21 2013 17:30:30]=========================
+Error: lmbException: Undefined variable: category
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php
+    [line] => 289
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(28) "Undefined variable: category", STRING(87) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php", INT(289), ARRAY(1)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 289
+* MacroTemplateExecutore72822a67b386bc5e1361952063530b5::__slotHandlera15a7641b14ab9acf37cc35593315e89(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 67
+* MacroTemplateExecutore72822a67b386bc5e1361952063530b5::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 10
+* MacroTemplateExecutore72822a67b386bc5e1361952063530b5::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+========================= [127.0.0.1][GET - /admin_product/create_to/18] [Nov 21 2013 17:30:31]=========================
+Error: lmbException: Undefined variable: category
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php
+    [line] => 289
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(28) "Undefined variable: category", STRING(87) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php", INT(289), ARRAY(1)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 289
+* MacroTemplateExecutor34fb4bbd38f090a71f1a5e8d525bb2a8::__slotHandlera598343cfd0e33791444ddda7edb804a(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 67
+* MacroTemplateExecutor34fb4bbd38f090a71f1a5e8d525bb2a8::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 10
+* MacroTemplateExecutor34fb4bbd38f090a71f1a5e8d525bb2a8::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+========================= [127.0.0.1][GET - /admin_product/create_to/18] [Nov 21 2013 17:37:51]=========================
+Error: lmbException: Undefined variable: category
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php
+    [line] => 289
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(28) "Undefined variable: category", STRING(87) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php", INT(289), ARRAY(1)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 289
+* MacroTemplateExecutorb3b6f270247797ce8f87957716da5c1b::__slotHandlere06a67df50d655e761ce84227d304729(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 67
+* MacroTemplateExecutorb3b6f270247797ce8f87957716da5c1b::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-create_to.phtml.2673647434.php" line 10
+* MacroTemplateExecutorb3b6f270247797ce8f87957716da5c1b::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+* lmbMacroTemplate::render() in "/usr/share/nginx/www/eastwood/lib/limb/view/src/lmbMacroView.class.php" line 35
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:08:45]=========================
+Error: lmbException: Invalid attribute syntax starting from: true" title="Создать Product"/}}
+    </div>
+
+    {{include file='_admin/pager.phtml' items='{$this->items}'/}}
+  </div>
+
+  <div id="body">
+
+    {{list using="{$this->items}" as="$item" counter="$counter" parity='$parity'}}
+
+      <div class="list">
+        <div class='list_actions'>
+          {{apply template="selectors_button" action="set_available" title="Set available" /}}
+          {{apply template="selectors_button" action="set_unavailable" title="Set unavailable" /}}
+        </div>
+        <table>
+          <tr>
+            <th>{{apply template="selectors_toggler"/}}</th>
+            <th>#ID</th>
+            <th width='20%'>Title</th>
+            <th width='10%'>Price</th>
+            <th width='10%'>Image</th>
+            <th width="10%">Availability</th>
+            <th width='40%'>Decsription</th>
+            <th>Actions</th>
+          </tr>
+          {{list:item}}
+            <tr class='{$parity}'>
+              <td>{{apply template="selector" value="{$item.id}"/}}</td>
+              <td>#{$item.id}</td>
+              <td>{$item.title}</td>
+              <td>{$item.price}</td>
+              <td><img src="/{$item.image_path}"/></td>
+              <td><img src="/shared/cms/images/icons/<?php echo  ($item->getIsAvailable()) ? 'lightbulb.png' : 'lightbulb_off.png'; ?>"/></td>
+              <td>{$item.description|raw|nl2br}</td>
+              <td class='actions'>
+                {{apply template="object_action_edit"  item="{$item}" icon="page_white_edit" /}}
+                {{apply template="object_action_delete" item="{$item}" icon="page_white_delete" /}}
+                  <a href='{{route_url params="action:edit_property,id:{$item.id}"/}}'>Edit Property</a>
+              </td>
+            </tr>
+          {{/list:item}}
+          {{list:empty}}
+            <div class="empty_list">Empty</div>
+          {{/list:empty}}
+        </table>
+        <div class='list_actions'>
+          {{apply template="selectors_button" action="set_available" title="Set available" /}}
+          {{apply template="selectors_button" action="set_unavailable" title="Set unavailable" /}}
+        </div>
+      </div>
+
+    {{/list}}
+
+  </div>
+
+{{/wrap}}
+
+Back trace:
+* lmbException::__construct(STRING(2212) "Invalid attribute syntax starting from: true&quot; title=&quot;Создать Product&quot;/}}
+    &lt;/div&gt;
+
+    {{in...") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroBaseParsingState.class.php" line 41
+* lmbMacroBaseParsingState::invalidAttributeSyntax(STRING(2172) "true&quot; title=&quot;Создать Product&quot;/}}
+    &lt;/div&gt;
+
+    {{include file='_admin/pager.phtml' items='{...") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 144
+* lmbMacroParser::invalidAttributeSyntax(STRING(2172) "true&quot; title=&quot;Создать Product&quot;/}}
+    &lt;/div&gt;
+
+    {{include file='_admin/pager.phtml' items='{...") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTokenizer.class.php" line 241
+* lmbMacroTokenizer::parse(STRING(2479) "{{wrap with=&quot;admin_page_layout.phtml&quot; in=&quot;content_zone&quot;}}
+
+  {{include file=&quot;_admin/selectors.phtml&quot;...", STRING(66) "/usr/share/nginx/www/eastwood/template/admin_product/display.phtml") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 84
+* lmbMacroParser::parse(STRING(66) "/usr/share/nginx/www/eastwood/template/admin_product/display.phtml", OBJECT(lmbMacroNode)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 76
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:36:48]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", INT(15)) in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", INT(15)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", INT(15)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(INT(15), INT(17), INT(18)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 60
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:37:26]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 60
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:37:27]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(8) "15,16,18") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 60
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:41:28]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php
+    [line] => 334
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(85) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php", INT(334), ARRAY(6)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 334
+* MacroTemplateExecutorf880a09e90404d902198a6584745efed::_render_tree8f5ee7f74be73c84d5e6003d812fb9e8(NULL, INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 293
+* MacroTemplateExecutorf880a09e90404d902198a6584745efed::__slotHandlerafb1fe4194b354dfc0d2f514f9d893f5(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 66
+* MacroTemplateExecutorf880a09e90404d902198a6584745efed::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 9
+* MacroTemplateExecutorf880a09e90404d902198a6584745efed::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:42:11]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php
+    [line] => 334
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(85) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php", INT(334), ARRAY(6)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 334
+* MacroTemplateExecutor284a409facfe8541a42142941a7c27c7::_render_treea845917686e261ea9a0ccf020376cd79(NULL, INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 293
+* MacroTemplateExecutor284a409facfe8541a42142941a7c27c7::__slotHandlerca4668284a34ac87f308024e908dc966(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 66
+* MacroTemplateExecutor284a409facfe8541a42142941a7c27c7::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 9
+* MacroTemplateExecutor284a409facfe8541a42142941a7c27c7::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:45:55]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php
+    [line] => 334
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(85) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php", INT(334), ARRAY(6)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 334
+* MacroTemplateExecutor2c80ff4cd690352b3ed7ad1f5da48c29::_render_treecdf0c1d22344dfc176e87c1b8b169654(NULL, INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 293
+* MacroTemplateExecutor2c80ff4cd690352b3ed7ad1f5da48c29::__slotHandler878629269e0080d538c98b53db637908(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 66
+* MacroTemplateExecutor2c80ff4cd690352b3ed7ad1f5da48c29::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 9
+* MacroTemplateExecutor2c80ff4cd690352b3ed7ad1f5da48c29::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:45:58]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php
+    [line] => 334
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(85) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php", INT(334), ARRAY(6)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 334
+* MacroTemplateExecutor4b4312c231285ce68da2a62db1e2f1b3::_render_tree03b777289ec24aa4da604673c82529b0(NULL, INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 293
+* MacroTemplateExecutor4b4312c231285ce68da2a62db1e2f1b3::__slotHandlerc2a8aa980e5786517977056e409c5b6d(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 66
+* MacroTemplateExecutor4b4312c231285ce68da2a62db1e2f1b3::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 9
+* MacroTemplateExecutor4b4312c231285ce68da2a62db1e2f1b3::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:45:59]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php
+    [line] => 334
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(85) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php", INT(334), ARRAY(6)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 334
+* MacroTemplateExecutor0070c7fa262cfb52bd2bde739ed642a1::_render_treed381a91e443a902856d6eb1743539544(NULL, INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 293
+* MacroTemplateExecutor0070c7fa262cfb52bd2bde739ed642a1::__slotHandler49bcd3668533849761fce82319a370ca(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 66
+* MacroTemplateExecutor0070c7fa262cfb52bd2bde739ed642a1::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 9
+* MacroTemplateExecutor0070c7fa262cfb52bd2bde739ed642a1::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:46:06]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php
+    [line] => 334
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(85) "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php", INT(334), ARRAY(6)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 334
+* MacroTemplateExecutor6ba14e85755db12d75af4171aca34410::_render_treed869389f167343d18ab23d2bcf8564fb(NULL, INT(0), ARRAY(2)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 293
+* MacroTemplateExecutor6ba14e85755db12d75af4171aca34410::__slotHandler6a95b0360e39a3ad2693d4565d9337b8(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 66
+* MacroTemplateExecutor6ba14e85755db12d75af4171aca34410::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_product-display.phtml.1411840935.php" line 9
+* MacroTemplateExecutor6ba14e85755db12d75af4171aca34410::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:48:59]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 51
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:49:24]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 51
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:49:34]=========================
+Error: lmbException: implode(): Invalid arguments passed
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php
+    [line] => 22
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(35) "implode(): Invalid arguments passed", STRING(89) "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php", INT(22), ARRAY(2))
+* implode(STRING(3) "','", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/dbal/src/drivers/mysql/lmbMysqlExtension.class.php" line 22
+* lmbMysqlExtension::in(STRING(2) "id", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 397
+* lmbMPTree::_dbIn(STRING(2) "id", STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 349
+* lmbMPTree::getNodesByIds(STRING(5) "16,18") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 51
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:53:48]=========================
+Error: lmbException: Use of undefined constant id - assumed 'id'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 53
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(43) "Use of undefined constant id - assumed 'id'", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(53), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 53
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:55:06]=========================
+Error: lmbException: Object of class lmbMysqliRecord could not be converted to string
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 53
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(4096), STRING(64) "Object of class lmbMysqliRecord could not be converted to string", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(53), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 53
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:56:14]=========================
+Error: lmbException: Undefined property: lmbMysqliRecord::$id
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 53
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(40) "Undefined property: lmbMysqliRecord::$id", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(53), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 53
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:56:22]=========================
+Error: lmbException: Use of undefined constant id - assumed 'id'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 53
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(43) "Use of undefined constant id - assumed 'id'", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(53), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 53
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:58:21]=========================
+Error: lmbException: Use of undefined constant properties - assumed 'properties'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(59) "Use of undefined constant properties - assumed 'properties'", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:58:45]=========================
+Error: lmbException: Use of undefined constant properties - assumed 'properties'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(59) "Use of undefined constant properties - assumed 'properties'", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 10:59:48]=========================
+Error: lmbException: Use of undefined constant id - assumed 'id'
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(43) "Use of undefined constant id - assumed 'id'", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:04:09]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 51
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(51), ARRAY(2)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 51
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:06:34]=========================
+Error: lmbException: Object of class lmbMysqliRecord could not be converted to string
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(4096), STRING(64) "Object of class lmbMysqliRecord could not be converted to string", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(4)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:09:07]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:09:12]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:09:13]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:09:13]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:09:17]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:09:18]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:09:22]=========================
+Error: lmbException: Invalid argument supplied for foreach()
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 54
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(39) "Invalid argument supplied for foreach()", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(54), ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 54
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:19:24]=========================
+Error: Call to undefined function checkChildren()
+Back trace:
+* lmbLog::log(STRING(42) "Call to undefined function checkChildren()", INT(3), ARRAY(0), NULL, STRING(34) "[127.0.0.1][GET - /admin_product/]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(42) "Call to undefined function checkChildren()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(42) "Call to undefined function checkChildren()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:50:06]=========================
+Error: lmbException: Undefined variable: rs
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 44
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(22) "Undefined variable: rs", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(44), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 44
+* Tree::checkChildren(STRING(2) "14") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 70
+* Tree::GetArrayIdsFoliageTree() in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 52
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:59:42]=========================
+Error: lmbException: Undefined variable: rs
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 44
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(22) "Undefined variable: rs", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(44), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 44
+* Tree::checkChildren(STRING(2) "14") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 70
+* Tree::GetArrayIdsFoliageTree() in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 52
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [127.0.0.1][GET - /admin_product/] [Nov 22 2013 11:59:43]=========================
+Error: lmbException: Undefined variable: rs
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/model/Tree.class.php
+    [line] => 44
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(22) "Undefined variable: rs", STRING(54) "/usr/share/nginx/www/eastwood/src/model/Tree.class.php", INT(44), ARRAY(1)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 44
+* Tree::checkChildren(STRING(2) "14") in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 70
+* Tree::GetArrayIdsFoliageTree() in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 52
+* Tree::getFoliage() in "/usr/share/nginx/www/eastwood/src/controller/AdminProductController.class.php" line 77
+* AdminProductController::doDisplay() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188

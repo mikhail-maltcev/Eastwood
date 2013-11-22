@@ -1,10 +1,10 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/admin_user/display.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor1d09528c1f62dc7ea1b343959b398db0', false)){
+if(!class_exists('MacroTemplateExecutor98de9ee57a483d470ea5afbd3a2ee379', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/core/src/lmbArrayHelper.class.php');
 require_once('limb/macro/src/filters/lmbMacroDefaultFilter.inc.php');
 require_once('limb/macro/src/tags/pager/lmbMacroPagerHelper.class.php');
-class MacroTemplateExecutor1d09528c1f62dc7ea1b343959b398db0 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor98de9ee57a483d470ea5afbd3a2ee379 extends lmbMacroTemplateExecutor {
 
 function _init() {
 $this->pager_pager = new lmbMacroPagerHelper('pager');
@@ -31,10 +31,10 @@ function __staticInclude1($file,$in,$into,$file) {
   <!--[if IE]><link rel="stylesheet" type="text/css" href="/shared/cms/styles/cp_ie.css?<?php echo htmlspecialchars($this->static_files_version,3); ?>" /><![endif]-->
   <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/shared/cms/styles/cp_ie6.css?<?php echo htmlspecialchars($this->static_files_version,3); ?>" /><![endif]-->
   <link rel="stylesheet" type="text/css" href="/shared/cms/styles/thickbox.css?<?php echo htmlspecialchars($this->static_files_version,3); ?>" />
-  <?php if(isset($this->__slot_handlers_header_zone)) {foreach($this->__slot_handlers_header_zone as $__slot_handler_header_zone) {call_user_func_array($__slot_handler_header_zone, array(array()));}}$this->__slotHandler2434ab1810c32ead7f0cdd8a70b517c1(array()); ?>
+  <?php if(isset($this->__slot_handlers_header_zone)) {foreach($this->__slot_handlers_header_zone as $__slot_handler_header_zone) {call_user_func_array($__slot_handler_header_zone, array(array()));}}$this->__slotHandler20d788b83a3bd56afa0e475263f1b891(array()); ?>
 
   <style type="text/css">
-    <?php if(isset($this->__slot_handlers_css_zone)) {foreach($this->__slot_handlers_css_zone as $__slot_handler_css_zone) {call_user_func_array($__slot_handler_css_zone, array(array()));}}$this->__slotHandlere9b33637c1058288fe5c8c5e89c67427(array()); ?>
+    <?php if(isset($this->__slot_handlers_css_zone)) {foreach($this->__slot_handlers_css_zone as $__slot_handler_css_zone) {call_user_func_array($__slot_handler_css_zone, array(array()));}}$this->__slotHandler5783ee604fa11b049da772d9c1d41747(array()); ?>
 
   </style>
 </head>
@@ -68,7 +68,7 @@ echo htmlspecialchars($BJ,3); ?> ]</li>
 
     <div id='main_col'>
       <div id="main_col_content">
-        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlerf18995a22e790afd292c713b9af61b37(array()); ?>
+        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler6e8156779874933396396d4eb51a90ab(array()); ?>
 
       </div>
     </div>
@@ -142,7 +142,7 @@ echo htmlspecialchars($GB,3); ?></a>
       <?php } ?>
 
       </dl>
-      <?php if(isset($this->__slot_handlers_context_help)) {foreach($this->__slot_handlers_context_help as $__slot_handler_context_help) {call_user_func_array($__slot_handler_context_help, array(array()));}}$this->__slotHandler246be2689145158d5bec9d83b2b7739f(array()); ?>
+      <?php if(isset($this->__slot_handlers_context_help)) {foreach($this->__slot_handlers_context_help as $__slot_handler_context_help) {call_user_func_array($__slot_handler_context_help, array(array()));}}$this->__slotHandler756081903188016b517589ecd677ca64(array()); ?>
 
     </div>
 
@@ -159,16 +159,16 @@ echo htmlspecialchars($GB,3); ?></a>
   <script src="/shared/cms/js/auto_tabs.js?<?php echo htmlspecialchars($this->static_files_version,3); ?>"></script>
   <script src="/shared/cms/js/thickbox.js?<?php echo htmlspecialchars($this->static_files_version,3); ?>"></script>
   <script src="/shared/cms/js/cp.js?<?php echo htmlspecialchars($this->static_files_version,3); ?>"></script>
-  <?php if(isset($this->__slot_handlers_js_include)) {foreach($this->__slot_handlers_js_include as $__slot_handler_js_include) {call_user_func_array($__slot_handler_js_include, array(array()));}}$this->__slotHandler6c2b1b022b92333a5bca7e5d142f4749(array()); ?>
+  <?php if(isset($this->__slot_handlers_js_include)) {foreach($this->__slot_handlers_js_include as $__slot_handler_js_include) {call_user_func_array($__slot_handler_js_include, array(array()));}}$this->__slotHandler2d56eb78ecb8d2d90624be55ccef9b06(array()); ?>
 
 
   <script type="text/javascript">
-    <?php if(isset($this->__slot_handlers_js)) {foreach($this->__slot_handlers_js as $__slot_handler_js) {call_user_func_array($__slot_handler_js, array(array()));}}$this->__slotHandler2d8e4b03ac69233d168c54514bb3f166(array()); ?>
+    <?php if(isset($this->__slot_handlers_js)) {foreach($this->__slot_handlers_js as $__slot_handler_js) {call_user_func_array($__slot_handler_js, array(array()));}}$this->__slotHandlerc668689f819bfd0563bd2ff3b3480d26(array()); ?>
 
 
     jQuery(window).ready(function()
     {
-      <?php if(isset($this->__slot_handlers_js_ready)) {foreach($this->__slot_handlers_js_ready as $__slot_handler_js_ready) {call_user_func_array($__slot_handler_js_ready, array(array()));}}$this->__slotHandler6c37b8a786185772499eef936792656d(array()); ?>
+      <?php if(isset($this->__slot_handlers_js_ready)) {foreach($this->__slot_handlers_js_ready as $__slot_handler_js_ready) {call_user_func_array($__slot_handler_js_ready, array(array()));}}$this->__slotHandler0c12335c1287fd878509fc0fd9c6a121(array()); ?>
 
 
       thickboxInit();
@@ -197,11 +197,11 @@ echo htmlspecialchars($GB,3); ?></a>
 <?php 
 }
 
-function __slotHandler2434ab1810c32ead7f0cdd8a70b517c1($I= array()) {
+function __slotHandler20d788b83a3bd56afa0e475263f1b891($I= array()) {
 if($I) extract($I);
 }
 
-function __slotHandlere9b33637c1058288fe5c8c5e89c67427($J= array()) {
+function __slotHandler5783ee604fa11b049da772d9c1d41747($J= array()) {
 if($J) extract($J);
 }
 
@@ -217,12 +217,12 @@ function __staticInclude2($file) {
         <?php $K='';
 $L = $flashbox;
 $K = $L->getErrors();
-$this->_template3bf5ded419a1223b7e29e0f065319c57(array('template' => 'flashbox','messages' => $K,'box_class' => 'error',)); ?>
+$this->_templatef7f1288436d1662ed1fc9ff89bad045c(array('template' => 'flashbox','messages' => $K,'box_class' => 'error',)); ?>
 
         <?php $V='';
 $W = $flashbox;
 $V = $W->getMessages();
-$this->_template3a4b663d968f73a48628b6525e6dacba(array('template' => 'flashbox','messages' => $V,'box_class' => 'message',)); ?>
+$this->_templatece5394971d11b0febf420f7720e691cc(array('template' => 'flashbox','messages' => $V,'box_class' => 'message',)); ?>
 
       </ul>
       <a href="javascipt:void(0)" href="javascript:void(0)" class='close' onclick="this.parentNode.style.display = 'none'; return false;">
@@ -238,7 +238,7 @@ $this->_template3a4b663d968f73a48628b6525e6dacba(array('template' => 'flashbox',
 ?><?php 
 }
 
-function _template3bf5ded419a1223b7e29e0f065319c57($M= array()) {
+function _templatef7f1288436d1662ed1fc9ff89bad045c($M= array()) {
 if($M) extract($M); ?>
 
   <?php $P = 0;$R = $messages;
@@ -258,7 +258,7 @@ foreach($Q as $item) {if($P == 0) { ?>
 <?php 
 }
 
-function _template3a4b663d968f73a48628b6525e6dacba($X= array()) {
+function _templatece5394971d11b0febf420f7720e691cc($X= array()) {
 if($X) extract($X); ?>
 
   <?php $BB = 0;$BD = $messages;
@@ -278,7 +278,7 @@ foreach($BC as $item) {if($BB == 0) { ?>
 <?php 
 }
 
-function __slotHandlerf18995a22e790afd292c713b9af61b37($BL= array()) {
+function __slotHandler6e8156779874933396396d4eb51a90ab($BL= array()) {
 if($BL) extract($BL); ?>
 
 
@@ -290,7 +290,7 @@ if($BL) extract($BL); ?>
   <div id="header">
     <h1>Users</h1>
     <div class="header_actions">
-      <?php $this->_template44622bb26171a9131abb96e5e019b9dc(array('template' => 'object_action','action' => 'create','is_link' => 'true','title' => 'Create user',)); ?>
+      <?php $this->_template6bddde06727ed89f78d1b4b3010fdaeb(array('template' => 'object_action','action' => 'create','is_link' => 'true','title' => 'Create user',)); ?>
 
     </div>
 
@@ -348,9 +348,9 @@ if((is_array($EA) || ($EA instanceof ArrayAccess)) && isset($EA['address'])) { $
 }else{ $DZ = '';}
 echo nl2br($DZ); ?></td>
               <td class='actions'>
-                <?php $this->_template9f3f82a2ebc314f604a4686d810ad91c(array('template' => 'object_action_edit','item' => $item,)); ?>
+                <?php $this->_template40fbaef7ed37656378ab67242b69828e(array('template' => 'object_action_edit','item' => $item,)); ?>
 
-                <?php $this->_templatea988a054d9cfa811f1663efe757e93cb(array('template' => 'object_action_delete','item' => $item,)); ?>
+                <?php $this->_template645c8575a18dc675dd6e4e086a39570b(array('template' => 'object_action_delete','item' => $item,)); ?>
 
               </td>
             </tr>
@@ -400,7 +400,7 @@ function __staticInclude4($file) {
 <?php 
 }
 
-function _template44622bb26171a9131abb96e5e019b9dc($BM= array()) {
+function _template6bddde06727ed89f78d1b4b3010fdaeb($BM= array()) {
 if($BM) extract($BM); ?>
 
   <?php 
@@ -501,7 +501,7 @@ $href = $this->pager_pager->getLastPageUri();
 <?php 
 }
 
-function _template9f3f82a2ebc314f604a4686d810ad91c($ED= array()) {
+function _template40fbaef7ed37656378ab67242b69828e($ED= array()) {
 if($ED) extract($ED); ?>
 
   <?php 
@@ -523,7 +523,7 @@ echo lmbToolkit :: instance()->getRoutesUrl($EJ, '', $EK);
 <?php 
 }
 
-function _templatea988a054d9cfa811f1663efe757e93cb($ER= array()) {
+function _template645c8575a18dc675dd6e4e086a39570b($ER= array()) {
 if($ER) extract($ER); ?>
 
   <?php 
@@ -545,15 +545,15 @@ echo htmlspecialchars($EX,3); ?>}, function(){document.location.reload()})}"  ti
 <?php 
 }
 
-function __slotHandler246be2689145158d5bec9d83b2b7739f($GD= array()) {
+function __slotHandler756081903188016b517589ecd677ca64($GD= array()) {
 if($GD) extract($GD);
 }
 
-function __slotHandler6c2b1b022b92333a5bca7e5d142f4749($HA= array()) {
+function __slotHandler2d56eb78ecb8d2d90624be55ccef9b06($HA= array()) {
 if($HA) extract($HA);
 }
 
-function __slotHandler2d8e4b03ac69233d168c54514bb3f166($HB= array()) {
+function __slotHandlerc668689f819bfd0563bd2ff3b3480d26($HB= array()) {
 if($HB) extract($HB); ?>
 
   function openWindowForSelectors(title, url, obj)
@@ -572,10 +572,10 @@ if($HB) extract($HB); ?>
 <?php 
 }
 
-function __slotHandler6c37b8a786185772499eef936792656d($HC= array()) {
+function __slotHandler0c12335c1287fd878509fc0fd9c6a121($HC= array()) {
 if($HC) extract($HC);
 }
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor1d09528c1f62dc7ea1b343959b398db0';
+$macro_executor_class='MacroTemplateExecutor98de9ee57a483d470ea5afbd3a2ee379';

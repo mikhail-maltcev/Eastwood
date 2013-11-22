@@ -1,36 +1,7 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/user/login.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutorcb629575e5cc248400b6aa8bd2aa705c', false)){
+if(!class_exists('MacroTemplateExecutorb605173b7ffe4b1222c71102996e4a1a', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
-require_once('limb/macro/src/tags/form/lmbMacroFormWidget.class.php');
-require_once('limb/macro/src/tags/form/lmbMacroInputWidget.class.php');
-class MacroTemplateExecutorcb629575e5cc248400b6aa8bd2aa705c extends lmbMacroTemplateExecutor {
-
-function _init() {
-$this->form_login_form = new lmbMacroFormWidget('login_form');
-$this->form_login_form->setAttributes(array (
-  'method' => 'POST',
-  'id' => 'login_form',
-));
-$this->input_id001 = new lmbMacroInputWidget('login');
-$this->input_id001->setAttributes(array (
-  'type' => 'text',
-  'name' => 'login',
-  'id' => 'login',
-  'title' => 'Login',
-));
-$this->input_id001->setForm($this->form_login_form);
-$this->form_login_form->addChild($this->input_id001);
-$this->input_id002 = new lmbMacroFormElementWidget('password');
-$this->input_id002->setAttributes(array (
-  'type' => 'password',
-  'name' => 'password',
-  'id' => 'password',
-  'title' => 'Password',
-));
-$this->input_id002->setForm($this->form_login_form);
-$this->form_login_form->addChild($this->input_id002);
-
-}
+class MacroTemplateExecutorb605173b7ffe4b1222c71102996e4a1a extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -69,7 +40,7 @@ function __staticInclude1($file,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler58a18b407424edd45e7d51d2b3a04049(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler1eacfed6a08e69fba45ab17449566117(array()); ?>
 
         </div>
       </div>
@@ -81,17 +52,20 @@ function __staticInclude1($file,$into,$file) {
           <li><a href="cart">Your Cart</a></li>
           <?php  if($this->toolkit->getUser()->is_logged_in) { ?>
             <li><a href="/user/orders/">Your Orders</a></li>
-          <?php  } ?>
+          <?php  }else {?>
+          <li><a href="/user/login/">Login please</a></li>
+
+          <?php } ?>
         </ul>
       </div>
 
       <dl id="profile">
         <dt>Profile</dt>
-        <?php $BC='';
-$BD = $this->toolkit;
-if((is_array($BD) || ($BD instanceof ArrayAccess)) && isset($BD['user'])) { $BC = $BD['user'];
-}else{ $BC = '';}
-$this->__staticInclude4('user/include/profile_box.phtml', $BC); ?>
+        <?php $P='';
+$Q = $this->toolkit;
+if((is_array($Q) || ($Q instanceof ArrayAccess)) && isset($Q['user'])) { $P = $Q['user'];
+}else{ $P = '';}
+$this->__staticInclude3('user/include/profile_box.phtml', $P); ?>
 
       </dl>
 
@@ -132,77 +106,60 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler58a18b407424edd45e7d51d2b3a04049($O= array()) {
+function __slotHandler1eacfed6a08e69fba45ab17449566117($O= array()) {
 if($O) extract($O); ?>
 
-<?php if(isset($this->form_login_form_datasource))$this->form_login_form->setDatasource($this->form_login_form_datasource);
-if(isset($this->form_login_form_error_list))$this->form_login_form->setErrorList($this->form_login_form_error_list);
- ?><form<?php $this->form_login_form->renderAttributes(); ?>>
+  <?php
+    if($this->user) {
+      // We have a user ID, so probably a logged in user.
+      // If not, we'll get an exception, which we handle below.
+      try {
+        echo '<br /><a href="' . $this->user->getLogoutUrl() . '">logout</a>';
+      } catch(FacebookApiException $e) {
+        // If the user is logged out, you can have a 
+        // user ID even though the access token is invalid.
+        // In this case, we'll get an exception, so we'll
+        // just ask the user to login again here.
+        $login_url = $this->user->getLoginUrl( array(
+                       'scope' => 'publish_stream'
+                       )); 
+        echo 'Please <a href="' . $login_url . '">login.(try)</a>';
+        error_log($e->getType());
+        error_log($e->getMessage());
+      }   
+    } else {
 
-  <?php $this->__staticInclude3('_admin/form_errors.phtml'); ?>
+      // No user, so print a link for the user to login
+      // To post to a user's wall, we need publish_stream permission
+      // We'll use the current URL as the redirect_uri, so we don't
+      // need to specify it here.
+      $login_url = $this->user->getLoginUrl( array( 'scope' => 'publish_stream' ) );
+      echo 'Please <a href="' . $login_url . '">login.(else)</a>';
 
+    } 
 
-  <div class="field">
-  <label for='login'>Login:</label>
-  <input<?php $this->input_id001->renderAttributes(); ?> />
-  </div>
-
-  <div class="field">
-  <label for='passwd'>Password:</label>
-  <input<?php $this->input_id002->renderAttributes(); ?> />
-  </div>
-
-  <input type='submit' class='button' name='submitted' value="Submit" class='button'/>
-
-</form>
+  ?>   
 <?php 
 }
 
-function __staticInclude3($file) {
-$fields_errors = $this->form_login_form->getErrorList();
- ?>
-
-<?php $V = 0;$X = $fields_errors;
-
-if(!is_array($X) && !($X instanceof Iterator) && !($X instanceof IteratorAggregate)) {
-$X = array();}
-$W = $X;
-foreach($W as $error) {if($V == 0) { ?>
-  <div class="message_error">
-    <b class='title'><?php 
-    echo lmb_i18n('Fields with errors','cms');
-         ?></b>
-    <ol>
-      <?php } ?>
-        <li><font color="red"><?php $Z='';
-$BB = $error;
-if((is_array($BB) || ($BB instanceof ArrayAccess)) && isset($BB['message'])) { $Z = $BB['message'];
-}else{ $Z = '';}
-echo htmlspecialchars($Z,3); ?></font></li>
-      <?php $V++;}if($V > 0) { ?>
-    </ol>
-  </div>
-<?php }
-}
-
-function __staticInclude4($file,$user) {
+function __staticInclude3($file,$user) {
  ?><?php  if($user->is_logged_in) { ?>
 <dd>
-  User: <?php $BE='';
-$BF = $user;
-if((is_array($BF) || ($BF instanceof ArrayAccess)) && isset($BF['name'])) { $BE = $BF['name'];
-}else{ $BE = '';}
-echo htmlspecialchars($BE,3); ?><br/>
-  Login: <?php $BG='';
-$BH = $user;
-if((is_array($BH) || ($BH instanceof ArrayAccess)) && isset($BH['login'])) { $BG = $BH['login'];
-}else{ $BG = '';}
-echo htmlspecialchars($BG,3); ?><br/>
-  Email: <?php $BI='';
-$BJ = $user;
-if((is_array($BJ) || ($BJ instanceof ArrayAccess)) && isset($BJ['email'])) { $BI = $BJ['email'];
-}else{ $BI = '';}
-echo htmlspecialchars($BI,3); ?><br/>
+  User: <?php $R='';
+$S = $user;
+if((is_array($S) || ($S instanceof ArrayAccess)) && isset($S['name'])) { $R = $S['name'];
+}else{ $R = '';}
+echo htmlspecialchars($R,3); ?><br/>
+  Login: <?php $T='';
+$U = $user;
+if((is_array($U) || ($U instanceof ArrayAccess)) && isset($U['login'])) { $T = $U['login'];
+}else{ $T = '';}
+echo htmlspecialchars($T,3); ?><br/>
+  Email: <?php $V='';
+$W = $user;
+if((is_array($W) || ($W instanceof ArrayAccess)) && isset($W['email'])) { $V = $W['email'];
+}else{ $V = '';}
+echo htmlspecialchars($V,3); ?><br/>
   <a href="/user/edit/">edit</a>
   <a href="/user/logout/">logout</a>
 </dd>
@@ -227,4 +184,4 @@ echo htmlspecialchars($BI,3); ?><br/>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutorcb629575e5cc248400b6aa8bd2aa705c';
+$macro_executor_class='MacroTemplateExecutorb605173b7ffe4b1222c71102996e4a1a';

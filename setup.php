@@ -24,3 +24,6 @@ lmb_require('src/model/*.class.php');
 
 lmb_require('src/toolkit/ShopTools.class.php');
 lmbToolkit :: merge(new ShopTools());
+
+lmb_require('src/toolkit/FacebookTools.class.php');
+lmbToolkit :: merge(new FacebookTools());
