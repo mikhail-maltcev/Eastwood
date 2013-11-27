@@ -24,6 +24,15 @@ class ProductController extends lmbObjectController
         $this->products=$products->findProductsCategories($categories);
     }
 
+    function doAboutProduct()
+    {
+
+        $node_id = $this->request->getInteger('id');
+
+    }
+
+
+
 
 
 }

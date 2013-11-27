@@ -1,8 +1,8 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/product/products_category.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutorb1199ced203d28820611e23c29db4080', false)){
+if(!class_exists('MacroTemplateExecutore3e4eba590bf2e3f791da7bade1cfc56', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/core/src/lmbArrayHelper.class.php');
-class MacroTemplateExecutorb1199ced203d28820611e23c29db4080 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutore3e4eba590bf2e3f791da7bade1cfc56 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -42,7 +42,7 @@ function __staticInclude1($file,$in,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler23c9b9fa12a2f6e9bb1e26e7bebd7476(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler4c55728abef29db519355361d6283563(array()); ?>
 
         </div>
       </div>
@@ -116,7 +116,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler23c9b9fa12a2f6e9bb1e26e7bebd7476($O= array()) {
+function __slotHandler4c55728abef29db519355361d6283563($O= array()) {
 if($O) extract($O); ?>
 
 <h1>Product</h1>
@@ -150,21 +150,25 @@ foreach($U as $item) {if($T == 0) { ?>
         <?php } ?>
 
         <tr>
-            <td class="bg1">&nbsp;<?php $X='';
+            <td class="bg1">&nbsp;<a href="/product/about_product/<?php $X='';
 $Y = $item;
-if((is_array($Y) || ($Y instanceof ArrayAccess)) && isset($Y['title'])) { $X = $Y['title'];
+if((is_array($Y) || ($Y instanceof ArrayAccess)) && isset($Y['id'])) { $X = $Y['id'];
 }else{ $X = '';}
-echo htmlspecialchars($X,3); ?></td>
-            <td align="center" class="bg1"><?php $Z='';
+echo htmlspecialchars($X,3); ?>"><?php $Z='';
 $BB = $item;
-if((is_array($BB) || ($BB instanceof ArrayAccess)) && isset($BB['price'])) { $Z = $BB['price'];
+if((is_array($BB) || ($BB instanceof ArrayAccess)) && isset($BB['title'])) { $Z = $BB['title'];
 }else{ $Z = '';}
-echo htmlspecialchars($Z,3); ?></td>
+echo htmlspecialchars($Z,3); ?></a></td>
             <td align="center" class="bg1"><?php $BC='';
 $BD = $item;
-if((is_array($BD) || ($BD instanceof ArrayAccess)) && isset($BD['is_available'])) { $BC = $BD['is_available'];
+if((is_array($BD) || ($BD instanceof ArrayAccess)) && isset($BD['price'])) { $BC = $BD['price'];
 }else{ $BC = '';}
 echo htmlspecialchars($BC,3); ?></td>
+            <td align="center" class="bg1"><?php $BE='';
+$BF = $item;
+if((is_array($BF) || ($BF instanceof ArrayAccess)) && isset($BF['is_available'])) { $BE = $BF['is_available'];
+}else{ $BE = '';}
+echo htmlspecialchars($BE,3); ?></td>
             <td align="center" class="bg1"><a href="/reserve_view.html"><img border="0" title="Заказать" alt="заказ" src="/images/cart.png"></a></td>
         </tr>
 
@@ -205,18 +209,18 @@ $this->Tree = $tree->getData();
 ?>
 
 <dd>
-    <?php $this->_render_tree20edfb8aeb5090667a2420b57db984b1($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+    <?php $this->_render_tree0036404cec3cbf3a60204e670d21da14($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
  ?>
 
 
 </dd><?php 
 }
 
-function _render_tree20edfb8aeb5090667a2420b57db984b1($BK,$level,$BM= array()) {
-if($BM) extract($BM);$BL=0;
-foreach($BK as $item) {
-$counter = $BL+1;
-if(!$BL) {
+function _render_tree0036404cec3cbf3a60204e670d21da14($BM,$level,$BO= array()) {
+if($BO) extract($BO);$BN=0;
+foreach($BM as $item) {
+$counter = $BN+1;
+if(!$BN) {
  ?>
 
     <ul>
@@ -225,36 +229,36 @@ if(!$BL) {
 
         <li>
 
-            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree20edfb8aeb5090667a2420b57db984b1($item["childs"], $level + 1, array('prefix' => $new_prefix,));
+            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree0036404cec3cbf3a60204e670d21da14($item["childs"], $level + 1, array('prefix' => $new_prefix,));
 } ?>
 
 
-            <a class="category_level<?php $BP='';
-$BQ = $item;
-if((is_array($BQ) || ($BQ instanceof ArrayAccess)) && isset($BQ['level'])) { $BP = $BQ['level'];
-}else{ $BP = '';}
-echo htmlspecialchars($BP,3); ?>" href='<?php $BR='';
+            <a class="category_level<?php $BR='';
 $BS = $item;
-if((is_array($BS) || ($BS instanceof ArrayAccess)) && isset($BS['id'])) { $BR = $BS['id'];
+if((is_array($BS) || ($BS instanceof ArrayAccess)) && isset($BS['level'])) { $BR = $BS['level'];
 }else{ $BR = '';}
-$BU = array();
-$BT = lmbArrayHelper :: explode(',',':', sprintf('action:products_category,id:%s',$BR));
-foreach($BT as $key => $value) $BU[trim($key)] = trim($value);
-$BV = false;
-echo lmbToolkit :: instance()->getRoutesUrl($BU, '', $BV);
- ?>'><?php $BW='';
-$BX = $item;
-if((is_array($BX) || ($BX instanceof ArrayAccess)) && isset($BX['identifier'])) { $BW = $BX['identifier'];
-}else{ $BW = '';}
-echo htmlspecialchars($BW,3); ?></a>
+echo htmlspecialchars($BR,3); ?>" href='<?php $BT='';
+$BU = $item;
+if((is_array($BU) || ($BU instanceof ArrayAccess)) && isset($BU['id'])) { $BT = $BU['id'];
+}else{ $BT = '';}
+$BW = array();
+$BV = lmbArrayHelper :: explode(',',':', sprintf('action:products_category,id:%s',$BT));
+foreach($BV as $key => $value) $BW[trim($key)] = trim($value);
+$BX = false;
+echo lmbToolkit :: instance()->getRoutesUrl($BW, '', $BX);
+ ?>'><?php $BY='';
+$BZ = $item;
+if((is_array($BZ) || ($BZ instanceof ArrayAccess)) && isset($BZ['identifier'])) { $BY = $BZ['identifier'];
+}else{ $BY = '';}
+echo htmlspecialchars($BY,3); ?></a>
 
         </li>
-        <?php $BL++;
+        <?php $BN++;
 }
-if(count($BK) == 0) { ?>
+if(count($BM) == 0) { ?>
 
         Категории отсуствуют
-        <?php }if($BL) {
+        <?php }if($BN) {
  ?>
 
 
@@ -266,4 +270,4 @@ if(count($BK) == 0) { ?>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutorb1199ced203d28820611e23c29db4080';
+$macro_executor_class='MacroTemplateExecutore3e4eba590bf2e3f791da7bade1cfc56';

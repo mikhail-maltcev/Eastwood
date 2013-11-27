@@ -4566,3 +4566,11 @@ Back trace:
 * lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
 * lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
 * Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 21
+========================= [127.0.0.1][GET - /product/products_category/product] [Nov 27 2013 11:33:34]=========================
+Error: lmbTreeInvalidNodeException: Node '0' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '0' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
+* lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
+* Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 21
