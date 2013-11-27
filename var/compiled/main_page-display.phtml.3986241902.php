@@ -1,8 +1,8 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/main_page/display.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor25ec6aeccccb74ed360fb209439ed5f8', false)){
+if(!class_exists('MacroTemplateExecutoraa9fb2b485ebf2edcb7a86bdcb3d9242', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/core/src/lmbArrayHelper.class.php');
-class MacroTemplateExecutor25ec6aeccccb74ed360fb209439ed5f8 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutoraa9fb2b485ebf2edcb7a86bdcb3d9242 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -41,7 +41,7 @@ function __staticInclude1($file,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlere3af501d72c396e9db143a4a3370b1ee(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlerfbfbc6241158a58cdbacddcdfe2f3c8c(array()); ?>
 
         </div>
       </div>
@@ -71,7 +71,7 @@ function __staticInclude1($file,$into,$file) {
 
         <div id="category">
             <dt>Categories</dt>
-            <?php $this->__staticInclude4('user/include/category.phtml'); ?>
+            <?php $this->__staticInclude4('category.phtml'); ?>
 
         </div>
 
@@ -115,7 +115,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandlere3af501d72c396e9db143a4a3370b1ee($O= array()) {
+function __slotHandlerfbfbc6241158a58cdbacddcdfe2f3c8c($O= array()) {
 if($O) extract($O); ?>
 
 Welcome to our bookstore!
@@ -144,15 +144,14 @@ $this->Tree = $tree->getData();
 ?>
 
 <dd>
-
-    <?php $this->_render_treed49028ff046489bfb43fa268d67f2003($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+    <?php $this->_render_tree82729f6cf647c370e91719c064c45827($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
  ?>
 
 
 </dd><?php 
 }
 
-function _render_treed49028ff046489bfb43fa268d67f2003($V,$level,$X= array()) {
+function _render_tree82729f6cf647c370e91719c064c45827($V,$level,$X= array()) {
 if($X) extract($X);$W=0;
 foreach($V as $item) {
 $counter = $W+1;
@@ -165,7 +164,7 @@ if(!$W) {
 
         <li>
 
-            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_treed49028ff046489bfb43fa268d67f2003($item["childs"], $level + 1, array('prefix' => $new_prefix,));
+            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree82729f6cf647c370e91719c064c45827($item["childs"], $level + 1, array('prefix' => $new_prefix,));
 } ?>
 
 
@@ -188,18 +187,14 @@ if((is_array($BJ) || ($BJ instanceof ArrayAccess)) && isset($BJ['identifier'])) 
 }else{ $BI = '';}
 echo htmlspecialchars($BI,3); ?></a>
 
-
         </li>
         <?php $W++;
 }
 if(count($V) == 0) { ?>
 
-        Комментарии отсуствуют
+        Категории отсуствуют
         <?php }if($W) {
  ?>
-
-
-
 
 
         
@@ -210,4 +205,4 @@ if(count($V) == 0) { ?>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor25ec6aeccccb74ed360fb209439ed5f8';
+$macro_executor_class='MacroTemplateExecutoraa9fb2b485ebf2edcb7a86bdcb3d9242';

@@ -1,7 +1,8 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/user/login.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor0aec4963c5b6f0345791d1fec8b0e87c', false)){
+if(!class_exists('MacroTemplateExecutor4370181bc4b5b5c04c62a637290c5c45', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
-class MacroTemplateExecutor0aec4963c5b6f0345791d1fec8b0e87c extends lmbMacroTemplateExecutor {
+require_once('limb/core/src/lmbArrayHelper.class.php');
+class MacroTemplateExecutor4370181bc4b5b5c04c62a637290c5c45 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -42,7 +43,7 @@ function __staticInclude1($file,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandleree3ac756abd5291b7412531e0ab388f2(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler909e867b64a0140fdb6a0d0266896439(array()); ?>
 
         </div>
       </div>
@@ -62,11 +63,22 @@ function __staticInclude1($file,$into,$file) {
         </ul>
       </div>
 
-      <dl id="profile">
+      <div id="profile">
         <dt>Profile</dt>
         <?php $this->__staticInclude3('user/include/profile_box.phtml'); ?>
 
-      </dl>
+      </div>
+
+
+
+        <div id="category">
+            <dt>Categories</dt>
+            <?php $this->__staticInclude4('user/include/category.phtml'); ?>
+
+        </div>
+
+
+
 
     </div>
 
@@ -105,7 +117,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandleree3ac756abd5291b7412531e0ab388f2($O= array()) {
+function __slotHandler909e867b64a0140fdb6a0d0266896439($O= array()) {
 if($O) extract($O); ?>
 
 <?php if($this->loginUrl){?>
@@ -133,6 +145,77 @@ function __staticInclude3($file) {
 ?><?php 
 }
 
+function __staticInclude4($file) {
+ ?><?php 
+$tree = new Tree();
+$this->Tree = $tree->getData();
+?>
+
+<dd>
+
+    <?php $this->_render_tree1daa237c21230a8810c8c8cd3b1dbc8c($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+ ?>
+
+
+</dd><?php 
+}
+
+function _render_tree1daa237c21230a8810c8c8cd3b1dbc8c($V,$level,$X= array()) {
+if($X) extract($X);$W=0;
+foreach($V as $item) {
+$counter = $W+1;
+if(!$W) {
+ ?>
+
+    <ul>
+        <?php }
+ ?>
+
+        <li>
+
+            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree1daa237c21230a8810c8c8cd3b1dbc8c($item["childs"], $level + 1, array('prefix' => $new_prefix,));
+} ?>
+
+
+            <a class="category_level<?php $BB='';
+$BC = $item;
+if((is_array($BC) || ($BC instanceof ArrayAccess)) && isset($BC['level'])) { $BB = $BC['level'];
+}else{ $BB = '';}
+echo htmlspecialchars($BB,3); ?>" href='<?php $BD='';
+$BE = $item;
+if((is_array($BE) || ($BE instanceof ArrayAccess)) && isset($BE['id'])) { $BD = $BE['id'];
+}else{ $BD = '';}
+$BG = array();
+$BF = lmbArrayHelper :: explode(',',':', sprintf('action:products_category,id:%s',$BD));
+foreach($BF as $key => $value) $BG[trim($key)] = trim($value);
+$BH = false;
+echo lmbToolkit :: instance()->getRoutesUrl($BG, '', $BH);
+ ?>'><?php $BI='';
+$BJ = $item;
+if((is_array($BJ) || ($BJ instanceof ArrayAccess)) && isset($BJ['identifier'])) { $BI = $BJ['identifier'];
+}else{ $BI = '';}
+echo htmlspecialchars($BI,3); ?></a>
+
+
+        </li>
+        <?php $W++;
+}
+if(count($V) == 0) { ?>
+
+        Комментарии отсуствуют
+        <?php }if($W) {
+ ?>
+
+
+
+
+
+        
+    </ul>
+    <?php }
+
+}
+
 }
 }
-$macro_executor_class='MacroTemplateExecutor0aec4963c5b6f0345791d1fec8b0e87c';
+$macro_executor_class='MacroTemplateExecutor4370181bc4b5b5c04c62a637290c5c45';

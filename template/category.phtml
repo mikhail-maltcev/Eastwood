@@ -1,0 +1,25 @@
+<?
+$tree = new Tree();
+$this->Tree = $tree->getData();
+?>
+
+<dd>
+    {{tree using="$this->Tree" as="$item" kids_prop="childs" counter="$counter" prefix="1"}}
+    <ul>
+        {{tree:node}}
+        <li>
+
+            {{tree:nextlevel prefix="$new_prefix"}}<?php  $new_prefix = $prefix . ".+++" . $counter;?> {{/tree:nextlevel}}
+
+            <a class="category_level{$item.level}" href='{{route_url params="action:products_category,id:{$item.id}"/}}'>{$item.identifier}</a>
+
+        </li>
+        {{/tree:node}}
+
+        {{tree:empty}}
+        Категории отсуствуют
+        {{/tree:empty}}
+    </ul>
+    {{/tree}}
+
+</dd>

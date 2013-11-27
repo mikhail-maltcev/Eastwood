@@ -1,0 +1,30 @@
+{{list:list using="$this->products" as="$item"}}
+
+<div class="border_table">
+    <table cellspacing="1" class="sortable">
+        <thead>
+        <tr>
+            <td align="center" class="head">Name</td>
+            <td align="center" class="head">Price</td>
+            <td align="center" class="head">available</td>
+            <td align="center" class="head">Cart</td>
+        </tr>
+        </thead>
+        <tbody>
+        {{list:item}}
+        <tr>
+            <td class="bg1">&nbsp;{$item.title}</td>
+            <td align="center" class="bg1">{$item.price}</td>
+            <td align="center" class="bg1">{$item.is_available}</td>
+            <td align="center" class="bg1"><a href="/reserve_view.html"><img border="0" title="Заказать" alt="заказ" src="/images/cart.png"></a></td>
+        </tr>
+
+        {{/list:item}}
+        {{list:empty}}
+            <p>В этой категории пока нет товаров</p>
+        {{/list:empty}}
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</div>
+{{/list:list}}

@@ -1,36 +1,6 @@
 {{wrap with="front_page_layout.phtml" in="content_zone"}}
-  <h1>Product</h1>  
-  {{list:list using="$this->products" as="$item"}}
+<h1>Product</h1>
 
-<div class="border_table">
-<table  cellspacing="1" class="sortable"><thead><tr>
-    <td align="center" class="head">Name </td>
-    <td align="center" class="head">Price</td>
-    <td align="center" class="head">available</td>
-    <td align="center" class="head">Cart</td>
-</tr></thead>
-<tbody>
+{{include file="product/include/list_category.phtml"/}}
 
-
-{{list:item}}
-<tr>
-    <td class="bg1">&nbsp;{$item.title}</td>
-    <td align="center" class="bg1">{$item.price}</td>
-    <td align="center" class="bg1">{$item.is_available}</td>
-    <td align="center" class="bg1"><a href="/reserve_view.html"><img border="0" title="Заказать" alt="заказ" src="/im/cart.png"></a></td>
-
-</tr>
-
-
-
-
-
-
-
-    {{/list:item}}
-
-
-</tbody><tfoot></tfoot></table>
-    </div>
-  {{/list:list}}
 {{/wrap}}

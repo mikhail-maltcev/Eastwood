@@ -1,8 +1,8 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/product/display.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutore90a29aa03769e7b34a0874340c2580b', false)){
+if(!class_exists('MacroTemplateExecutoracfd3fd1546e9348b8ef113cb563b8ef', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/core/src/lmbArrayHelper.class.php');
-class MacroTemplateExecutore90a29aa03769e7b34a0874340c2580b extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutoracfd3fd1546e9348b8ef113cb563b8ef extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -42,7 +42,7 @@ function __staticInclude1($file,$in,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler2ae42bae80e6e60ee5d1a548ccff4a46(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlerbf4096e5e2699f1a5c4be12dd98ab491(array()); ?>
 
         </div>
       </div>
@@ -64,7 +64,7 @@ function __staticInclude1($file,$in,$into,$file) {
 
       <div id="profile">
         <dt>Profile</dt>
-        <?php $this->__staticInclude3('user/include/profile_box.phtml'); ?>
+        <?php $this->__staticInclude4('user/include/profile_box.phtml'); ?>
 
       </div>
 
@@ -72,7 +72,7 @@ function __staticInclude1($file,$in,$into,$file) {
 
         <div id="category">
             <dt>Categories</dt>
-            <?php $this->__staticInclude4('user/include/category.phtml'); ?>
+            <?php $this->__staticInclude5('category.phtml'); ?>
 
         </div>
 
@@ -116,11 +116,19 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler2ae42bae80e6e60ee5d1a548ccff4a46($O= array()) {
+function __slotHandlerbf4096e5e2699f1a5c4be12dd98ab491($O= array()) {
 if($O) extract($O); ?>
 
-  <h1>Product</h1>  
-  <?php $T = 0;$V = $this->products;
+<h1>new Products</h1>
+
+<?php $this->__staticInclude3('product/include/list_category.phtml'); ?>
+
+
+<?php 
+}
+
+function __staticInclude3($file) {
+$T = 0;$V = $this->products;
 
 if(!is_array($V) && !($V instanceof Iterator) && !($V instanceof IteratorAggregate)) {
 $V = array();}
@@ -129,55 +137,49 @@ foreach($U as $item) {if($T == 0) { ?>
 
 
 <div class="border_table">
-<table  cellspacing="1" class="sortable"><thead><tr>
-    <td align="center" class="head">Name </td>
-    <td align="center" class="head">Price</td>
-    <td align="center" class="head">available</td>
-    <td align="center" class="head">Cart</td>
-</tr></thead>
-<tbody>
+    <table cellspacing="1" class="sortable">
+        <thead>
+        <tr>
+            <td align="center" class="head">Name</td>
+            <td align="center" class="head">Price</td>
+            <td align="center" class="head">available</td>
+            <td align="center" class="head">Cart</td>
+        </tr>
+        </thead>
+        <tbody>
+        <?php } ?>
 
-
-<?php } ?>
-
-<tr>
-    <td class="bg1">&nbsp;<?php $X='';
+        <tr>
+            <td class="bg1">&nbsp;<?php $X='';
 $Y = $item;
 if((is_array($Y) || ($Y instanceof ArrayAccess)) && isset($Y['title'])) { $X = $Y['title'];
 }else{ $X = '';}
 echo htmlspecialchars($X,3); ?></td>
-    <td align="center" class="bg1"><?php $Z='';
+            <td align="center" class="bg1"><?php $Z='';
 $BB = $item;
 if((is_array($BB) || ($BB instanceof ArrayAccess)) && isset($BB['price'])) { $Z = $BB['price'];
 }else{ $Z = '';}
 echo htmlspecialchars($Z,3); ?></td>
-    <td align="center" class="bg1"><?php $BC='';
+            <td align="center" class="bg1"><?php $BC='';
 $BD = $item;
 if((is_array($BD) || ($BD instanceof ArrayAccess)) && isset($BD['is_available'])) { $BC = $BD['is_available'];
 }else{ $BC = '';}
 echo htmlspecialchars($BC,3); ?></td>
-    <td align="center" class="bg1"><a href="/reserve_view.html"><img border="0" title="Заказать" alt="заказ" src="/im/cart.png"></a></td>
+            <td align="center" class="bg1"><a href="/reserve_view.html"><img border="0" title="Заказать" alt="заказ" src="/images/cart.png"></a></td>
+        </tr>
 
-</tr>
+        <?php $T++;}if($T > 0) { ?>
 
-
-
-
-
-
-
-    <?php $T++;}if($T > 0) { ?>
-
-
-
-</tbody><tfoot></tfoot></table>
-    </div>
-  <?php } ?>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</div>
+<?php } ?>
 
 <?php 
 }
 
-function __staticInclude3($file) {
+function __staticInclude4($file) {
  ?><?php  if($this->toolkit->getSession()->get('user_id')) { ?>
 <dd>
     <?php 
@@ -192,22 +194,21 @@ function __staticInclude3($file) {
 ?><?php 
 }
 
-function __staticInclude4($file) {
+function __staticInclude5($file) {
  ?><?php 
 $tree = new Tree();
 $this->Tree = $tree->getData();
 ?>
 
 <dd>
-
-    <?php $this->_render_tree30a45963dfd1567c68012a931f4f7f13($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+    <?php $this->_render_tree7b7802d3289d109bc272769835264095($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
  ?>
 
 
 </dd><?php 
 }
 
-function _render_tree30a45963dfd1567c68012a931f4f7f13($BK,$level,$BM= array()) {
+function _render_tree7b7802d3289d109bc272769835264095($BK,$level,$BM= array()) {
 if($BM) extract($BM);$BL=0;
 foreach($BK as $item) {
 $counter = $BL+1;
@@ -220,7 +221,7 @@ if(!$BL) {
 
         <li>
 
-            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree30a45963dfd1567c68012a931f4f7f13($item["childs"], $level + 1, array('prefix' => $new_prefix,));
+            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree7b7802d3289d109bc272769835264095($item["childs"], $level + 1, array('prefix' => $new_prefix,));
 } ?>
 
 
@@ -243,18 +244,14 @@ if((is_array($BX) || ($BX instanceof ArrayAccess)) && isset($BX['identifier'])) 
 }else{ $BW = '';}
 echo htmlspecialchars($BW,3); ?></a>
 
-
         </li>
         <?php $BL++;
 }
 if(count($BK) == 0) { ?>
 
-        Комментарии отсуствуют
+        Категории отсуствуют
         <?php }if($BL) {
  ?>
-
-
-
 
 
         
@@ -265,4 +262,4 @@ if(count($BK) == 0) { ?>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutore90a29aa03769e7b34a0874340c2580b';
+$macro_executor_class='MacroTemplateExecutoracfd3fd1546e9348b8ef113cb563b8ef';

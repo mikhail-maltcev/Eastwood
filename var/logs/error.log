@@ -4503,3 +4503,66 @@ Back trace:
 * Product::findProductsCategories(ARRAY(3)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 22
 * ProductController::doProductsCategory() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
 * lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+========================= [127.0.0.1][GET - /product/products_category/19] [Nov 27 2013 11:14:51]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => include/category.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(22) "include/category.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /product/products_category/19] [Nov 27 2013 11:15:03]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => product/include/category.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(30) "product/include/category.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /product/products_category/19] [Nov 27 2013 11:15:04]=========================
+Error: lmbMacroException: MACRO exception: Template source file not found
+Additional attributes: Array
+(
+    [file_name] => product/include/category.phtml
+)
+
+Back trace:
+* lmbException::__construct(STRING(47) "MACRO exception: Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(30) "Template source file not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroCompiler.class.php" line 74
+* lmbMacroCompiler::parseTemplate(STRING(30) "product/include/category.phtml", OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 44
+* lmbMacroInsertTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroInsertTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 88
+========================= [127.0.0.1][GET - /product/products_category/product] [Nov 27 2013 11:16:32]=========================
+Error: lmbTreeInvalidNodeException: Node '0' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '0' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
+* lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
+* Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 21
+========================= [127.0.0.1][GET - /product/products_category/product] [Nov 27 2013 11:16:39]=========================
+Error: lmbTreeInvalidNodeException: Node '0' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '0' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
+* lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
+* Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 21
+========================= [127.0.0.1][GET - /product/products_category/product] [Nov 27 2013 11:17:03]=========================
+Error: lmbTreeInvalidNodeException: Node '0' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '0' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
+* lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
+* Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 21
