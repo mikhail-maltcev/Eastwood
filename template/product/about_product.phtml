@@ -1,6 +1,30 @@
 {{wrap with="front_page_layout.phtml" in="content_zone"}}
-<h1>Information about Product</h1>
+<h1>{$this->product->getTitle()}</h1>
+<table>
+    <tr>
+        <td><img src="/product_images/{$this->product->getImageName()}" width="300px"></td>
+        <td>
+            <p>Цена:</p><h1>{$this->product->getPrice()} Руб.</h1>
 
+
+            <p>{{if var="$this->product->getIsAvailable()==1"}}Товар сейчас есть на складе{{else}}Товар на складе отсуствует{{/if}}</p>
+        </td>
+    </tr>
+</table>
+<b>Характеристики:</b>
+
+{{list using="$this->properties" as="$item"}}
+
+{{list:item}}
+
+
+
+<p>{$item->getProperty()->getPropertyName()}  :   {$item.value}</p>
+
+
+{{/list:item}}
+
+{{/list}}
 
 
 {{/wrap}}

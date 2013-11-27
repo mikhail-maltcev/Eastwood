@@ -10,7 +10,7 @@ a{ font: 9pt "Trebuchet MS";color:#5950a1;text-decoration:underline}
 a:hover{text-decoration:none;}
 
 /*=FONTS */
-body, td, table, ul{font:8pt "Trebuchet MS",Times;color:#666666}
+body, td, table, ul{font:10pt "Trebuchet MS",Times;color:#666666}
 #profile dt {font:bold 13pt Tahoma,Times;color:#e54803 }
 #category dt {font:bold 13pt Tahoma,Times;color:#e54803 }
 #navigation a {font:9pt Tahoma,Times; color:#fff;}
@@ -89,24 +89,9 @@ table.list{border:0px;border-left:solid 1px #d7d6d0; width: 690px;margin-bottom:
 /*}}}*/
 
 
-
-
-.border_table TABLE, {
-    background-color: #E6E6E6;
-
-    width: auto;
-}
-.border_table, .border_table TABLE, .border_table INPUT {
-    font-size: x-small;
-
-}
-.border_table td {
-    padding:0px 20px 0px 20px;
-    background-color: #E6E6E6;
-    border: 1px solid #999999;
-    border-style: solid;
-    width: auto;
-}
+.border_table TABLE, {background-color: #E6E6E6;width: auto;}
+.border_table, .border_table TABLE, .border_table INPUT {font-size: x-small;}
+.border_table td {padding:0px 20px 0px 20px;background-color: #E6E6E6;border: 1px solid #999999;border-style: solid;width: auto;}
 
 #category {background: url(../images/bgr/profile_bottom.gif) no-repeat left bottom;padding-bottom: 10px;margin-top: 12px;}
 #category dt {background: url(../images/bgr/profile_header.gif) no-repeat left top;padding: 13px 0 13px 20px;}
@@ -117,14 +102,8 @@ table.list{border:0px;border-left:solid 1px #d7d6d0; width: 690px;margin-bottom:
 .category_level2{padding-left:20px;font-size: 12px;color:#555555;}
 .category_level3{padding-left:30px;font-size: 12px;color:#555555;}
 
-table a {
-    text-decoration: none;
-    color: #FF6600;
-
-}
-table a:hover {
-    color: red;
-}
+table a {text-decoration: none;color: #FF6600;}
+table a:hover {color: red;}
 
 
 

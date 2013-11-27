@@ -4574,3 +4574,197 @@ Back trace:
 * lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
 * lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
 * Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 21
+========================= [127.0.0.1][GET - /product/about_product/61] [Nov 27 2013 12:47:51]=========================
+Error: lmbMacroException: MACRO exception: Unexpected closing tag
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [tag] => list
+    [line] => 23
+    [expected_tag] => list:item
+    [expected_file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [expected_line] => 13
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 154
+* lmbMacroTreeBuilder::popExpectedTag(STRING(4) "list", OBJECT(lmbMacroSourceLocation)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 73
+* lmbMacroTagParsingState::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 114
+* lmbMacroParser::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTokenizer.class.php" line 164
+========================= [127.0.0.1][GET - /product/about_product/61] [Nov 27 2013 12:48:05]=========================
+Error: lmbMacroException: MACRO exception: Unexpected closing tag
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [tag] => list
+    [line] => 23
+    [expected_tag] => list:item
+    [expected_file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [expected_line] => 13
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 154
+* lmbMacroTreeBuilder::popExpectedTag(STRING(4) "list", OBJECT(lmbMacroSourceLocation)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 73
+* lmbMacroTagParsingState::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 114
+* lmbMacroParser::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTokenizer.class.php" line 164
+========================= [127.0.0.1][GET - /product/about_product/61] [Nov 27 2013 12:48:05]=========================
+Error: lmbMacroException: MACRO exception: Unexpected closing tag
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [tag] => list
+    [line] => 23
+    [expected_tag] => list:item
+    [expected_file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [expected_line] => 13
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 154
+* lmbMacroTreeBuilder::popExpectedTag(STRING(4) "list", OBJECT(lmbMacroSourceLocation)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 73
+* lmbMacroTagParsingState::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 114
+* lmbMacroParser::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTokenizer.class.php" line 164
+========================= [127.0.0.1][GET - /product/about_product/61] [Nov 27 2013 12:48:06]=========================
+Error: lmbMacroException: MACRO exception: Unexpected closing tag
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [tag] => list
+    [line] => 23
+    [expected_tag] => list:item
+    [expected_file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [expected_line] => 13
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 154
+* lmbMacroTreeBuilder::popExpectedTag(STRING(4) "list", OBJECT(lmbMacroSourceLocation)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 73
+* lmbMacroTagParsingState::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 114
+* lmbMacroParser::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTokenizer.class.php" line 164
+========================= [127.0.0.1][GET - /product/about_product/61] [Nov 27 2013 12:48:20]=========================
+Error: lmbMacroException: MACRO exception: Unexpected closing tag
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [tag] => list
+    [line] => 23
+    [expected_tag] => list:item
+    [expected_file] => /usr/share/nginx/www/eastwood/template/product/about_product.phtml
+    [expected_line] => 13
+)
+
+Back trace:
+* lmbException::__construct(STRING(39) "MACRO exception: Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(22) "Unexpected closing tag", ARRAY(6)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 154
+* lmbMacroTreeBuilder::popExpectedTag(STRING(4) "list", OBJECT(lmbMacroSourceLocation)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 73
+* lmbMacroTagParsingState::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 114
+* lmbMacroParser::endElement(STRING(4) "list") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTokenizer.class.php" line 164
+========================= [127.0.0.1][GET - /product/about_product/55] [Nov 27 2013 13:35:52]=========================
+Error: lmbMacroException: MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag
+Back trace:
+* lmbException::__construct(STRING(72) "MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(55) "'var'( alias 'expr') attribute is required for 'if' tag") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/if.tag.php" line 12
+* lmbMacroIfTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroIfTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 54
+* lmbMacroTagParsingState::startElement(STRING(2) "if", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 109
+========================= [127.0.0.1][GET - /product/about_product/55] [Nov 27 2013 13:36:02]=========================
+Error: lmbMacroException: MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag
+Back trace:
+* lmbException::__construct(STRING(72) "MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(55) "'var'( alias 'expr') attribute is required for 'if' tag") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/if.tag.php" line 12
+* lmbMacroIfTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroIfTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 54
+* lmbMacroTagParsingState::startElement(STRING(2) "if", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 109
+========================= [127.0.0.1][GET - /product/about_product/55] [Nov 27 2013 13:36:02]=========================
+Error: lmbMacroException: MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag
+Back trace:
+* lmbException::__construct(STRING(72) "MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(55) "'var'( alias 'expr') attribute is required for 'if' tag") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/if.tag.php" line 12
+* lmbMacroIfTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroIfTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 54
+* lmbMacroTagParsingState::startElement(STRING(2) "if", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 109
+========================= [127.0.0.1][GET - /product/about_product/55] [Nov 27 2013 13:36:03]=========================
+Error: lmbMacroException: MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag
+Back trace:
+* lmbException::__construct(STRING(72) "MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(55) "'var'( alias 'expr') attribute is required for 'if' tag") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/if.tag.php" line 12
+* lmbMacroIfTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroIfTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 54
+* lmbMacroTagParsingState::startElement(STRING(2) "if", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 109
+========================= [127.0.0.1][GET - /product/about_product/55] [Nov 27 2013 13:36:09]=========================
+Error: lmbMacroException: MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag
+Back trace:
+* lmbException::__construct(STRING(72) "MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(55) "'var'( alias 'expr') attribute is required for 'if' tag") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/if.tag.php" line 12
+* lmbMacroIfTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroIfTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 54
+* lmbMacroTagParsingState::startElement(STRING(2) "if", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 109
+========================= [127.0.0.1][GET - /product/about_product/55] [Nov 27 2013 13:36:21]=========================
+Error: lmbMacroException: MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag
+Back trace:
+* lmbException::__construct(STRING(72) "MACRO exception: 'var'( alias 'expr') attribute is required for 'if' tag", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(55) "'var'( alias 'expr') attribute is required for 'if' tag") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/if.tag.php" line 12
+* lmbMacroIfTag::preParse(OBJECT(lmbMacroCompiler)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTreeBuilder.class.php" line 66
+* lmbMacroTreeBuilder::pushNode(OBJECT(lmbMacroIfTag)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTagParsingState.class.php" line 54
+* lmbMacroTagParsingState::startElement(STRING(2) "if", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroParser.class.php" line 109
+========================= [127.0.0.1][GET - /cart] [Nov 27 2013 14:04:44]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/cart/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(7) "content") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /cart] [Nov 27 2013 14:05:03]=========================
+Error: lmbMacroException: MACRO exception: Wrap slot not found
+Additional attributes: Array
+(
+    [slot] => content
+    [tag] => wrap
+    [file] => /usr/share/nginx/www/eastwood/template/cart/display.phtml
+    [line] => 2
+)
+
+Back trace:
+* lmbException::__construct(STRING(36) "MACRO exception: Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroException.class.php" line 20
+* lmbMacroException::__construct(STRING(19) "Wrap slot not found", ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroNode.class.php" line 90
+* lmbMacroNode::raise(STRING(19) "Wrap slot not found", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/compiler/lmbMacroTag.class.php" line 206
+* lmbMacroTag::raise(STRING(19) "Wrap slot not found", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 67
+* lmbMacroInsertTag::_insert(OBJECT(lmbMacroInsertTag), OBJECT(lmbMacroTreeBuilder), STRING(7) "content") in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/tags/core/insert.tag.php" line 50
+========================= [127.0.0.1][GET - /product/products_category/cart] [Nov 27 2013 14:09:14]=========================
+Error: lmbTreeInvalidNodeException: Node '0' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '0' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
+* lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
+* Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 22
+========================= [127.0.0.1][GET - /product/products_category/cart] [Nov 27 2013 14:09:22]=========================
+Error: lmbTreeInvalidNodeException: Node '0' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '0' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
+* lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
+* Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 22
+========================= [127.0.0.1][GET - /product/products_category/cart] [Nov 27 2013 14:09:35]=========================
+Error: lmbTreeInvalidNodeException: Node '0' is invalid
+Back trace:
+* lmbException::__construct(STRING(19) "Node '0' is invalid") in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/exception/lmbTreeInvalidNodeException.class.php" line 23
+* lmbTreeInvalidNodeException::__construct(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 416
+* lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
+* lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
+* Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 22

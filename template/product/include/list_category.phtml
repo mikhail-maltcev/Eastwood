@@ -16,7 +16,9 @@
             <td class="bg1">&nbsp;<a href="/product/about_product/{$item.id}">{$item.title}</a></td>
             <td align="center" class="bg1">{$item.price}</td>
             <td align="center" class="bg1">{$item.is_available}</td>
-            <td align="center" class="bg1"><a href="/reserve_view.html"><img border="0" title="Заказать" alt="заказ" src="/images/cart.png"></a></td>
+            <td align="center" class="bg1">
+                <a href="{{route_url params='controller:cart,action:add,id:{$item.id}'}}"><img border="0" title="Заказать" alt="заказ" src="/images/cart.png"></a>
+            </td>
         </tr>
 
         {{/list:item}}

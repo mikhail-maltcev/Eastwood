@@ -11,7 +11,8 @@ $this->Tree = $tree->getData();
 
             {{tree:nextlevel prefix="$new_prefix"}}<?php  $new_prefix = $prefix . ".+++" . $counter;?> {{/tree:nextlevel}}
 
-            <a class="category_level{$item.level}" href='{{route_url params="action:products_category,id:{$item.id}"/}}'>{$item.identifier}</a>
+<!--            <a class="category_level{$item.level}" href='{{route_url params="action:products_category,id:{$item.id}"/}}'>{$item.identifier}</a>-->
+            <a class="category_level{$item.level}" href='/product/products_category/{$item.id}'>{$item.identifier}</a>
 
         </li>
         {{/tree:node}}
