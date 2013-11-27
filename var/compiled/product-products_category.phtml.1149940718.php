@@ -1,8 +1,8 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/product/products_category.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor2a1772032aa32e8e9e4c6a0f9dc5d066', false)){
+if(!class_exists('MacroTemplateExecutor87964bbfd974667d7ab8c8c5288de1ee', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/core/src/lmbArrayHelper.class.php');
-class MacroTemplateExecutor2a1772032aa32e8e9e4c6a0f9dc5d066 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor87964bbfd974667d7ab8c8c5288de1ee extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -41,7 +41,7 @@ function __staticInclude1($file,$in,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler4a3616bc2410e4968eade6da017bf944(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler462fadfc9fef11a47bc4d7691a74a834(array()); ?>
 
         </div>
       </div>
@@ -115,7 +115,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler4a3616bc2410e4968eade6da017bf944($O= array()) {
+function __slotHandler462fadfc9fef11a47bc4d7691a74a834($O= array()) {
 if($O) extract($O); ?>
 
 <h1>Product</h1>
@@ -219,14 +219,14 @@ $this->Tree = $tree->getData();
 ?>
 
 <dd>
-    <?php $this->_render_tree7ddd2c436dfe6a692fc81a06aef3f6a4($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+    <?php $this->_render_treeb673706432f1ced9f5b83b37a01f5634($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
  ?>
 
 
 </dd><?php 
 }
 
-function _render_tree7ddd2c436dfe6a692fc81a06aef3f6a4($BR,$level,$BT= array()) {
+function _render_treeb673706432f1ced9f5b83b37a01f5634($BR,$level,$BT= array()) {
 if($BT) extract($BT);$BS=0;
 foreach($BR as $item) {
 $counter = $BS+1;
@@ -239,7 +239,7 @@ if(!$BS) {
 
         <li>
 
-            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree7ddd2c436dfe6a692fc81a06aef3f6a4($item["childs"], $level + 1, array('prefix' => $new_prefix,));
+            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_treeb673706432f1ced9f5b83b37a01f5634($item["childs"], $level + 1, array('prefix' => $new_prefix,));
 } ?>
 
 
@@ -293,4 +293,4 @@ if(count($BR) == 0) { ?>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor2a1772032aa32e8e9e4c6a0f9dc5d066';
+$macro_executor_class='MacroTemplateExecutor87964bbfd974667d7ab8c8c5288de1ee';

@@ -20,22 +20,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/user-edit.phtml.3687520476.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/user-register.phtml.3363070576.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/www/shared/cms/images/icons/application_put.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/ProductController.class.php" afterPath="$PROJECT_DIR$/src/controller/ProductController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/about_product.phtml" afterPath="$PROJECT_DIR$/template/product/about_product.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/category.phtml" afterPath="$PROJECT_DIR$/template/category.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/OrderLine.class.php" afterPath="$PROJECT_DIR$/src/model/OrderLine.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/cart-display.phtml.3574993714.php" afterPath="$PROJECT_DIR$/var/compiled/cart-display.phtml.3574993714.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" afterPath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_locator.cache" afterPath="$PROJECT_DIR$/var/locators/controller_locator.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/logs/error.log" afterPath="$PROJECT_DIR$/var/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/front_page_layout.phtml" afterPath="$PROJECT_DIR$/template/front_page_layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/include/list_category.phtml" afterPath="$PROJECT_DIR$/template/product/include/list_category.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/macro_locator.cache" afterPath="$PROJECT_DIR$/var/locators/macro_locator.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/styles/main.css" afterPath="$PROJECT_DIR$/www/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" afterPath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/product-about_product.phtml.3649166510.php" afterPath="$PROJECT_DIR$/var/compiled/product-about_product.phtml.3649166510.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/product-display.phtml.310150739.php" afterPath="$PROJECT_DIR$/var/compiled/product-display.phtml.310150739.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/product-products_category.phtml.1149940718.php" afterPath="$PROJECT_DIR$/var/compiled/product-products_category.phtml.1149940718.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" afterPath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eastwood.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,91 +47,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="category.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/category.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/ProductController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="876" selection-end="886" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_property.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/admin_product/edit_property.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="69" selection-start="779" selection-end="813" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products_category.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/product/products_category.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="76" selection-end="131" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_product.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/product/about_product.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="54" selection-start="42" selection-end="54" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="front_page_layout.phtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/front_page_layout.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="24" selection-start="805" selection-end="805" vertical-scroll-proportion="0.51502144" vertical-offset="180" max-vertical-offset="1140">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderLine.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/OrderLine.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="487" selection-end="487" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Cart.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CartController.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/CartController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="1" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-30.0" vertical-offset="0" max-vertical-offset="810">
+            <state line="48" column="1" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-26.416666" vertical-offset="86" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/cart/display.phtml">
+      <file leaf-file-name="Order.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Order.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="54" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="615">
+            <state line="6" column="1" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderLine.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/OrderLine.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="4" selection-start="162" selection-end="162" vertical-scroll-proportion="0.10359116" vertical-offset="0" max-vertical-offset="724">
               <folding />
             </state>
           </provider>
@@ -167,8 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/template/user/include/category.phtml" />
-        <option value="$PROJECT_DIR$/src/model/Product.class.php" />
         <option value="$PROJECT_DIR$/src/model/Tree.class.php" />
         <option value="$PROJECT_DIR$/template/product/include/display.phtml" />
         <option value="$PROJECT_DIR$/template/product/products_category.phtml" />
@@ -183,6 +107,8 @@
         <option value="$PROJECT_DIR$/template/cart/display.phtml" />
         <option value="$PROJECT_DIR$/template/category.phtml" />
         <option value="$PROJECT_DIR$/template/front_page_layout.phtml" />
+        <option value="$PROJECT_DIR$/src/model/Order.class.php" />
+        <option value="$PROJECT_DIR$/src/model/OrderLine.class.php" />
       </list>
     </option>
   </component>
@@ -491,10 +417,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/model" />
       <recent name="$PROJECT_DIR$/template/cart" />
       <recent name="$PROJECT_DIR$/template/product" />
       <recent name="$PROJECT_DIR$/src/controller" />
-      <recent name="$PROJECT_DIR$/src/model" />
       <recent name="$PROJECT_DIR$/template/product/include" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -582,13 +508,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/Tree.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="13" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Product.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.83425415" vertical-offset="191" max-vertical-offset="915">
@@ -617,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/OrderLine.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="487" selection-end="487" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/product/products_category.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="76" selection-end="131" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
@@ -647,21 +559,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/cart/display.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="54" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CartController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="1" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-30.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="1" column="54" selection-start="87" selection-end="87" vertical-scroll-proportion="0.020718232" vertical-offset="0" max-vertical-offset="724">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Cart.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="720">
+        <state line="29" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.6008287" vertical-offset="0" max-vertical-offset="724">
           <folding />
         </state>
       </provider>
@@ -689,7 +594,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/front_page_layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="24" selection-start="805" selection-end="805" vertical-scroll-proportion="0.51502144" vertical-offset="180" max-vertical-offset="1140">
+        <state line="36" column="24" selection-start="805" selection-end="805" vertical-scroll-proportion="0.49723756" vertical-offset="180" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/CartController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="1" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-26.416666" vertical-offset="86" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Order.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/OrderLine.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="162" selection-end="162" vertical-scroll-proportion="0.10359116" vertical-offset="0" max-vertical-offset="724">
           <folding />
         </state>
       </provider>

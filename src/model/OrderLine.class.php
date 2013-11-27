@@ -1,6 +1,9 @@
 <?php
 class OrderLine extends lmbActiveRecord
 {
+    protected $_many_belongs_to = array('order' => array('field' => 'order_id',
+        'class' => 'Order'));
+    
     static function createForProduct($product)
     {
         $line = new OrderLine();
