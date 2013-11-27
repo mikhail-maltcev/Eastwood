@@ -4900,3 +4900,75 @@ Back trace:
 * CartController::doCheckoutMe() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
 * lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
 * lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:08:58]=========================
+Error: Class 'AdminOrderController' not found
+Back trace:
+* lmbLog::log(STRING(38) "Class 'AdminOrderController' not found", INT(3), ARRAY(0), NULL, STRING(35) "[37.113.44.79][GET - /admin_order/]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(38) "Class 'AdminOrderController' not found", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(38) "Class 'AdminOrderController' not found", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:09:27]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:10:13]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:10:14]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:10:37]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:10:37]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:10:49]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:10:50]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63
+========================= [37.113.44.79][GET - /admin_order/] [Nov 27 2013 17:10:50]=========================
+Error: lmbException: Object class name is not specified
+Back trace:
+* lmbException::__construct(STRING(34) "Object class name is not specified") in "/usr/share/nginx/www/eastwood/lib/limb/cms/src/controller/lmbObjectController.class.php" line 26
+* lmbObjectController::__construct() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/toolkit/lmbWebAppTools.class.php" line 128
+* lmbWebAppTools::createController(STRING(11) "admin_order")
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(16) "createController", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbRequestDispatchingFilter.class.php" line 63

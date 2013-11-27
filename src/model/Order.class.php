@@ -41,4 +41,13 @@ class Order extends lmbActiveRecord
         );
     }
 
+    static function findForAdmin($params = array())
+    {
+        $criteria = new lmbSQLCriteria();
+
+        if(isset($params['status']))
+            $criteria->add(lmbSQLCriteria::equal('status', $params['status']));
+
+        return Order :: find($criteria);
+    }
 }

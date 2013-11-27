@@ -15,4 +15,11 @@ $conf[lmbCmsUserRoles :: ADMIN][0]['children'][] =
         "icon" => "/shared/cms/images/icons/camera.png",
     );
 
+$conf[lmbCmsUserRoles :: ADMIN][0]['children'][] =
+    array(
+        "title" => "Заказы",
+        "url" => "/admin_order/",
+        "icon" => "/shared/cms/images/icons/money.png",
+    );
+
 

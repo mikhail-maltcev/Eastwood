@@ -4,17 +4,11 @@ class CartController extends lmbController
 {
     protected function _checkoutCart($cart)
     {
-
-
-        //$user = lmbToolkit::instance()->getUser();
         $this->view->set('cart', $cart);
-        //$this->view->set('address', $user->getAdress());
-
         $this->useForm('checkout_form');
 
         if(!$this->request->hasPost())
         {
-
             if(!$cart->getItemsCount())
                 return $this->flashAndRedirect('Your cart is empty! Nothing to checkout!', array('controller' => 'main_page'));
 
@@ -23,12 +17,9 @@ class CartController extends lmbController
         }
         else
         {
-
             $order = Order :: createForCart($cart);
             $order->setAddress($this->request->get('address'));
             $order->setUserId($this->toolkit->getSession()->get('user_id'));
-
-            //$order->setUser($user);
 
             if($order->trySave($this->error_list))
             {
@@ -36,7 +27,6 @@ class CartController extends lmbController
                 return $this->flashAndRedirect('Your order has been sent. Your cart is now empty.', array('controller' => 'main_page'));
             }
         }
-
     }
 
     function doDisplay()
