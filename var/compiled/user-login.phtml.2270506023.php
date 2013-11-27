@@ -1,8 +1,8 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/user/login.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor4370181bc4b5b5c04c62a637290c5c45', false)){
+if(!class_exists('MacroTemplateExecutor7883484bdfeacf55a88a2490e239e0e6', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/core/src/lmbArrayHelper.class.php');
-class MacroTemplateExecutor4370181bc4b5b5c04c62a637290c5c45 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor7883484bdfeacf55a88a2490e239e0e6 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -28,7 +28,6 @@ function __staticInclude1($file,$into,$file) {
   <div id="header">
     <div class="center">
       <img src="/images/logo.limb.gif"  width='384' height='46' alt='logo.limb' id='logo'/>
-      <div id="limb_links"><a href="http://limb-project.com">limb-project.com</a>&nbsp;|&nbsp;<a href="http://bits.limb-project.com">bits.limb-project.com</a></div>
     </div>
   </div>
 
@@ -43,7 +42,7 @@ function __staticInclude1($file,$into,$file) {
           <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
 
-          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler909e867b64a0140fdb6a0d0266896439(array()); ?>
+          <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlerb778773d57b1faf54c7f7102db54f6ed(array()); ?>
 
         </div>
       </div>
@@ -51,8 +50,8 @@ function __staticInclude1($file,$into,$file) {
     <div id="sidebar">
       <div id="navigation">
         <ul>
-          <li><a href="product">Products</a></li>
-          <li><a href="cart">Your Cart</a></li>
+          <li><a href="/product">Products</a></li>
+          <li><a href="/cart">Your Cart</a></li>
 
           <?php  if($this->toolkit->getSession()->get('user_id')){ ?>
             <li><a href="/user/orders/">Your Orders</a></li>
@@ -73,7 +72,7 @@ function __staticInclude1($file,$into,$file) {
 
         <div id="category">
             <dt>Categories</dt>
-            <?php $this->__staticInclude4('user/include/category.phtml'); ?>
+            <?php $this->__staticInclude4('category.phtml'); ?>
 
         </div>
 
@@ -117,7 +116,7 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler909e867b64a0140fdb6a0d0266896439($O= array()) {
+function __slotHandlerb778773d57b1faf54c7f7102db54f6ed($O= array()) {
 if($O) extract($O); ?>
 
 <?php if($this->loginUrl){?>
@@ -152,15 +151,14 @@ $this->Tree = $tree->getData();
 ?>
 
 <dd>
-
-    <?php $this->_render_tree1daa237c21230a8810c8c8cd3b1dbc8c($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+    <?php $this->_render_tree5107787897c049f668cacc783dfc4a6b($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
  ?>
 
 
 </dd><?php 
 }
 
-function _render_tree1daa237c21230a8810c8c8cd3b1dbc8c($V,$level,$X= array()) {
+function _render_tree5107787897c049f668cacc783dfc4a6b($V,$level,$X= array()) {
 if($X) extract($X);$W=0;
 foreach($V as $item) {
 $counter = $W+1;
@@ -173,11 +171,11 @@ if(!$W) {
 
         <li>
 
-            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree1daa237c21230a8810c8c8cd3b1dbc8c($item["childs"], $level + 1, array('prefix' => $new_prefix,));
+            <?php  $new_prefix = $prefix . ".+++" . $counter;?> <?php if(isset($item["childs"])) {$this->_render_tree5107787897c049f668cacc783dfc4a6b($item["childs"], $level + 1, array('prefix' => $new_prefix,));
 } ?>
 
 
-            <a class="category_level<?php $BB='';
+<!--            <a class="category_level<?php $BB='';
 $BC = $item;
 if((is_array($BC) || ($BC instanceof ArrayAccess)) && isset($BC['level'])) { $BB = $BC['level'];
 }else{ $BB = '';}
@@ -194,20 +192,29 @@ echo lmbToolkit :: instance()->getRoutesUrl($BG, '', $BH);
 $BJ = $item;
 if((is_array($BJ) || ($BJ instanceof ArrayAccess)) && isset($BJ['identifier'])) { $BI = $BJ['identifier'];
 }else{ $BI = '';}
-echo htmlspecialchars($BI,3); ?></a>
-
+echo htmlspecialchars($BI,3); ?></a>-->
+            <a class="category_level<?php $BK='';
+$BL = $item;
+if((is_array($BL) || ($BL instanceof ArrayAccess)) && isset($BL['level'])) { $BK = $BL['level'];
+}else{ $BK = '';}
+echo htmlspecialchars($BK,3); ?>" href='/product/products_category/<?php $BM='';
+$BN = $item;
+if((is_array($BN) || ($BN instanceof ArrayAccess)) && isset($BN['id'])) { $BM = $BN['id'];
+}else{ $BM = '';}
+echo htmlspecialchars($BM,3); ?>'><?php $BO='';
+$BP = $item;
+if((is_array($BP) || ($BP instanceof ArrayAccess)) && isset($BP['identifier'])) { $BO = $BP['identifier'];
+}else{ $BO = '';}
+echo htmlspecialchars($BO,3); ?></a>
 
         </li>
         <?php $W++;
 }
 if(count($V) == 0) { ?>
 
-        Комментарии отсуствуют
+        Категории отсуствуют
         <?php }if($W) {
  ?>
-
-
-
 
 
         
@@ -218,4 +225,4 @@ if(count($V) == 0) { ?>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor4370181bc4b5b5c04c62a637290c5c45';
+$macro_executor_class='MacroTemplateExecutor7883484bdfeacf55a88a2490e239e0e6';

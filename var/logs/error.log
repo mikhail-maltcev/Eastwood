@@ -4768,3 +4768,135 @@ Back trace:
 * lmbMPTree::_ensureNode(INT(0)) in "/usr/share/nginx/www/eastwood/lib/limb/tree/src/lmbMPTree.class.php" line 211
 * lmbMPTree::getChildrenAll(INT(0)) in "/usr/share/nginx/www/eastwood/src/model/Tree.class.php" line 73
 * Tree::getIdsBranch(INT(0)) in "/usr/share/nginx/www/eastwood/src/controller/ProductController.class.php" line 22
+========================= [127.0.0.1][GET - /cart/checkout] [Nov 27 2013 14:53:41]=========================
+Error: Call to undefined method User::getAdress()
+Back trace:
+* lmbLog::log(STRING(42) "Call to undefined method User::getAdress()", INT(3), ARRAY(0), NULL, STRING(33) "[127.0.0.1][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(42) "Call to undefined method User::getAdress()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(42) "Call to undefined method User::getAdress()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [127.0.0.1][GET - /cart/checkout] [Nov 27 2013 14:55:35]=========================
+Error: Call to undefined method User::getAdress()
+Back trace:
+* lmbLog::log(STRING(42) "Call to undefined method User::getAdress()", INT(3), ARRAY(0), NULL, STRING(33) "[127.0.0.1][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(42) "Call to undefined method User::getAdress()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(42) "Call to undefined method User::getAdress()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [127.0.0.1][GET - /cart/checkout] [Nov 27 2013 15:01:01]=========================
+Error: Call to undefined method User::getIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::getIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(33) "[127.0.0.1][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::getIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::getIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:04:19]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:05:56]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:06:52]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:06:54]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:07:03]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:07:04]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:07:05]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:07:05]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:07:19]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout] [Nov 27 2013 15:07:19]=========================
+Error: Call to undefined method User::setIsLoggedIn()
+Back trace:
+* lmbLog::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3), ARRAY(0), NULL, STRING(36) "[37.113.44.79][GET - /cart/checkout]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(46) "Call to undefined method User::setIsLoggedIn()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.44.79][GET - /cart/checkout_me] [Nov 27 2013 15:23:21]=========================
+Error: lmbException: number_format() expects parameter 1 to be double, string given
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/cart-checkout_me.phtml.2350415511.php
+    [line] => 205
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(62) "number_format() expects parameter 1 to be double, string given", STRING(80) "/usr/share/nginx/www/eastwood/var/compiled/cart-checkout_me.phtml.2350415511.php", INT(205), ARRAY(10))
+* number_format(STRING(0) "", INT(2), STRING(1) ".", STRING(1) " ") in "/usr/share/nginx/www/eastwood/var/compiled/cart-checkout_me.phtml.2350415511.php" line 205
+* MacroTemplateExecutor09ad3e33567a95c6a4f5cfa6fe31a0e2::__slotHandler8d8dd88002cbefb9884543358f58f0ed(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/cart-checkout_me.phtml.2350415511.php" line 65
+* MacroTemplateExecutor09ad3e33567a95c6a4f5cfa6fe31a0e2::__staticInclude1(STRING(23) "front_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "front_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/cart-checkout_me.phtml.2350415511.php" line 32
+* MacroTemplateExecutor09ad3e33567a95c6a4f5cfa6fe31a0e2::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [37.113.44.79][POST - /cart/checkout_me] [Nov 27 2013 15:27:40]=========================
+Error: lmbException: Undefined variable: user
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/src/controller/CartController.class.php
+    [line] => 30
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(24) "Undefined variable: user", STRING(69) "/usr/share/nginx/www/eastwood/src/controller/CartController.class.php", INT(30), ARRAY(2)) in "/usr/share/nginx/www/eastwood/src/controller/CartController.class.php" line 30
+* CartController::_checkoutCart(OBJECT(Cart)) in "/usr/share/nginx/www/eastwood/src/controller/CartController.class.php" line 49
+* CartController::doCheckoutMe() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))

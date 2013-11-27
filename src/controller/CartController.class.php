@@ -2,9 +2,52 @@
 
 class CartController extends lmbController
 {
+    protected function _checkoutCart($cart)
+    {
+
+
+        //$user = lmbToolkit::instance()->getUser();
+        $this->view->set('cart', $cart);
+        //$this->view->set('address', $user->getAdress());
+
+        $this->useForm('checkout_form');
+
+        if(!$this->request->hasPost())
+        {
+
+            if(!$cart->getItemsCount())
+                return $this->flashAndRedirect('Your cart is empty! Nothing to checkout!', array('controller' => 'main_page'));
+
+            if(!$this->toolkit->getSession()->get('user_id'))
+                return $this->flashAndRedirect('Your are not logged in yet! Please login or register to checkout!');
+        }
+        else
+        {
+
+            $order = Order :: createForCart($cart);
+            $order->setAddress($this->request->get('address'));
+            $order->setUserId($this->toolkit->getSession()->get('user_id'));
+
+            //$order->setUser($user);
+
+            if($order->trySave($this->error_list))
+            {
+                $cart->reset();
+                return $this->flashAndRedirect('Your order has been sent. Your cart is now empty.', array('controller' => 'main_page'));
+            }
+        }
+
+    }
+
     function doDisplay()
     {
-        $this->view->set('cart', $this->_getCart());
+        $this->cart = $this->_getCart();
+    }
+
+    function doCheckoutMe()
+    {
+        $cart = $this->_getCart();
+        return $this->_checkoutCart($cart);
     }
 
     function doEmpty()
