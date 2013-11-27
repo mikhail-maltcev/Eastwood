@@ -5,7 +5,6 @@
 
   <div id="header">
     <h1>Product</h1>
-
   </div>
 
   <div id="body">
@@ -15,25 +14,15 @@
       <ul>
           {{tree:node}}
           <li>
-              {$prefix}.{$counter}){$item.identifier}
-              {{tree:nextlevel prefix="$new_prefix"}}<?php $new_prefix = $prefix . "." . $counter; ?>{{/tree:nextlevel}}
-
+              {$item.identifier}
               <a href='{{route_url params="action:create_to,id:{$item.id}"/}}'> Select</a>&nbsp;&nbsp;
-
-
           </li>
           {{/tree:node}}
-
-
-
 
           {{tree:empty}}
           Комментарии отсуствуют
           {{/tree:empty}}
       </ul>
       {{/tree}}
-
-
   </div>
-
 {{/wrap}}

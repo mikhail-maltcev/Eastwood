@@ -8,4 +8,38 @@
   </div>
 
 
+{{list using="$this->items" as="$item"}}
+
+    {{list:item}}
+
+        {{form id='news_form' name='news_form' method='post' }}
+
+        {{form:errors to='$fields_errors'/}}
+
+        {{list using='$fields_errors' as="$error"}}
+        <div class="message_error">
+            <b class='title'>These fields contained errors</b>
+            <ol>
+                {{list:item}}
+                <li><span style="color:red;">{$error.message}</span></li>
+                {{/list:item}}
+            </ol>
+        </div>
+        {{/list}}
+
+
+        {{label for="value"}}{$item->getProperty()->getPropertyName()}{{/label}} : {{input name='value' type='text' size='60' title='value' value='{$item->getValue()}'/}}
+
+        {{input name='property_id' type='hidden' title='property_id' value='{$item->getId()}'}}
+
+
+        {{input type='submit' value='Save'/}}<br/>
+
+        {{/form}}
+
+    {{/list:item}}
+
+{{/list}}
+
+
 {{/wrap}}

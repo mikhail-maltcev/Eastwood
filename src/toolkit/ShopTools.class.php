@@ -22,7 +22,7 @@ class ShopTools extends lmbAbstractTools
       catch(lmbARException $e)
       {
         $this->user = new User();
-        $session->remove('user_id'); 
+        $session->remove('user_id');
       }
     }
     else

@@ -1,8 +1,8 @@
 <?php /* This file is generated from /usr/share/nginx/www/eastwood/template/admin_product/display.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor957fb6a5e4f2aabab6006adcad2d46e1', false)){
+if(!class_exists('MacroTemplateExecutor5725743ddd1c6ad60390b3f60f0c5fc8', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
 require_once('limb/core/src/lmbArrayHelper.class.php');
-class MacroTemplateExecutor957fb6a5e4f2aabab6006adcad2d46e1 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor5725743ddd1c6ad60390b3f60f0c5fc8 extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
@@ -26,10 +26,10 @@ function __staticInclude1($file,$in,$into,$file) {
   <!--[if IE]><link rel="stylesheet" type="text/css" href="/shared/cms/styles/cp_ie.css?<?php echo htmlspecialchars($this->static_files_version,3); ?>" /><![endif]-->
   <!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="/shared/cms/styles/cp_ie6.css?<?php echo htmlspecialchars($this->static_files_version,3); ?>" /><![endif]-->
   <link rel="stylesheet" type="text/css" href="/shared/cms/styles/thickbox.css?<?php echo htmlspecialchars($this->static_files_version,3); ?>" />
-  <?php if(isset($this->__slot_handlers_header_zone)) {foreach($this->__slot_handlers_header_zone as $__slot_handler_header_zone) {call_user_func_array($__slot_handler_header_zone, array(array()));}}$this->__slotHandler36cbb3a64978c606925a984696780d14(array()); ?>
+  <?php if(isset($this->__slot_handlers_header_zone)) {foreach($this->__slot_handlers_header_zone as $__slot_handler_header_zone) {call_user_func_array($__slot_handler_header_zone, array(array()));}}$this->__slotHandler090b258d1a49a01b5c8820defa7c41a5(array()); ?>
 
   <style type="text/css">
-    <?php if(isset($this->__slot_handlers_css_zone)) {foreach($this->__slot_handlers_css_zone as $__slot_handler_css_zone) {call_user_func_array($__slot_handler_css_zone, array(array()));}}$this->__slotHandlerfe09e8086299f436f03f2aa499d23f2c(array()); ?>
+    <?php if(isset($this->__slot_handlers_css_zone)) {foreach($this->__slot_handlers_css_zone as $__slot_handler_css_zone) {call_user_func_array($__slot_handler_css_zone, array(array()));}}$this->__slotHandler4e7147539a2072853ba1f86c38636f6d(array()); ?>
 
   </style>
 </head>
@@ -63,7 +63,7 @@ echo htmlspecialchars($BJ,3); ?> ]</li>
 
     <div id='main_col'>
       <div id="main_col_content">
-        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler765db0f888a1f4544b16cec70fbd67b6(array()); ?>
+        <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandlerf4f70722599397eb1cb549c7650914fe(array()); ?>
 
       </div>
     </div>
@@ -75,69 +75,69 @@ echo htmlspecialchars($BJ,3); ?> ]</li>
         $this->navigation=$this->navigation->fetch();
       ?>
       <dl id='main_menu'>
-      <?php $CK = 0;$CM = $this->navigation;
+      <?php $CE = 0;$CG = $this->navigation;
 
-if(!is_array($CM) && !($CM instanceof Iterator) && !($CM instanceof IteratorAggregate)) {
-$CM = array();}
-$CL = $CM;
-foreach($CL as $item) {if($CK == 0) { ?>
+if(!is_array($CG) && !($CG instanceof Iterator) && !($CG instanceof IteratorAggregate)) {
+$CG = array();}
+$CF = $CG;
+foreach($CF as $item) {if($CE == 0) { ?>
 
         <?php } ?>
 
-        <dt class='<?php $CO='';
-$CP = $item;
-if((is_array($CP) || ($CP instanceof ArrayAccess)) && isset($CP['id'])) { $CO = $CP['id'];
-}else{ $CO = '';}
-echo htmlspecialchars($CO,3); ?>'><img src='<?php $CQ='';
-$CR = $item;
-if((is_array($CR) || ($CR instanceof ArrayAccess)) && isset($CR['icon'])) { $CQ = $CR['icon'];
-}else{ $CQ = '';}
-echo htmlspecialchars($CQ,3); ?>'/> <?php $CS='';
-$CT = $item;
-if((is_array($CT) || ($CT instanceof ArrayAccess)) && isset($CT['title'])) { $CS = $CT['title'];
-}else{ $CS = '';}
-echo htmlspecialchars($CS,3); ?> </dt>
+        <dt class='<?php $CI='';
+$CJ = $item;
+if((is_array($CJ) || ($CJ instanceof ArrayAccess)) && isset($CJ['id'])) { $CI = $CJ['id'];
+}else{ $CI = '';}
+echo htmlspecialchars($CI,3); ?>'><img src='<?php $CK='';
+$CL = $item;
+if((is_array($CL) || ($CL instanceof ArrayAccess)) && isset($CL['icon'])) { $CK = $CL['icon'];
+}else{ $CK = '';}
+echo htmlspecialchars($CK,3); ?>'/> <?php $CM='';
+$CN = $item;
+if((is_array($CN) || ($CN instanceof ArrayAccess)) && isset($CN['title'])) { $CM = $CN['title'];
+}else{ $CM = '';}
+echo htmlspecialchars($CM,3); ?> </dt>
         <dd>
-          <?php $CU='';
-$CV = $item;
-if((is_array($CV) || ($CV instanceof ArrayAccess)) && isset($CV['children'])) { $CU = $CV['children'];
-}else{ $CU = '';}
-$CY = 0;$DA = $CU;
+          <?php $CO='';
+$CP = $item;
+if((is_array($CP) || ($CP instanceof ArrayAccess)) && isset($CP['children'])) { $CO = $CP['children'];
+}else{ $CO = '';}
+$CS = 0;$CU = $CO;
 
-if(!is_array($DA) && !($DA instanceof Iterator) && !($DA instanceof IteratorAggregate)) {
-$DA = array();}
-$CZ = $DA;
-foreach($CZ as $sub_item) {if($CY == 0) { ?>
+if(!is_array($CU) && !($CU instanceof Iterator) && !($CU instanceof IteratorAggregate)) {
+$CU = array();}
+$CT = $CU;
+foreach($CT as $sub_item) {if($CS == 0) { ?>
 
             <ul>
               <?php } ?>
 
               <li>
-                <img src='<?php $DC='';
-$DD = $sub_item;
-if((is_array($DD) || ($DD instanceof ArrayAccess)) && isset($DD['icon'])) { $DC = $DD['icon'];
-}else{ $DC = '';}
-echo htmlspecialchars($DC,3); ?>'/> <a href='<?php $DE='';
-$DF = $sub_item;
-if((is_array($DF) || ($DF instanceof ArrayAccess)) && isset($DF['url'])) { $DE = $DF['url'];
-}else{ $DE = '';}
-echo htmlspecialchars($DE,3); ?>'><?php $DG='';
-$DH = $sub_item;
-if((is_array($DH) || ($DH instanceof ArrayAccess)) && isset($DH['title'])) { $DG = $DH['title'];
-}else{ $DG = '';}
-echo htmlspecialchars($DG,3); ?></a>
-              </li><?php $CY++;}if($CY > 0) { ?>
+                <img src='<?php $CW='';
+$CX = $sub_item;
+if((is_array($CX) || ($CX instanceof ArrayAccess)) && isset($CX['icon'])) { $CW = $CX['icon'];
+}else{ $CW = '';}
+echo htmlspecialchars($CW,3); ?>'/> <a href='<?php $CY='';
+$CZ = $sub_item;
+if((is_array($CZ) || ($CZ instanceof ArrayAccess)) && isset($CZ['url'])) { $CY = $CZ['url'];
+}else{ $CY = '';}
+echo htmlspecialchars($CY,3); ?>'><?php $DA='';
+$DB = $sub_item;
+if((is_array($DB) || ($DB instanceof ArrayAccess)) && isset($DB['title'])) { $DA = $DB['title'];
+}else{ $DA = '';}
+echo htmlspecialchars($DA,3); ?></a>
+              </li><?php $CS++;}if($CS > 0) { ?>
 
             </ul>
           <?php } ?>
 
         </dd>
-        <?php $CK++;}if($CK > 0) { ?>
+        <?php $CE++;}if($CE > 0) { ?>
 
       <?php } ?>
 
       </dl>
-      <?php if(isset($this->__slot_handlers_context_help)) {foreach($this->__slot_handlers_context_help as $__slot_handler_context_help) {call_user_func_array($__slot_handler_context_help, array(array()));}}$this->__slotHandler5f2d8bb524b5bd77c253f49716ce4f65(array()); ?>
+      <?php if(isset($this->__slot_handlers_context_help)) {foreach($this->__slot_handlers_context_help as $__slot_handler_context_help) {call_user_func_array($__slot_handler_context_help, array(array()));}}$this->__slotHandlerf975323142395ef3f4400bb5a9dd319a(array()); ?>
 
     </div>
 
@@ -154,16 +154,16 @@ echo htmlspecialchars($DG,3); ?></a>
   <script src="/shared/cms/js/auto_tabs.js?<?php echo htmlspecialchars($this->static_files_version,3); ?>"></script>
   <script src="/shared/cms/js/thickbox.js?<?php echo htmlspecialchars($this->static_files_version,3); ?>"></script>
   <script src="/shared/cms/js/cp.js?<?php echo htmlspecialchars($this->static_files_version,3); ?>"></script>
-  <?php if(isset($this->__slot_handlers_js_include)) {foreach($this->__slot_handlers_js_include as $__slot_handler_js_include) {call_user_func_array($__slot_handler_js_include, array(array()));}}$this->__slotHandler7f1ab62f1d8dece7d094ff7eaa6f077a(array()); ?>
+  <?php if(isset($this->__slot_handlers_js_include)) {foreach($this->__slot_handlers_js_include as $__slot_handler_js_include) {call_user_func_array($__slot_handler_js_include, array(array()));}}$this->__slotHandlerebfc5e13dfe8b5dc47f3da76b044f89e(array()); ?>
 
 
   <script type="text/javascript">
-    <?php if(isset($this->__slot_handlers_js)) {foreach($this->__slot_handlers_js as $__slot_handler_js) {call_user_func_array($__slot_handler_js, array(array()));}}$this->__slotHandlerf4c0e1f36e25b8d844b414c06e0cad5c(array()); ?>
+    <?php if(isset($this->__slot_handlers_js)) {foreach($this->__slot_handlers_js as $__slot_handler_js) {call_user_func_array($__slot_handler_js, array(array()));}}$this->__slotHandlerffd3510e50c36e35c1431c588733aa04(array()); ?>
 
 
     jQuery(window).ready(function()
     {
-      <?php if(isset($this->__slot_handlers_js_ready)) {foreach($this->__slot_handlers_js_ready as $__slot_handler_js_ready) {call_user_func_array($__slot_handler_js_ready, array(array()));}}$this->__slotHandlerab70771461c9b658e3134d87b1709585(array()); ?>
+      <?php if(isset($this->__slot_handlers_js_ready)) {foreach($this->__slot_handlers_js_ready as $__slot_handler_js_ready) {call_user_func_array($__slot_handler_js_ready, array(array()));}}$this->__slotHandlerc5ffdfee6b6f200aeb8a58289b18deec(array()); ?>
 
 
       thickboxInit();
@@ -192,11 +192,11 @@ echo htmlspecialchars($DG,3); ?></a>
 <?php 
 }
 
-function __slotHandler36cbb3a64978c606925a984696780d14($I= array()) {
+function __slotHandler090b258d1a49a01b5c8820defa7c41a5($I= array()) {
 if($I) extract($I);
 }
 
-function __slotHandlerfe09e8086299f436f03f2aa499d23f2c($J= array()) {
+function __slotHandler4e7147539a2072853ba1f86c38636f6d($J= array()) {
 if($J) extract($J);
 }
 
@@ -212,12 +212,12 @@ function __staticInclude2($file) {
         <?php $K='';
 $L = $flashbox;
 $K = $L->getErrors();
-$this->_templated427b979e30aa4dbf1422ecbe91ffc11(array('template' => 'flashbox','messages' => $K,'box_class' => 'error',)); ?>
+$this->_template738b7cfb93224b79a0911cc376220699(array('template' => 'flashbox','messages' => $K,'box_class' => 'error',)); ?>
 
         <?php $V='';
 $W = $flashbox;
 $V = $W->getMessages();
-$this->_template808667fe1afdf2e877383473ca6fb35d(array('template' => 'flashbox','messages' => $V,'box_class' => 'message',)); ?>
+$this->_templatec8416d18e633ab382443d957933dab2d(array('template' => 'flashbox','messages' => $V,'box_class' => 'message',)); ?>
 
       </ul>
       <a href="javascipt:void(0)" href="javascript:void(0)" class='close' onclick="this.parentNode.style.display = 'none'; return false;">
@@ -233,7 +233,7 @@ $this->_template808667fe1afdf2e877383473ca6fb35d(array('template' => 'flashbox',
 ?><?php 
 }
 
-function _templated427b979e30aa4dbf1422ecbe91ffc11($M= array()) {
+function _template738b7cfb93224b79a0911cc376220699($M= array()) {
 if($M) extract($M); ?>
 
   <?php $P = 0;$R = $messages;
@@ -253,7 +253,7 @@ foreach($Q as $item) {if($P == 0) { ?>
 <?php 
 }
 
-function _template808667fe1afdf2e877383473ca6fb35d($X= array()) {
+function _templatec8416d18e633ab382443d957933dab2d($X= array()) {
 if($X) extract($X); ?>
 
   <?php $BB = 0;$BD = $messages;
@@ -273,7 +273,7 @@ foreach($BC as $item) {if($BB == 0) { ?>
 <?php 
 }
 
-function __slotHandler765db0f888a1f4544b16cec70fbd67b6($BL= array()) {
+function __slotHandlerf4f70722599397eb1cb549c7650914fe($BL= array()) {
 if($BL) extract($BL); ?>
 
 
@@ -284,19 +284,15 @@ if($BL) extract($BL); ?>
 
   <div id="header">
     <h1>Product</h1>
-
   </div>
 
   <div id="body">
       <h1>Select category</h1>
 
-      <?php $this->_render_tree322a193b7dba7d4fb5e4c206f07b2ceb($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+      <?php $this->_render_tree8590596c3153e7e0c38b27cbbf585e6b($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
  ?>
 
-
-
   </div>
-
 <?php 
 }
 
@@ -329,7 +325,7 @@ function __staticInclude4($file) {
 <?php 
 }
 
-function _render_tree322a193b7dba7d4fb5e4c206f07b2ceb($BS,$level,$BU= array()) {
+function _render_tree8590596c3153e7e0c38b27cbbf585e6b($BS,$level,$BU= array()) {
 if($BU) extract($BU);$BT=0;
 foreach($BS as $item) {
 $counter = $BT+1;
@@ -341,28 +337,22 @@ if(!$BT) {
  ?>
 
           <li>
-              <?php echo htmlspecialchars($prefix,3); ?>.<?php echo htmlspecialchars($counter,3); ?>)<?php $BZ='';
-$CA = $item;
-if((is_array($CA) || ($CA instanceof ArrayAccess)) && isset($CA['identifier'])) { $BZ = $CA['identifier'];
-}else{ $BZ = '';}
-echo htmlspecialchars($BZ,3); ?>
+              <?php $BV='';
+$BW = $item;
+if((is_array($BW) || ($BW instanceof ArrayAccess)) && isset($BW['identifier'])) { $BV = $BW['identifier'];
+}else{ $BV = '';}
+echo htmlspecialchars($BV,3); ?>
 
-              <?php $new_prefix = $prefix . "." . $counter; ?><?php if(isset($item["childs"])) {$this->_render_tree322a193b7dba7d4fb5e4c206f07b2ceb($item["childs"], $level + 1, array('prefix' => $new_prefix,));
-} ?>
-
-
-              <a href='<?php $CD='';
-$CE = $item;
-if((is_array($CE) || ($CE instanceof ArrayAccess)) && isset($CE['id'])) { $CD = $CE['id'];
-}else{ $CD = '';}
-$CG = array();
-$CF = lmbArrayHelper :: explode(',',':', sprintf('action:create_to,id:%s',$CD));
-foreach($CF as $key => $value) $CG[trim($key)] = trim($value);
-$CH = false;
-echo lmbToolkit :: instance()->getRoutesUrl($CG, '', $CH);
+              <a href='<?php $BX='';
+$BY = $item;
+if((is_array($BY) || ($BY instanceof ArrayAccess)) && isset($BY['id'])) { $BX = $BY['id'];
+}else{ $BX = '';}
+$CA = array();
+$BZ = lmbArrayHelper :: explode(',',':', sprintf('action:create_to,id:%s',$BX));
+foreach($BZ as $key => $value) $CA[trim($key)] = trim($value);
+$CB = false;
+echo lmbToolkit :: instance()->getRoutesUrl($CA, '', $CB);
  ?>'> Select</a>&nbsp;&nbsp;
-
-
           </li>
           <?php $BT++;
 }
@@ -373,25 +363,22 @@ if(count($BS) == 0) { ?>
  ?>
 
 
-
-
-
           
       </ul>
       <?php }
 
 }
 
-function __slotHandler5f2d8bb524b5bd77c253f49716ce4f65($DI= array()) {
-if($DI) extract($DI);
+function __slotHandlerf975323142395ef3f4400bb5a9dd319a($DC= array()) {
+if($DC) extract($DC);
 }
 
-function __slotHandler7f1ab62f1d8dece7d094ff7eaa6f077a($EF= array()) {
-if($EF) extract($EF);
+function __slotHandlerebfc5e13dfe8b5dc47f3da76b044f89e($DZ= array()) {
+if($DZ) extract($DZ);
 }
 
-function __slotHandlerf4c0e1f36e25b8d844b414c06e0cad5c($EG= array()) {
-if($EG) extract($EG); ?>
+function __slotHandlerffd3510e50c36e35c1431c588733aa04($EA= array()) {
+if($EA) extract($EA); ?>
 
   function openWindowForSelectors(title, url, obj)
   {
@@ -409,10 +396,10 @@ if($EG) extract($EG); ?>
 <?php 
 }
 
-function __slotHandlerab70771461c9b658e3134d87b1709585($EH= array()) {
-if($EH) extract($EH);
+function __slotHandlerc5ffdfee6b6f200aeb8a58289b18deec($EB= array()) {
+if($EB) extract($EB);
 }
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor957fb6a5e4f2aabab6006adcad2d46e1';
+$macro_executor_class='MacroTemplateExecutor5725743ddd1c6ad60390b3f60f0c5fc8';

@@ -46,10 +46,7 @@ class Tree
 
     function getFoliage()
     {
-
         $ids_foliage=self::GetArrayIdsFoliageTree();
-        //die();
-
         return $this->mpTree->getNodesByIds($ids_foliage);
     }
 
@@ -64,12 +61,30 @@ class Tree
             {
                 if(!self::checkChildren($value)){
                     array_push($ids_foliage, $value);
-                    //echo '|',$value,'-good id|';
                 };
                 break;
             }
         }
         return $ids_foliage;
     }
+
+    function getIdsBranch($root_branch_id)
+    {
+        $rs = $this->mpTree->getChildrenAll($root_branch_id);
+        $ids_branch=array($root_branch_id);
+        foreach ($rs as $key)
+        {
+            foreach ($key as $value)
+            {
+                if(!self::checkChildren($value)){
+                    array_push($ids_branch, $value);
+                };
+                break;
+            }
+        }
+        return $ids_branch;
+
+    }
+
 }
 

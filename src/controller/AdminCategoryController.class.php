@@ -52,6 +52,8 @@ class AdminCategoryController extends lmbAdminObjectController
                 $property->import($this->request);
                 $property->remove('id');
                 $property->save();
+
+
             }else
             {
                 echo 'you cant add property to this category!';
