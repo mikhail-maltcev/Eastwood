@@ -12,57 +12,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/template/tree/test.phtml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/template/user/include/category.phtml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/www/shared/cms/images/icons/application_put.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminCategoryController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminCategoryController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminOrderController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminOrderController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminProductController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminProductController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminUserController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminUserController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/CartController.class.php" afterPath="$PROJECT_DIR$/src/controller/CartController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Order.class.php" afterPath="$PROJECT_DIR$/src/model/Order.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/ProductController.class.php" afterPath="$PROJECT_DIR$/src/controller/ProductController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/PropertyValue.class.php" afterPath="$PROJECT_DIR$/src/model/PropertyValue.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Tree.class.php" afterPath="$PROJECT_DIR$/src/model/Tree.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/TreeController.class.php" afterPath="$PROJECT_DIR$/src/controller/TreeController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/UserController.class.php" afterPath="$PROJECT_DIR$/src/controller/UserController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/about_product.phtml" afterPath="$PROJECT_DIR$/template/product/about_product.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/category.phtml" afterPath="$PROJECT_DIR$/template/category.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/cart/checkout_me.phtml" afterPath="$PROJECT_DIR$/template/cart/checkout_me.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/cms_user-login.phtml.1915906592.php" afterPath="$PROJECT_DIR$/var/compiled/cms_user-login.phtml.1915906592.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/config_locator.cache" afterPath="$PROJECT_DIR$/var/locators/config_locator.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" afterPath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_locator.cache" afterPath="$PROJECT_DIR$/var/locators/controller_locator.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/shared/cms/styles/cp.css" afterPath="$PROJECT_DIR$/www/shared/cms/styles/cp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_category/create.phtml" afterPath="$PROJECT_DIR$/template/admin_category/create.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/create.phtml" afterPath="$PROJECT_DIR$/template/admin_product/create.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/create.phtml" afterPath="$PROJECT_DIR$/template/admin_user/create.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_category/create_property.phtml" afterPath="$PROJECT_DIR$/template/admin_category/create_property.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/create_to.phtml" afterPath="$PROJECT_DIR$/template/admin_product/create_to.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_order/details.phtml" afterPath="$PROJECT_DIR$/template/admin_order/details.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_category/display.phtml" afterPath="$PROJECT_DIR$/template/admin_category/display.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_order/display.phtml" afterPath="$PROJECT_DIR$/template/admin_order/display.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/display.phtml" afterPath="$PROJECT_DIR$/template/admin_product/display.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/display.phtml" afterPath="$PROJECT_DIR$/template/admin_user/display.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/cart/display.phtml" afterPath="$PROJECT_DIR$/template/cart/display.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/main_page/display.phtml" afterPath="$PROJECT_DIR$/template/main_page/display.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/edit.phtml" afterPath="$PROJECT_DIR$/template/admin_product/edit.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/edit.phtml" afterPath="$PROJECT_DIR$/template/admin_user/edit.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/edit.phtml" afterPath="$PROJECT_DIR$/template/user/edit.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/edit_property.phtml" afterPath="$PROJECT_DIR$/template/admin_product/edit_property.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/flash_box.phtml" afterPath="$PROJECT_DIR$/template/flash_box.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/include/form_fields.phtml" afterPath="$PROJECT_DIR$/template/admin_product/include/form_fields.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/include/form_fields.phtml" afterPath="$PROJECT_DIR$/template/admin_user/include/form_fields.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/include/form_fields.phtml" afterPath="$PROJECT_DIR$/template/user/include/form_fields.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/front_page_layout.phtml" afterPath="$PROJECT_DIR$/template/front_page_layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/item.phtml" afterPath="$PROJECT_DIR$/template/product/item.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/include/list_category.phtml" afterPath="$PROJECT_DIR$/template/product/include/list_category.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/login.phtml" afterPath="$PROJECT_DIR$/template/user/login.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/macro_locator.cache" afterPath="$PROJECT_DIR$/var/locators/macro_locator.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" afterPath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php" afterPath="$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/include/profile_box.phtml" afterPath="$PROJECT_DIR$/template/user/include/profile_box.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/register.phtml" afterPath="$PROJECT_DIR$/template/user/register.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.php" afterPath="$PROJECT_DIR$/setup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" afterPath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eastwood.iws" />
     <ignored path=".idea/workspace.xml" />
