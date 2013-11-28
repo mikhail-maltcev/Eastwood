@@ -1,43 +1,43 @@
 {{wrap with="admin_page_layout.phtml" in="content_zone"}}
 
-  {{include file="_admin/selectors.phtml"/}}
-  {{include file="_admin_object/actions.phtml"/}}
+{{include file="_admin/selectors.phtml"/}}
+{{include file="_admin_object/actions.phtml"/}}
 
-  <div id="header">
+<div id="header">
     <h1>Property product</h1>
-  </div>
+</div>
 
 
 {{list using="$this->items" as="$item"}}
 
-    {{list:item}}
+{{list:item}}
 
-        {{form id='news_form' name='news_form' method='post' }}
+{{form id='news_form' name='news_form' method='post' }}
 
-        {{form:errors to='$fields_errors'/}}
+{{form:errors to='$fields_errors'/}}
 
-        {{list using='$fields_errors' as="$error"}}
-        <div class="message_error">
-            <b class='title'>These fields contained errors</b>
-            <ol>
-                {{list:item}}
-                <li><span style="color:red;">{$error.message}</span></li>
-                {{/list:item}}
-            </ol>
-        </div>
-        {{/list}}
-
-
-        {{label for="value"}}{$item->getProperty()->getPropertyName()}{{/label}} : {{input name='value' type='text' size='60' title='value' value='{$item->getValue()}'/}}
-
-        {{input name='property_id' type='hidden' title='property_id' value='{$item->getId()}'}}
+{{list using='$fields_errors' as="$error"}}
+<div class="message_error">
+    <b class='title'>These fields contained errors</b>
+    <ol>
+        {{list:item}}
+        <li><span style="color:red;">{$error.message}</span></li>
+        {{/list:item}}
+    </ol>
+</div>
+{{/list}}
 
 
-        {{input type='submit' value='Save'/}}<br/>
+{{label for="value"}}{$item->getProperty()->getPropertyName()}{{/label}} : {{input name='value' type='text' size='60' title='value' value='{$item->getValue()}'/}}
 
-        {{/form}}
+{{input name='property_id' type='hidden' title='property_id' value='{$item->getId()}'}}
 
-    {{/list:item}}
+
+{{input type='submit' value='Save'/}}<br/>
+
+{{/form}}
+
+{{/list:item}}
 
 {{/list}}
 

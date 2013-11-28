@@ -5,9 +5,7 @@ class Order extends lmbActiveRecord
     const STATUS_PROCESSED           = 2;
     const STATUS_FINISHED            = 3;
 
-    protected $_has_many = array('lines' => array('field' => 'order_id',
-        'class' => 'OrderLine'));
-
+    protected $_has_many = array('lines' => array('field' => 'order_id','class' => 'OrderLine'));
 
     function createForCart($cart)
     {

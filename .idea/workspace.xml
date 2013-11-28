@@ -5,66 +5,63 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/controller/BaseShopController.class.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/src/controller/TestController.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/toolkit/FacebookTools.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/toolkit/ShopTools.class.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/template/cart/checkout.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/test/display.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/tree/test.phtml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/template/user/include/category.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin-display.phtml.1186936111.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_category-create.phtml.825780364.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_category-create_property.phtml.2520255291.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_category-display.phtml.4294464414.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_controller-controller.phtml.2504679015.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_document-display.phtml.2739006613.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_order-details.phtml.1692185704.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_order-display.phtml.4116908396.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_product-create.phtml.1051527331.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_product-create_to.phtml.2673647434.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_product-delete.phtml.1812023970.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_product-display.phtml.1411840935.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_product-edit.phtml.1960858920.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_product-edit_property.phtml.4127279242.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_seo-display.phtml.371613553.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-create.phtml.1420757684.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-delete.phtml.100878517.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-display.phtml.3617553506.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-edit.phtml.3943591057.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_templates-form_fields.phtml.661266704.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_text_block-display.phtml.3397598320.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_user-create.phtml.268129767.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/admin_user-display.phtml.631646323.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/cart-checkout_me.phtml.2350415511.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/cart-display.phtml.3574993714.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/cart-test.phtml.782925236.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/cms_user-forgot_password.phtml.2486806823.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/cms_user-login.phtml.1915906592.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/filters.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/front_for_model-controller.phtml.1840199572.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/front_for_model-display.phtml.162145746.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/front_for_model-item.phtml.3199679285.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/model-model.phtml.896181212.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/product-about_product.phtml.3649166510.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/product-display.phtml.310150739.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/product-item.phtml.1305738234.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/product-products_category.phtml.1149940718.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/tags.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/tree-show.phtml.3166451600.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/tree-test.phtml.3050566983.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/user-edit.phtml.3687520476.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/user-login.phtml.2270506023.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/compiled/user-register.phtml.3363070576.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/db_info.1668442849.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/i18n-qt/64b0edf64014c00c2c94395e0d0d4244" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/i18n-qt/df9492f7624eb9280c37e5fc46a46ed8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/locators/config_locator.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/locators/controller_locator.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/locators/i18n_translations_locator.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/locators/macro_locator.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/logs/error.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/www/shared/cms/images/icons/application_put.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminCategoryController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminCategoryController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminOrderController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminOrderController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminProductController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminProductController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/AdminUserController.class.php" afterPath="$PROJECT_DIR$/src/controller/AdminUserController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/CartController.class.php" afterPath="$PROJECT_DIR$/src/controller/CartController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Order.class.php" afterPath="$PROJECT_DIR$/src/model/Order.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/ProductController.class.php" afterPath="$PROJECT_DIR$/src/controller/ProductController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/PropertyValue.class.php" afterPath="$PROJECT_DIR$/src/model/PropertyValue.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Tree.class.php" afterPath="$PROJECT_DIR$/src/model/Tree.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/TreeController.class.php" afterPath="$PROJECT_DIR$/src/controller/TreeController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/UserController.class.php" afterPath="$PROJECT_DIR$/src/controller/UserController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/about_product.phtml" afterPath="$PROJECT_DIR$/template/product/about_product.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/category.phtml" afterPath="$PROJECT_DIR$/template/category.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/cart/checkout_me.phtml" afterPath="$PROJECT_DIR$/template/cart/checkout_me.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/cms_user-login.phtml.1915906592.php" afterPath="$PROJECT_DIR$/var/compiled/cms_user-login.phtml.1915906592.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/config_locator.cache" afterPath="$PROJECT_DIR$/var/locators/config_locator.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" afterPath="$PROJECT_DIR$/var/locators/controller_action2tpl.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/controller_locator.cache" afterPath="$PROJECT_DIR$/var/locators/controller_locator.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/shared/cms/styles/cp.css" afterPath="$PROJECT_DIR$/www/shared/cms/styles/cp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_category/create.phtml" afterPath="$PROJECT_DIR$/template/admin_category/create.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/create.phtml" afterPath="$PROJECT_DIR$/template/admin_product/create.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/create.phtml" afterPath="$PROJECT_DIR$/template/admin_user/create.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_category/create_property.phtml" afterPath="$PROJECT_DIR$/template/admin_category/create_property.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/create_to.phtml" afterPath="$PROJECT_DIR$/template/admin_product/create_to.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_order/details.phtml" afterPath="$PROJECT_DIR$/template/admin_order/details.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_category/display.phtml" afterPath="$PROJECT_DIR$/template/admin_category/display.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_order/display.phtml" afterPath="$PROJECT_DIR$/template/admin_order/display.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/display.phtml" afterPath="$PROJECT_DIR$/template/admin_product/display.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/display.phtml" afterPath="$PROJECT_DIR$/template/admin_user/display.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/cart/display.phtml" afterPath="$PROJECT_DIR$/template/cart/display.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/main_page/display.phtml" afterPath="$PROJECT_DIR$/template/main_page/display.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/edit.phtml" afterPath="$PROJECT_DIR$/template/admin_product/edit.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/edit.phtml" afterPath="$PROJECT_DIR$/template/admin_user/edit.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/edit.phtml" afterPath="$PROJECT_DIR$/template/user/edit.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/edit_property.phtml" afterPath="$PROJECT_DIR$/template/admin_product/edit_property.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/flash_box.phtml" afterPath="$PROJECT_DIR$/template/flash_box.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_product/include/form_fields.phtml" afterPath="$PROJECT_DIR$/template/admin_product/include/form_fields.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin_user/include/form_fields.phtml" afterPath="$PROJECT_DIR$/template/admin_user/include/form_fields.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/include/form_fields.phtml" afterPath="$PROJECT_DIR$/template/user/include/form_fields.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/front_page_layout.phtml" afterPath="$PROJECT_DIR$/template/front_page_layout.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/item.phtml" afterPath="$PROJECT_DIR$/template/product/item.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/product/include/list_category.phtml" afterPath="$PROJECT_DIR$/template/product/include/list_category.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/login.phtml" afterPath="$PROJECT_DIR$/template/user/login.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locators/macro_locator.cache" afterPath="$PROJECT_DIR$/var/locators/macro_locator.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" afterPath="$PROJECT_DIR$/var/compiled/main_page-display.phtml.3986241902.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php" afterPath="$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/include/profile_box.phtml" afterPath="$PROJECT_DIR$/template/user/include/profile_box.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/user/register.phtml" afterPath="$PROJECT_DIR$/template/user/register.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.php" afterPath="$PROJECT_DIR$/setup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" afterPath="$PROJECT_DIR$/var/compiled/template-not_found.phtml.3537474733.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eastwood.iws" />
@@ -88,37 +85,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CartController.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/CartController.class.php">
+      <file leaf-file-name="AdminCategoryController.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/AdminCategoryController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1305">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Cart.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+            <state line="46" column="40" selection-start="1396" selection-end="1396" vertical-scroll-proportion="-6.375" vertical-offset="537" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="display.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/admin_order/display.phtml">
+        <entry file="file://$PROJECT_DIR$/template/admin_category/display.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="13" selection-start="1156" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="825">
+            <state line="2" column="23" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.conf.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cp.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/shared/cms/styles/cp.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="281" column="66" selection-start="18637" selection-end="18637" vertical-scroll-proportion="0.0" vertical-offset="3781" max-vertical-offset="4305">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.conf.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings/db.conf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="0" selection-start="4874" selection-end="5074" vertical-scroll-proportion="0.0" vertical-offset="1291" max-vertical-offset="1770">
               <folding />
             </state>
           </provider>
@@ -127,7 +133,7 @@
       <file leaf-file-name="details.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/admin_order/details.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="9" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="870">
+            <state line="42" column="18" selection-start="1130" selection-end="1130" vertical-scroll-proportion="-8.458333" vertical-offset="427" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -136,16 +142,7 @@
       <file leaf-file-name="AdminOrderController.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/AdminOrderController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="1" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="855">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminCategoryController.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/AdminCategoryController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1095">
+            <state line="45" column="8" selection-start="1240" selection-end="1331" vertical-scroll-proportion="-15.0" vertical-offset="315" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -154,16 +151,25 @@
       <file leaf-file-name="navigation.conf.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings/navigation.conf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderLine.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/OrderLine.class.php">
+      <file leaf-file-name="navigation.conf.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="480">
+            <state line="22" column="0" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5259594" vertical-offset="97" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/category.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="15" selection-start="352" selection-end="387" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -189,21 +195,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/template/front_page_layout.phtml" />
-        <option value="$PROJECT_DIR$/src/model/OrderLine.class.php" />
-        <option value="$PROJECT_DIR$/template/cart/test.phtml" />
-        <option value="$PROJECT_DIR$/template/cart/checkout.phtml" />
-        <option value="$PROJECT_DIR$/template/cart/display.phtml" />
-        <option value="$PROJECT_DIR$/template/cart/checkout_me.phtml" />
-        <option value="$PROJECT_DIR$/src/controller/CartController.class.php" />
-        <option value="$PROJECT_DIR$/src/model/Order.class.php" />
-        <option value="$PROJECT_DIR$/template/admin_order/details.phtml" />
-        <option value="$PROJECT_DIR$/settings/navigation.conf.php" />
-        <option value="$PROJECT_DIR$/template/admin_order/display.phtml" />
+        <option value="$PROJECT_DIR$/template/category.phtml" />
+        <option value="$PROJECT_DIR$/template/user/include/profile_box.phtml" />
+        <option value="$PROJECT_DIR$/template/test/display.phtml" />
+        <option value="$PROJECT_DIR$/template/main_page/display.phtml" />
+        <option value="$PROJECT_DIR$/template/admin_product/create.phtml" />
+        <option value="$PROJECT_DIR$/template/admin_category/create.phtml" />
         <option value="$PROJECT_DIR$/src/controller/AdminOrderController.class.php" />
+        <option value="$PROJECT_DIR$/src/model/Order.class.php" />
+        <option value="$PROJECT_DIR$/src/model/PropertyValue.class.php" />
+        <option value="$PROJECT_DIR$/setup.php" />
+        <option value="$PROJECT_DIR$/src/model/Tree.class.php" />
         <option value="$PROJECT_DIR$/template/admin_category/display.phtml" />
+        <option value="$PROJECT_DIR$/www/shared/cms/styles/cp.css" />
         <option value="$PROJECT_DIR$/src/controller/AdminCategoryController.class.php" />
-        <option value="$PROJECT_DIR$/src/controller/ProductController.class.php" />
-        <option value="$PROJECT_DIR$/src/controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php" />
       </list>
     </option>
   </component>
@@ -300,6 +306,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -318,65 +390,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cart" />
+              <option name="myItemId" value="admin_user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,24 +458,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="toolkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eastwood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -491,6 +487,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="limb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="limb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eastwood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="limb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -584,14 +646,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1652" y="-876" width="1548" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15938303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19961241" sideWeight="0.6709511" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19961241" sideWeight="0.6709511" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -600,7 +663,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -621,100 +683,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/OrderLine.class.php">
+    <entry file="file://$PROJECT_DIR$/src/model/Product.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="480">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.666666" vertical-offset="472" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin_order/details.phtml">
+    <entry file="file://$PROJECT_DIR$/src/model/Property.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="9" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="870">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/navigation.conf.php">
+    <entry file="file://$PROJECT_DIR$/src/model/PropertyValue.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
+        <state line="7" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/AdminOrderController.class.php">
+    <entry file="file://$PROJECT_DIR$/src/model/User.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="1" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="855">
+        <state line="15" column="21" selection-start="199" selection-end="199" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="37" selection-start="694" selection-end="694" vertical-scroll-proportion="0.7051282" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Tree.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="5" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-13.125" vertical-offset="285" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/admin_category/display.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.48961425" vertical-offset="0" max-vertical-offset="674" />
+        <state line="2" column="23" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/category.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="15" selection-start="352" selection-end="387" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="4874" selection-end="5074" vertical-scroll-proportion="0.0" vertical-offset="1291" max-vertical-offset="1770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/shared/cms/styles/cp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="281" column="66" selection-start="18637" selection-end="18637" vertical-scroll-proportion="0.0" vertical-offset="3781" max-vertical-offset="4305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin_order/details.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="18" selection-start="1130" selection-end="1130" vertical-scroll-proportion="-8.458333" vertical-offset="427" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminOrderController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="8" selection-start="1240" selection-end="1331" vertical-scroll-proportion="-15.0" vertical-offset="315" max-vertical-offset="795">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AdminCategoryController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1842" selection-end="1842" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/AdminProductController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7896996" vertical-offset="1251" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/AdminUserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ProductController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="759" selection-end="759" vertical-scroll-proportion="0.6223176" vertical-offset="0" max-vertical-offset="699" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/TreeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.9656652" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/CartController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Cart.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Order.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="5" selection-start="1350" selection-end="1350" vertical-scroll-proportion="1.0944206" vertical-offset="0" max-vertical-offset="870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/admin_order/display.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1156" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="825">
+        <state line="46" column="40" selection-start="1396" selection-end="1396" vertical-scroll-proportion="-6.375" vertical-offset="537" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings/db.conf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/navigation.conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/limb/cms/settings/navigation.conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5259594" vertical-offset="97" max-vertical-offset="540">
           <folding />
         </state>
       </provider>

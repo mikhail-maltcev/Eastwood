@@ -1,12 +1,10 @@
-<? if($this->toolkit->getSession()->get('user_id')) { ?>
-<dd>
-    <?
-    echo $this->toolkit->getSession()->get('user_name');
-    echo '<br /><a href="/user/logout">logout</a>';
-    ?>
-
-</dd>
-
+<? if ($this->toolkit->getSession()->get('user_id')) { ?>
+    <dd>
+        <?
+        echo $this->toolkit->getSession()->get('user_name');
+        echo '<br /><a href="/user/logout">logout</a>';
+        ?>
+    </dd>
 <?
 }
 ?>

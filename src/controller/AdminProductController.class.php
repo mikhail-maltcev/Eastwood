@@ -10,7 +10,7 @@ class AdminProductController extends lmbAdminObjectController
 
     protected function _onBeforeSave()
     {
-        if($this->current_action=='create'){
+        if ($this->current_action == 'create') {
 
             $category_id = $this->request->getInteger('id');
             $this->item->setNodeId($category_id);
@@ -28,11 +28,11 @@ class AdminProductController extends lmbAdminObjectController
     function _addEmptyPropertiesProduct()
     {
         $category_id = $this->request->getInteger('id');
-        $product_id=$this->item->getId();
+        $product_id = $this->item->getId();
 
-        $properties= lmbActiveRecord :: find('Property', 'node_id = ' . $category_id);
+        $properties = lmbActiveRecord :: find('Property', 'node_id = ' . $category_id);
         foreach ($properties as $property) {
-            $property_id=$property->getId();
+            $property_id = $property->getId();
 
             $property_value = new PropertyValue();
             $property_value->setPropertyId($property_id);
@@ -90,7 +90,7 @@ class AdminProductController extends lmbAdminObjectController
     {
         $product_id = $this->request->getInteger('id');
 
-        if($this->request->hasPost()){
+        if ($this->request->hasPost()) {
             $property_value_id = $this->request->getInteger('property_id');
             $value = $this->request->get('value');
 
@@ -99,7 +99,7 @@ class AdminProductController extends lmbAdminObjectController
 
             $property_value->save();
         }
-        $this->items = lmbActiveRecord::find('PropertyValue','product_id = ' . $product_id , array( 'join' => 'property'));
+        $this->items = lmbActiveRecord::find('PropertyValue', 'product_id = ' . $product_id, array('join' => 'property'));
     }
 
     function doCreateTo()
@@ -113,13 +113,8 @@ class AdminProductController extends lmbAdminObjectController
     function doDisplay()
     {
         $tree = new Tree();
-        $this->Tree=$tree->getFoliage();
+        $this->Tree = $tree->getFoliage();
     }
-
-
-
-
-
 
 
 }

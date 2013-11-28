@@ -20,7 +20,7 @@
     <div class='list'>
         <table>
             <tr>
-                <th>User</th>
+                <th>Facebook_id</th>
                 <th>Date</th>
                 <th>Status</th>
                 <th>Summ</th>
@@ -29,13 +29,12 @@
 
             {{list:item}}
             <tr class="{$parity}">
-                <td>{$item.user.login}</td>
+                <td>{$item.user_id}</td>
                 <td>{$item.date|date:"d.m.Y"}</td>
                 <td>{$item.status_name}</td>
                 <td>{$item.summ}</td>
                 <td class='actions'>
                     {{apply template="object_action" action="details" title="Details" icon="zoom" item="{$item}"/}}
-                    {{apply template="object_action_edit" item="{$item}"/}}
                     {{apply template="object_action_delete" item="{$item}"/}}
                 </td>
             </tr>

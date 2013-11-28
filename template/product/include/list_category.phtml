@@ -17,13 +17,16 @@
             <td align="center" class="bg1">{$item.price}</td>
             <td align="center" class="bg1">{$item.is_available}</td>
             <td align="center" class="bg1">
-                <a href="{{route_url params='controller:cart,action:add,id:{$item.id}'}}"><img border="0" title="Заказать" alt="заказ" src="/images/cart.png"></a>
+                <a href="{{route_url params='controller:cart,action:add,id:{$item.id}'}}"><img border="0"
+                                                                                               title="Заказать"
+                                                                                               alt="заказ"
+                                                                                               src="/images/cart.png"></a>
             </td>
         </tr>
 
         {{/list:item}}
         {{list:empty}}
-            <p>В этой категории пока нет товаров</p>
+        <p>В этой категории пока нет товаров</p>
         {{/list:empty}}
         </tbody>
         <tfoot></tfoot>

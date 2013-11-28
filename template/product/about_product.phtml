@@ -4,10 +4,13 @@
     <tr>
         <td><img src="/product_images/{$this->product->getImageName()}" width="300px"></td>
         <td>
-            <p>Цена:</p><h1>{$this->product->getPrice()} Руб.</h1>
+            <p>Цена:</p>
+
+            <h1>{$this->product->getPrice()} Руб.</h1>
 
 
-            <p>{{if var="$this->product->getIsAvailable()==1"}}Товар сейчас есть на складе{{else}}Товар на складе отсуствует{{/if}}</p>
+            <p>{{if var="$this->product->getIsAvailable()==1"}}Товар сейчас есть на складе{{else}}Товар на складе
+                отсуствует{{/if}}</p>
         </td>
     </tr>
 </table>
@@ -18,8 +21,7 @@
 {{list:item}}
 
 
-
-<p>{$item->getProperty()->getPropertyName()}  :   {$item.value}</p>
+<p>{$item->getProperty()->getPropertyName()} : {$item.value}</p>
 
 
 {{/list:item}}

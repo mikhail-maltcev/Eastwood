@@ -1,0 +1,184 @@
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 09:55:02]=========================
+Error: Call to a member function getId() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function getId() on a non-object", INT(3), ARRAY(0), NULL, STRING(45) "[37.113.16.58][GET - /admin_order/details/8?]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function getId() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function getId() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 09:55:36]=========================
+Error: Call to a member function getId() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function getId() on a non-object", INT(3), ARRAY(0), NULL, STRING(45) "[37.113.16.58][GET - /admin_order/details/8?]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function getId() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function getId() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_order/details/7?] [Nov 28 2013 09:55:38]=========================
+Error: Call to a member function getId() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function getId() on a non-object", INT(3), ARRAY(0), NULL, STRING(45) "[37.113.16.58][GET - /admin_order/details/7?]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function getId() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function getId() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_order/details/5?] [Nov 28 2013 09:55:57]=========================
+Error: Call to a member function getId() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function getId() on a non-object", INT(3), ARRAY(0), NULL, STRING(45) "[37.113.16.58][GET - /admin_order/details/5?]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function getId() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function getId() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 09:56:12]=========================
+Error: Call to a member function getId() on a non-object
+Back trace:
+* lmbLog::log(STRING(49) "Call to a member function getId() on a non-object", INT(3), ARRAY(0), NULL, STRING(45) "[37.113.16.58][GET - /admin_order/details/8?]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to a member function getId() on a non-object", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to a member function getId() on a non-object", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 09:58:50]=========================
+Error: lmbNoSuchMethodException: No such method 'GetUserId' in Order
+Back trace:
+* lmbException::__construct(STRING(35) "No such method 'GetUserId' in Order") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(9) "GetUserId", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(9) "GetUserId", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* Order::GetUserId() in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* AdminOrderController::doDetails() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 09:59:24]=========================
+Error: lmbNoSuchMethodException: No such method 'GetDate' in Order
+Back trace:
+* lmbException::__construct(STRING(33) "No such method 'GetDate' in Order") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(7) "GetDate", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(7) "GetDate", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* Order::GetDate() in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* AdminOrderController::doDetails() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 10:00:04]=========================
+Error: lmbNoSuchMethodException: No such method 'GetStatus' in Order
+Back trace:
+* lmbException::__construct(STRING(35) "No such method 'GetStatus' in Order") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* Order::GetStatus() in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* AdminOrderController::doDetails() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 10:00:19]=========================
+Error: lmbNoSuchMethodException: No such method 'GetStatus' in Order
+Back trace:
+* lmbException::__construct(STRING(35) "No such method 'GetStatus' in Order") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* Order::GetStatus() in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* AdminOrderController::doDetails() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 10:00:25]=========================
+Error: lmbNoSuchMethodException: No such method 'GetStatus' in Order
+Back trace:
+* lmbException::__construct(STRING(35) "No such method 'GetStatus' in Order") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* Order::GetStatus() in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* AdminOrderController::doDetails() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 10:03:30]=========================
+Error: lmbNoSuchMethodException: No such method 'GetStatus' in Order
+Back trace:
+* lmbException::__construct(STRING(35) "No such method 'GetStatus' in Order") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(9) "GetStatus", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* Order::GetStatus() in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 35
+* AdminOrderController::doDetails() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [37.113.16.58][GET - /admin_order/details/8?] [Nov 28 2013 10:04:37]=========================
+Error: lmbNoSuchMethodException: No such method 'GetUserId' in Order
+Back trace:
+* lmbException::__construct(STRING(35) "No such method 'GetUserId' in Order") in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbObject.class.php" line 299
+* lmbObject::__call(STRING(9) "GetUserId", ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/active_record/src/lmbActiveRecord.class.php" line 572
+* lmbActiveRecord::__call(STRING(9) "GetUserId", ARRAY(0)) in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 36
+* Order::GetUserId() in "/usr/share/nginx/www/eastwood/src/controller/AdminOrderController.class.php" line 36
+* AdminOrderController::doDetails() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 188
+========================= [37.113.16.58][GET - /user] [Nov 28 2013 10:18:53]=========================
+Error: lmbException: No method defined in controller "user" for action "display" and no appropriate template found
+Back trace:
+* lmbException::__construct(STRING(93) "No method defined in controller &quot;user&quot; for action &quot;display&quot; and no appropriate template found") in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/controller/lmbController.class.php" line 206
+* lmbController::performAction() in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbActionPerformingFilter.class.php" line 25
+* lmbActionPerformingFilter::run(OBJECT(LimbApplication))
+* call_user_func_array(ARRAY(2), ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/core/src/lmbProxy.class.php" line 57
+* lmbProxy::__call(STRING(3) "run", ARRAY(1)) in "/usr/share/nginx/www/eastwood/lib/limb/filter_chain/src/lmbFilterChain.class.php" line 100
+========================= [37.113.16.58][GET - /admin_category/] [Nov 28 2013 10:43:47]=========================
+Error: lmbException: htmlspecialchars() expects parameter 1 to be string, object given
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php
+    [line] => 280
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(2), STRING(65) "htmlspecialchars() expects parameter 1 to be string, object given", STRING(86) "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php", INT(280), ARRAY(1))
+* htmlspecialchars(OBJECT(lmbMysqliRecord), INT(3)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 280
+* MacroTemplateExecutor7019c2c1aa48793eeec9feb7ec45d3a7::__slotHandler6a20202bcf1beed505f94242681715f6(ARRAY(0)) in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 64
+* MacroTemplateExecutor7019c2c1aa48793eeec9feb7ec45d3a7::__staticInclude1(STRING(23) "admin_page_layout.phtml", STRING(12) "content_zone", STRING(12) "content_zone", STRING(23) "admin_page_layout.phtml") in "/usr/share/nginx/www/eastwood/var/compiled/admin_category-display.phtml.4294464414.php" line 9
+* MacroTemplateExecutor7019c2c1aa48793eeec9feb7ec45d3a7::render(ARRAY(0)) in "/usr/share/nginx/www/eastwood/lib/limb/macro/src/lmbMacroTemplate.class.php" line 73
+========================= [37.113.16.58][GET - /admin_category/] [Nov 28 2013 10:44:13]=========================
+Error: Call to undefined method lmbMysqliRecord::getId()
+Back trace:
+* lmbLog::log(STRING(49) "Call to undefined method lmbMysqliRecord::getId()", INT(3), ARRAY(0), NULL, STRING(38) "[37.113.16.58][GET - /admin_category/]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(49) "Call to undefined method lmbMysqliRecord::getId()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(49) "Call to undefined method lmbMysqliRecord::getId()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_user] [Nov 28 2013 11:00:27]=========================
+Error: Call to undefined method User::_find()
+Back trace:
+* lmbLog::log(STRING(38) "Call to undefined method User::_find()", INT(3), ARRAY(0), NULL, STRING(33) "[37.113.16.58][GET - /admin_user]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(38) "Call to undefined method User::_find()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(38) "Call to undefined method User::_find()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_user] [Nov 28 2013 11:00:31]=========================
+Error: Call to undefined method User::_find()
+Back trace:
+* lmbLog::log(STRING(38) "Call to undefined method User::_find()", INT(3), ARRAY(0), NULL, STRING(33) "[37.113.16.58][GET - /admin_user]") in "/usr/share/nginx/www/eastwood/lib/limb/log/src/toolkit/lmbLogTools.class.php" line 44
+* lmbLogTools::log(STRING(38) "Call to undefined method User::_find()", INT(3))
+* call_user_func_array(ARRAY(2), ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/toolkit/src/lmbToolkit.class.php" line 243
+* lmbToolkit::__call(STRING(3) "log", ARRAY(2)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+* lmbToolkit::log(STRING(38) "Call to undefined method User::_find()", INT(3)) in "/usr/share/nginx/www/eastwood/lib/limb/web_app/src/filter/lmbErrorHandlingFilter.class.php" line 47
+========================= [37.113.16.58][GET - /admin_product/] [Nov 28 2013 11:01:34]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 26
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(26), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 26
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [37.113.16.58][GET - /admin_product/] [Nov 28 2013 11:01:35]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 26
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(26), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 26
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94
+========================= [37.113.16.58][GET - /admin_product/] [Nov 28 2013 11:01:42]=========================
+Error: lmbException: Undefined variable: only_admin
+Additional attributes: Array
+(
+    [file] => /usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php
+    [line] => 26
+)
+
+Back trace:
+* lmbDelegate::invoke(INT(8), STRING(30) "Undefined variable: only_admin", STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php", INT(26), ARRAY(4)) in "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php" line 26
+* require_once(STRING(71) "/usr/share/nginx/www/eastwood/lib/limb/cms/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/settings/navigation.conf.php" line 2
+* include(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 42
+* lmbConf::_attachConfFile(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConf.class.php" line 28
+* lmbConf::__construct(STRING(58) "/usr/share/nginx/www/eastwood/settings/navigation.conf.php") in "/usr/share/nginx/www/eastwood/lib/limb/config/src/lmbConfTools.class.php" line 94

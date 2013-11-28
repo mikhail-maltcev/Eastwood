@@ -13,7 +13,7 @@ class TreeController extends lmbController
     function doShow()
     {
         $tree = new Tree();
-        $this->Tree=$tree->getData();
+        $this->Tree = $tree->getData();
 
     }
 }

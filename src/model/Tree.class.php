@@ -35,8 +35,13 @@ class Tree
         $root_tree = $this->mpTree->getRootNode();
         $rs = $this->mpTree->getChildrenAll($root_tree)->getArray();
         return $rs;
-        //$arr = $rs->sort(array('p_identifier' => 'DESC'))->getArray();
     }
+
+    function getRootNode()
+    {
+        return $this->mpTree->getRootNode();
+    }
+
 
     function checkChildren($node_id)
     {

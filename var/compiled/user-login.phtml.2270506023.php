@@ -1,12 +1,14 @@
-<?php /* This file is generated from /usr/share/nginx/www/eastwood/template/main_page/display.phtml*/?><?php
-if(!class_exists('MacroTemplateExecutor9b3496b6eedc2c1c5fa6e97f8c50cf17', false)){
+<?php /* This file is generated from /usr/share/nginx/www/eastwood/template/user/login.phtml*/?><?php
+if(!class_exists('MacroTemplateExecutor3e751b73d81a8db227308f393a6b3adf', false)){
 require_once('limb/macro/src/compiler/lmbMacroTemplateExecutor.class.php');
-class MacroTemplateExecutor9b3496b6eedc2c1c5fa6e97f8c50cf17 extends lmbMacroTemplateExecutor {
+class MacroTemplateExecutor3e751b73d81a8db227308f393a6b3adf extends lmbMacroTemplateExecutor {
 function render($args = array()) {
 if($args) extract($args);
 $this->_init();
- ?><?php  $this->title = 'Main page'; ?>
-<?php $this->__staticInclude1('front_page_layout.phtml', 'content_zone', 'front_page_layout.phtml');
+ ?><?php  $this->title = 'Login'; ?>
+<?php $this->__staticInclude1('front_page_layout.phtml', 'content_zone', 'front_page_layout.phtml'); ?>
+
+<?php 
 }
 
 function __staticInclude1($file,$into,$file) {
@@ -31,7 +33,7 @@ function __staticInclude1($file,$into,$file) {
                 <h1><?php echo htmlspecialchars($this->title,3); ?></h1>
                 <?php $this->__staticInclude2('flash_box.phtml'); ?>
 
-                <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler80900bc32dbde5ad83d1f0d7371c5c6e(array()); ?>
+                <?php if(isset($this->__slot_handlers_content_zone)) {foreach($this->__slot_handlers_content_zone as $__slot_handler_content_zone) {call_user_func_array($__slot_handler_content_zone, array(array()));}}$this->__slotHandler48ba754d1264a4174123fefff98c736d(array()); ?>
 
             </div>
         </div>
@@ -97,10 +99,17 @@ echo htmlspecialchars($M,3); ?></b></div><?php  } ?>
 <?php }
 }
 
-function __slotHandler80900bc32dbde5ad83d1f0d7371c5c6e($O= array()) {
+function __slotHandler48ba754d1264a4174123fefff98c736d($O= array()) {
 if($O) extract($O); ?>
 
-Welcome to the Hogwarts!
+<?php  if ($this->loginUrl) { ?>
+    <a href="<?php  echo $this->loginUrl; ?>">
+        <img src="/images/login_facebook.png">
+    </a>
+<?php 
+} else {
+    echo 'Thank you that you are using us';
+}?>
 <?php 
 }
 
@@ -124,14 +133,14 @@ $this->Tree = $tree->getData();
 ?>
 
 <dd>
-    <?php $this->_render_treeaaef2479b0a4f9e4626159ac2818d193($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
+    <?php $this->_render_treed27724fc5dd009a821b048f29aef2b47($this->Tree, 0,array('kids_prop' => 'childs','prefix' => '1',));
  ?>
 
 
 </dd><?php 
 }
 
-function _render_treeaaef2479b0a4f9e4626159ac2818d193($V,$level,$X= array()) {
+function _render_treed27724fc5dd009a821b048f29aef2b47($V,$level,$X= array()) {
 if($X) extract($X);$W=0;
 foreach($V as $item) {
 $counter = $W+1;
@@ -145,7 +154,7 @@ if(!$W) {
         <li>
 
             <?php $new_prefix = $prefix . ".+++" . $counter; ?>
-            <?php if(isset($item["childs"])) {$this->_render_treeaaef2479b0a4f9e4626159ac2818d193($item["childs"], $level + 1, array('prefix' => $new_prefix,));
+            <?php if(isset($item["childs"])) {$this->_render_treed27724fc5dd009a821b048f29aef2b47($item["childs"], $level + 1, array('prefix' => $new_prefix,));
 } ?>
 
             <a class="category_level<?php $BB='';
@@ -179,4 +188,4 @@ if(count($V) == 0) { ?>
 
 }
 }
-$macro_executor_class='MacroTemplateExecutor9b3496b6eedc2c1c5fa6e97f8c50cf17';
+$macro_executor_class='MacroTemplateExecutor3e751b73d81a8db227308f393a6b3adf';

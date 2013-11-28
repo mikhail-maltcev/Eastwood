@@ -20,11 +20,7 @@ $editor = array(array('title' => 'Контент', 'icon' => '/shared/cms/images
 )));
 
 $only_admin = array(array('title' => 'Администрирование', 'icon' => '/shared/cms/images/icons/menu_service.png','children' => array(
-  array(
-    'title' => 'Пользователи',
-    'url' => '/admin_user',
-    'icon' => '/shared/cms/images/icons/user.png',
-  ),
+
 )));
 
 $conf = array(

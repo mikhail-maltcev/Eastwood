@@ -14,7 +14,6 @@
 {{/form}}
 
 
-
 {{list using='$this->property' as='$item'}}
 <div class='list'>
     <table>
@@ -24,17 +23,16 @@
 
         </tr>
 
-    {{list:item}}
-    <tr>
-        <td>{$item.property_name}</td>
-        <td><a href='{{route_url params="action:delete_property,id:{$item.id}"/}}'>delete</a></td>
-    </tr>
+        {{list:item}}
+        <tr>
+            <td>{$item.property_name}</td>
+            <td><a href='{{route_url params="action:delete_property,id:{$item.id}"/}}'>delete</a></td>
+        </tr>
 
 
-
-    {{/list:item}}
-</table>
-    </div>
+        {{/list:item}}
+    </table>
+</div>
 {{/list}}
 
 

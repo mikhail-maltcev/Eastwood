@@ -1,29 +1,25 @@
 {{wrap with="admin_page_layout.phtml" in="content_zone"}}
 
+<h1>Category admin</h1>
 
-    <h1>Category admin</h1>
+<a href='{{route_url params="action:create,id:1"/}}'>Добавить Новую категорию (в корень)</a>
+{{tree using="$this->Tree" as="$item" kids_prop="childs" counter="$counter" prefix="1"}}
+<ul>
+    {{tree:node}}
+    <li class="category_level{$item.level}">
+        {$item.identifier}
+        {{tree:nextlevel prefix="$new_prefix"}}<?php $new_prefix = $prefix . "." . $counter; ?>{{/tree:nextlevel}}
 
-    {{tree using="$this->Tree" as="$item" kids_prop="childs" counter="$counter" prefix="1"}}
-    <ul>
-        {{tree:node}}
-        <li>
-            {$prefix}.{$counter}){$item.identifier}
-            {{tree:nextlevel prefix="$new_prefix"}}<?php $new_prefix = $prefix . "." . $counter; ?>{{/tree:nextlevel}}
+        <a href='{{route_url params="action:create,id:{$item.id}"/}}'>Add to</a>
+        <a href='{{route_url params="action:delete,id:{$item.id}"/}}'>Delete</a>
+        <a href='{{route_url params="action:create_property,id:{$item.id}"/}}'>Add Property</a>
 
-            <a href='{{route_url params="action:create,id:{$item.id}"/}}'>Add to</a>&nbsp;&nbsp;
+    </li>
+    {{/tree:node}}
 
-            <a href='{{route_url params="action:delete,id:{$item.id}"/}}'>Delete</a>
-            <a href='{{route_url params="action:create_property,id:{$item.id}"/}}'>Add Property</a>
-
-        </li>
-        {{/tree:node}}
-
-
-
-
-        {{tree:empty}}
-        Комментарии отсуствуют
-        {{/tree:empty}}
-    </ul>
-    {{/tree}}
+    {{tree:empty}}
+    Категории отсуствуют
+    {{/tree:empty}}
+</ul>
+{{/tree}}
 {{/wrap}}

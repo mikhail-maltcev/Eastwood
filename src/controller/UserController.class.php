@@ -25,12 +25,12 @@ class UserController extends lmbController
                 //echo 'Please <a href="' . $login_url . '">login.(try)</a>';
                 error_log($e->getType());
                 error_log($e->getMessage());
-                $this->loginUrl=$login_url;
+                $this->loginUrl = $login_url;
             }
         } else {
             $login_url = $facebook->getLoginUrl(array('scope' => 'publish_stream'));
             //echo 'Please <a href="' . $login_url . '">login.(else)</a>';
-            $this->loginUrl=$login_url;
+            $this->loginUrl = $login_url;
         }
     }
 
@@ -43,4 +43,5 @@ class UserController extends lmbController
         $this->redirect('login');
     }
 }
+
 ?>

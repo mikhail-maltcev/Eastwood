@@ -1,10 +1,11 @@
 <? $this->title = 'Login'; ?>
 {{wrap with="front_page_layout.phtml" into="content_zone"}}
-<?if($this->loginUrl){?>
+<? if ($this->loginUrl) { ?>
     <a href="<? echo $this->loginUrl; ?>">
         <img src="/images/login_facebook.png">
     </a>
-<?}else{
+<?
+} else {
     echo 'Thank you that you are using us';
 }?>
 {{/wrap}}

@@ -7,22 +7,18 @@ class CartController extends lmbController
         $this->view->set('cart', $cart);
         $this->useForm('checkout_form');
 
-        if(!$this->request->hasPost())
-        {
-            if(!$cart->getItemsCount())
+        if (!$this->request->hasPost()) {
+            if (!$cart->getItemsCount())
                 return $this->flashAndRedirect('Your cart is empty! Nothing to checkout!', array('controller' => 'main_page'));
 
-            if(!$this->toolkit->getSession()->get('user_id'))
+            if (!$this->toolkit->getSession()->get('user_id'))
                 return $this->flashAndRedirect('Your are not logged in yet! Please login or register to checkout!');
-        }
-        else
-        {
+        } else {
             $order = Order :: createForCart($cart);
             $order->setAddress($this->request->get('address'));
             $order->setUserId($this->toolkit->getSession()->get('user_id'));
 
-            if($order->trySave($this->error_list))
-            {
+            if ($order->trySave($this->error_list)) {
                 $cart->reset();
                 return $this->flashAndRedirect('Your order has been sent. Your cart is now empty.', array('controller' => 'main_page'));
             }
@@ -50,19 +46,16 @@ class CartController extends lmbController
     function doAdd()
     {
         $product_id = $this->request->getInteger('id');
-        try
-        {
+        try {
             $product = Product :: findById($product_id);
             $cart = $this->_getCart();
             $cart->addProduct($product);
             $this->flashMessage('Product "' . $product->getTitle() . '" added to your cart!');
-        }
-        catch(lmbARException $e)
-        {
+        } catch (lmbARException $e) {
             $this->flashError('Wrong product!');
         }
 
-        if(isset($_SERVER['HTTP_REFERER']))
+        if (isset($_SERVER['HTTP_REFERER']))
             $this->redirect($_SERVER['HTTP_REFERER']);
         else
             $this->redirect();
@@ -71,8 +64,7 @@ class CartController extends lmbController
     protected function _getCart()
     {
         $session = $this->toolkit->getSession();
-        if(!$cart = $session->get('cart'))
-        {
+        if (!$cart = $session->get('cart')) {
             $cart = new Cart();
             $session->set('cart', $cart);
         }

@@ -1,7 +1,7 @@
-<? $this->title ='Your Cart'; ?>
+<? $this->title = 'Your Cart'; ?>
 {{wrap with="front_page_layout.phtml" in="content_zone"}}
 
-<? if($this->cart->items_count) {?>
+<? if ($this->cart->items_count) { ?>
     <p>Your cart contains {$#cart.items_count} items.</p>
 
     {{list using="$#cart.items" parity="$parity"}}

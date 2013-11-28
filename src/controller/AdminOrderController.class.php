@@ -17,7 +17,7 @@ class AdminOrderController extends lmbAdminObjectController
     function _getSearchParams()
     {
         $params = array();
-        if($this->request->get('status'))
+        if ($this->request->get('status'))
             $params['status'] = $this->request->getInteger('status');
 
         return $params;
@@ -25,28 +25,24 @@ class AdminOrderController extends lmbAdminObjectController
 
     function doDetails()
     {
-        try
-        {
+        try {
             $this->order = new Order($this->request->getInteger('id'));
             $this->useForm('status_form');
             $this->setFormDatasource($this->order);
-        }
-        catch(lmbARException $e)
-        {
+        } catch (lmbARException $e) {
             $this->_endDialog();
             $this->flashError('Wrond Order ID');
             return;
         }
 
-        if(!$this->request->hasPost())
+        if (!$this->request->hasPost())
             return;
 
         $status = $this->request->getInteger('status');
-        $this->order->setStatus($status);
+        $this->order->set('status', $status);
         $this->order->save();
 
         $this->_endDialog();
-
-        $this->flashMessage('Order status was changed to "'.$this->order->getStatusName().'"');
+        $this->flashMessage('Order status was changed to "' . $this->order->getStatusName() . '"');
     }
 }

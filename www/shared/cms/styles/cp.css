@@ -276,3 +276,7 @@
     
   #filter_form label{margin:0;}
   #filter_form input[type='text'], #filter_form select {width:auto;margin:0 10px 0 0;}
+
+.category_level1{padding-left:10px;font-size: 16px;color:#222222;}
+.category_level2{padding-left:20px;font-size: 12px;color:#555555;}
+.category_level3{padding-left:30px;font-size: 12px;color:#555555;}
