@@ -10,7 +10,6 @@ class UserController extends lmbController
 
     function doLogin()
     {
-
         $facebook = new Facebook($this->config);
         $user_id = $facebook->getUser();
 
@@ -33,9 +32,6 @@ class UserController extends lmbController
             //echo 'Please <a href="' . $login_url . '">login.(else)</a>';
             $this->loginUrl=$login_url;
         }
-
-
-
     }
 
     function doLogout()
@@ -47,5 +43,4 @@ class UserController extends lmbController
         $this->redirect('login');
     }
 }
-
 ?>

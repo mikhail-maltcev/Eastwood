@@ -12,7 +12,6 @@ class AdminCategoryController extends lmbAdminObjectController
     {
         $tree = new Tree();
         $this->Tree = $tree->getData();
-
     }
 
 
@@ -30,14 +29,11 @@ class AdminCategoryController extends lmbAdminObjectController
 
     function doDelete()
     {
-
         $category_id = $this->request->getInteger('id');
 
         $tree = new Tree();
         $this->Tree = $tree->deleteNode($category_id);
         $this->redirect();
-
-
     }
 
     function doCreateProperty()
@@ -52,30 +48,21 @@ class AdminCategoryController extends lmbAdminObjectController
                 $property->import($this->request);
                 $property->remove('id');
                 $property->save();
-
-
             }else
             {
                 echo 'you cant add property to this category!';
             }
         }
-
         $this->node_id = $category_id;
         $this->property = lmbActiveRecord::find('Property', 'node_id = '.$category_id);
     }
 
     function doDeleteProperty()
     {
-
-        //$property_id = $this->request->getInteger('id');
         $property = new Property();
         $property->import($this->request);
         $property->destroy();
         $this->redirect();
-
     }
-
-
-
 
 }

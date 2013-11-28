@@ -27,19 +27,12 @@ class ProductController extends lmbObjectController
 
     function doAboutProduct()
     {
-
         $product_id = $this->request->getInteger('id');
         $product= new Product($product_id);
 
         $this->properties = lmbActiveRecord::find('PropertyValue','product_id = ' . $product_id , array( 'join' => 'property'));
 
         $this->product=$product;
-
-
     }
-
-
-
-
 
 }
